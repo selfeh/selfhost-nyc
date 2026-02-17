@@ -16,8 +16,7 @@
 
 - **$30–70M/yr** NYC pays Google. The exact figure isn't in any public database.
 - **1.1 million** NYC students on Google Workspace. Google won't sign the state child privacy law.
-- **$1.2 billion** Google's contract to provide AI to Israel's military.
-- **$9 billion** Google's Pentagon cloud deal. CBP is a customer.
+- **$9 billion** Google's Pentagon cloud deal. CBP — the agency conducting raids in NYC — is a customer.
 - **$118 million** Google's gender discrimination settlement. 15,500 women.
 - **$307 billion** Google's 2023 revenue. Same year they laid off 12,000 workers.
 - **$1.32/hr** What Google pays AI trainers in Kenya.
@@ -61,9 +60,9 @@ NYC also pays Google. Here's what Google does with the money:
 - Holds a cloud infrastructure contract with U.S. Customs and Border Protection (2019)
 - Sits on the $9 billion JWCC military cloud contract serving DOD, DHS, and intelligence agencies
 - Created Google Public Sector LLC — a subsidiary dedicated to military and law enforcement contracts
-- Signed a $1.2 billion contract (Project Nimbus) to provide AI to Israel's military, including facial detection, object tracking, and sentiment analysis
+- Provides AI and cloud services used by agencies conducting surveillance, detention, and deportation operations
 
-In April 2024, approximately 50 Google workers were fired for staging a sit-in at the company's NYC office to protest Project Nimbus.
+In April 2024, approximately 50 Google workers were fired for staging a sit-in at the company's NYC office to protest Google's military contracts.
 
 ---
 
@@ -123,7 +122,7 @@ NYC's standard contract language includes termination-for-convenience provisions
 1. **Publish every active Google contract** — costs, terms, data provisions, renewal dates. Put them in Checkbook NYC.
 2. **Terminate and transition** — Use the existing exit clauses. Begin a managed migration to publicly-owned infrastructure over 3 years.
 3. **Protect students first** — Move NYC schools off Google Workspace. No platform that won't comply with Ed-Law 2-d.
-4. **Ban conflicted vendors** — No city contracts with companies holding military or immigration enforcement contracts.
+4. **Ban conflicted vendors** — No city contracts with companies providing services to ICE, CBP, or immigration enforcement agencies.
 5. **Create a NYC Digital Infrastructure Office** — Public staff, public code, public accountability.
 
 ---
