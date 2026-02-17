@@ -14,6 +14,7 @@
     <meta name="twitter:title" content="selfhost.nyc — New York Pays for Google's Crimes">
     <meta name="twitter:description" content="NYC pays Google millions. No receipts. No accountability. The exit clauses already exist.">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Yes, loading fonts from Google for a site about breaking up with Google. We know. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -21,495 +22,526 @@
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
-            --black: #0a0a0a;
-            --white: #f5f5f5;
-            --accent: #e63617;
-            --accent-dark: #c42d12;
-            --gray: #888;
-            --gray-dark: #1a1a1a;
-            --gray-mid: #2a2a2a;
+            --red: #e63617;
+            --black: #000;
+            --white: #fff;
+            --off-white: #f5f5f5;
         }
 
-        html { scroll-behavior: smooth; font-size: 16px; }
+        html {
+            scroll-snap-type: y proximity;
+            scroll-behavior: smooth;
+        }
 
         body {
             font-family: 'Space Grotesk', sans-serif;
             background: var(--black);
             color: var(--white);
-            line-height: 1.6;
             -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         /* NAV */
         nav {
-            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-            background: rgba(10,10,10,0.95);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid var(--gray-mid);
-            padding: 0 2rem;
-            height: 60px;
-            display: flex; align-items: center; justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 2rem;
+            transition: background 0.3s ease;
         }
-        .nav-logo {
-            font-weight: 700; font-size: 1.2rem; color: var(--white);
-            text-decoration: none; letter-spacing: -0.5px;
+        nav.scrolled {
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(8px);
         }
-        .nav-logo span { color: var(--accent); }
-        .nav-links { display: flex; gap: 2rem; list-style: none; }
-        .nav-links a {
-            color: var(--gray); text-decoration: none; font-size: 0.85rem;
-            font-weight: 500; text-transform: uppercase; letter-spacing: 1.5px;
+        nav .logo {
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 0.02em;
+            color: var(--white);
+            text-decoration: none;
+        }
+        nav .links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav .links a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
             transition: color 0.2s;
         }
-        .nav-links a:hover { color: var(--white); }
-        .nav-toggle { display: none; background: none; border: none; color: var(--white); font-size: 1.5rem; cursor: pointer; }
+        nav .links a:hover { color: var(--white); }
 
-        /* LAYOUT */
-        section { padding: 8rem 2rem; max-width: 900px; margin: 0 auto; }
+        @media (max-width: 600px) {
+            nav .links { gap: 1rem; }
+            nav .links a { font-size: 0.7rem; }
+            nav { padding: 1rem 1.2rem; }
+        }
 
         /* HERO */
-        #home {
-            min-height: 100vh; display: flex; flex-direction: column;
-            justify-content: center; padding-top: 60px;
-            max-width: 900px; margin: 0 auto;
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            scroll-snap-align: start;
         }
-        h1 {
-            font-size: clamp(2.8rem, 6vw, 5rem); font-weight: 700;
-            line-height: 1.08; letter-spacing: -2px; margin-bottom: 3rem;
+        .hero h1 {
+            font-size: clamp(2.4rem, 7vw, 5.5rem);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            max-width: 14ch;
         }
-        .hero-cta { display: flex; gap: 1.5rem; flex-wrap: wrap; }
-        .hero-cta a {
-            color: var(--white); text-decoration: none; font-weight: 600;
-            font-size: 1.1rem; border-bottom: 2px solid var(--accent);
-            padding-bottom: 0.2rem; transition: color 0.2s;
+        .hero .subtitle {
+            margin-top: 2rem;
+            font-size: clamp(0.85rem, 1.5vw, 1.1rem);
+            color: rgba(255,255,255,0.5);
+            font-weight: 400;
         }
-        .hero-cta a:hover { color: var(--accent); }
-
-        /* NUMBERS */
-        .numbers {
-            max-width: 900px; margin: 0 auto;
-            padding: 4rem 2rem 8rem;
+        .hero .arrow {
+            margin-top: 3rem;
+            font-size: 1.5rem;
+            color: rgba(255,255,255,0.3);
+            animation: bounce 2s ease-in-out infinite;
         }
-        .number-block {
-            padding: 2.5rem 0;
-            border-bottom: 1px solid var(--gray-mid);
-        }
-        .number-block:first-child { border-top: 1px solid var(--gray-mid); }
-        .number-figure {
-            font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 700;
-            color: var(--accent); letter-spacing: -1.5px; line-height: 1.1;
-            margin-bottom: 0.5rem;
-        }
-        .number-desc {
-            font-size: 1rem; color: var(--gray); line-height: 1.5;
-            max-width: 600px;
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(10px); }
         }
 
-        /* SECTION HEADERS */
-        h2 {
-            font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 700;
-            line-height: 1.1; letter-spacing: -1.5px; margin-bottom: 2.5rem;
+        /* CHARGE SECTIONS */
+        .charge {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 4rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            scroll-snap-align: start;
         }
-        h3 {
-            font-size: 1.3rem; font-weight: 600; margin: 2.5rem 0 1rem;
-            letter-spacing: -0.5px;
+        .charge .charge-header {
+            font-size: clamp(1.8rem, 4.5vw, 3.2rem);
+            font-weight: 700;
+            line-height: 1.15;
+            letter-spacing: -0.01em;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
         }
-        p { margin-bottom: 1rem; color: #bbb; }
-        p strong { color: var(--white); }
-        a.inline { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
-        a.inline:hover { color: var(--white); }
+        .charge .charge-body {
+            margin-top: 2rem;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out 0.2s, transform 0.6s ease-out 0.2s;
+        }
+        .charge .charge-body p {
+            font-size: clamp(1rem, 1.8vw, 1.2rem);
+            line-height: 1.7;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 1.2rem;
+            font-weight: 400;
+        }
+        .charge .charge-body p:last-child { margin-bottom: 0; }
 
-        /* EVIDENCE SECTIONS */
-        .evidence-section {
-            padding-bottom: 5rem;
-            margin-bottom: 5rem;
-            border-bottom: 1px solid var(--gray-mid);
-        }
-        .evidence-section:last-child { border-bottom: none; margin-bottom: 0; }
-        .evidence-section p { font-size: 1.05rem; line-height: 1.7; }
-
-        /* BULLET LIST */
-        ul.facts {
-            list-style: none; margin: 1.5rem 0;
-        }
-        ul.facts li {
-            padding: 0.5rem 0 0.5rem 1.5rem; position: relative;
-            color: #bbb; font-size: 1.05rem; line-height: 1.6;
-        }
-        ul.facts li::before {
-            content: '—'; position: absolute; left: 0; color: var(--accent); font-weight: 700;
+        .charge.visible .charge-header,
+        .charge.visible .charge-body {
+            opacity: 1;
+            transform: translateY(0);
         }
 
-        /* HOW SECTION */
-        .who-can-act { margin: 2rem 0; }
-        .who-can-act p { margin-bottom: 0.8rem; }
+        /* Red numbers */
+        .red { color: var(--red); font-weight: 600; }
 
-        .precedent {
-            padding: 1.5rem 0;
-            border-bottom: 1px solid var(--gray-mid);
+        /* RED DIVIDER */
+        .divider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 2rem;
         }
-        .precedent:first-of-type { border-top: 1px solid var(--gray-mid); }
-        .precedent strong { color: var(--white); }
-        .precedent span { color: var(--gray); }
+        .divider .line {
+            height: 2px;
+            background: var(--red);
+            width: 0;
+            max-width: 120px;
+            border-radius: 1px;
+            transition: width 0.8s ease-out;
+        }
+        .divider.visible .line {
+            width: 120px;
+        }
+
+        /* THE EXIT (white section) */
+        .exit {
+            background: var(--white);
+            color: var(--black);
+            scroll-snap-align: start;
+        }
+        .exit-hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        .exit-hero h2 {
+            font-size: clamp(2.2rem, 6vw, 4.5rem);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .exit-hero.visible h2 {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .exit-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem 6rem;
+        }
+        .exit-content .exit-block {
+            margin-bottom: 3rem;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .exit-content .exit-block.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .exit-content p {
+            font-size: clamp(1rem, 1.8vw, 1.15rem);
+            line-height: 1.7;
+            color: rgba(0,0,0,0.75);
+            margin-bottom: 1rem;
+        }
+        .exit-content strong { color: var(--black); }
+        .exit-content h3 {
+            font-size: clamp(1.4rem, 3vw, 2rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--black);
+        }
 
         /* DEMANDS */
-        .demands { counter-reset: d; margin-top: 3rem; }
-        .demand {
-            counter-increment: d;
-            padding: 1.5rem 0 1.5rem 3.5rem;
-            border-bottom: 1px solid var(--gray-mid);
-            position: relative;
+        .demands {
+            list-style: none;
+            counter-reset: demand;
         }
-        .demand:first-child { border-top: 1px solid var(--gray-mid); }
-        .demand::before {
-            content: counter(d); position: absolute; left: 0; top: 1.5rem;
-            font-size: 1.5rem; font-weight: 700; color: var(--accent);
+        .demands li {
+            counter-increment: demand;
+            padding: 1.2rem 0;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            font-size: clamp(1rem, 1.8vw, 1.15rem);
+            line-height: 1.6;
         }
-        .demand strong { color: var(--white); display: block; font-size: 1.05rem; margin-bottom: 0.3rem; }
-        .demand p { margin: 0; font-size: 0.95rem; }
+        .demands li::before {
+            content: counter(demand) ".";
+            color: var(--red);
+            font-weight: 700;
+            margin-right: 0.75rem;
+            font-size: 1.1em;
+        }
+        .demands li strong { font-weight: 600; }
 
-        /* ACT SECTION */
-        .act-block { margin-bottom: 4rem; }
-        .act-block h3 { margin-top: 0; }
-
-        .call-script {
-            background: var(--gray-dark); padding: 1.5rem 2rem; margin: 1.5rem 0;
-            border-left: 3px solid var(--accent); font-size: 0.95rem; line-height: 1.7;
-            color: #ddd;
+        /* THE CALL */
+        .call {
+            background: var(--black);
+            color: var(--white);
+            padding: 6rem 2rem;
+            scroll-snap-align: start;
         }
-
-        .share-text {
-            padding: 1rem 0;
-            border-bottom: 1px solid var(--gray-mid);
-            color: #ccc; font-size: 0.95rem;
+        .call-inner {
+            max-width: 800px;
+            margin: 0 auto;
         }
-
-        /* BUTTONS */
-        .btn {
-            display: inline-block; padding: 0.9rem 2rem; font-family: inherit;
-            font-size: 0.9rem; font-weight: 600; text-decoration: none;
-            text-transform: uppercase; letter-spacing: 1px; border: none;
-            cursor: pointer; transition: all 0.2s; margin-top: 1rem;
+        .call h2 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 4rem;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
         }
-        .btn-primary { background: var(--accent); color: var(--white); }
-        .btn-primary:hover { background: var(--accent-dark); }
+        .call h2.visible { opacity: 1; transform: translateY(0); }
 
-        /* FAQ */
-        details { border-bottom: 1px solid var(--gray-mid); padding: 1.2rem 0; }
-        summary {
-            font-size: 1.05rem; font-weight: 600; cursor: pointer;
-            color: var(--white); list-style: none;
+        .call-card {
+            margin-bottom: 4rem;
+            padding-bottom: 4rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
         }
-        summary::-webkit-details-marker { display: none; }
-        summary::before { content: '+ '; color: var(--accent); font-weight: 700; }
-        details[open] summary::before { content: '− '; }
-        details p { margin-top: 0.8rem; font-size: 0.95rem; }
-
-        /* COALITION */
-        .coalition-group { margin-bottom: 1.5rem; }
-        .coalition-group h4 {
-            font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px;
-            color: var(--accent); margin-bottom: 0.5rem;
+        .call-card.visible { opacity: 1; transform: translateY(0); }
+        .call-card:last-child { border-bottom: none; }
+        .call-card h3 {
+            font-size: clamp(1.4rem, 3vw, 2rem);
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+            color: var(--red);
         }
-        .coalition-group p { color: #bbb; margin: 0; }
+        .call-card p {
+            font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+            line-height: 1.7;
+            color: rgba(255,255,255,0.75);
+            margin-bottom: 1rem;
+        }
+        .call-card blockquote {
+            border-left: 2px solid var(--red);
+            padding-left: 1.2rem;
+            margin: 1.2rem 0;
+            color: rgba(255,255,255,0.6);
+            font-size: clamp(0.9rem, 1.4vw, 1rem);
+            line-height: 1.6;
+        }
+        .call-card .share-block {
+            background: rgba(255,255,255,0.05);
+            padding: 1.2rem;
+            margin: 0.8rem 0;
+            font-size: clamp(0.9rem, 1.4vw, 1rem);
+            line-height: 1.5;
+            color: rgba(255,255,255,0.7);
+        }
+        .call-card .cta {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 2rem;
+            background: var(--red);
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            transition: opacity 0.2s;
+        }
+        .call-card .cta:hover { opacity: 0.85; }
+        .call-card .hashtag {
+            display: block;
+            margin-top: 1rem;
+            color: var(--red);
+            font-weight: 600;
+            font-size: 1rem;
+        }
 
         /* FOOTER */
         footer {
-            border-top: 1px solid var(--gray-mid);
-            padding: 3rem 2rem; text-align: center;
+            background: var(--black);
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding: 3rem 2rem;
+            text-align: center;
         }
-        footer p { color: var(--gray); font-size: 0.85rem; }
-        footer a { color: var(--white); text-decoration: none; }
-        footer a:hover { color: var(--accent); }
-        .footer-email { margin-bottom: 0.5rem; }
-
-        /* RESPONSIVE */
-        @media (max-width: 768px) {
-            nav { padding: 0 1rem; }
-            .nav-links {
-                display: none; position: absolute; top: 60px; left: 0; right: 0;
-                background: rgba(10,10,10,0.98); flex-direction: column;
-                padding: 1.5rem; gap: 1.5rem; border-bottom: 1px solid var(--gray-mid);
-            }
-            .nav-links.open { display: flex; }
-            .nav-toggle { display: block; }
-            section { padding: 5rem 1.5rem; }
-            .numbers { padding: 2rem 1.5rem 5rem; }
-            .hero-cta { flex-direction: column; gap: 1rem; }
-            .demand { padding-left: 2.5rem; }
-            .btn { width: 100%; text-align: center; }
+        footer p {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.4);
+            line-height: 1.8;
         }
+        footer a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+        }
+        footer a:hover { color: var(--white); }
     </style>
 </head>
 <body>
 
-<nav>
-    <a href="#home" class="nav-logo">selfhost<span>.nyc</span></a>
-    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle menu">☰</button>
-    <ul class="nav-links">
-        <li><a href="#home" onclick="this.closest('.nav-links').classList.remove('open')">Home</a></li>
-        <li><a href="#why" onclick="this.closest('.nav-links').classList.remove('open')">Evidence</a></li>
-        <li><a href="#how" onclick="this.closest('.nav-links').classList.remove('open')">How</a></li>
-        <li><a href="#act" onclick="this.closest('.nav-links').classList.remove('open')">Act</a></li>
-        <li><a href="#about" onclick="this.closest('.nav-links').classList.remove('open')">About</a></li>
-    </ul>
+<nav id="nav">
+    <a href="#" class="logo">selfhost.nyc</a>
+    <div class="links">
+        <a href="#charges">Charges</a>
+        <a href="#exit">Exit</a>
+        <a href="#act">Act</a>
+    </div>
 </nav>
 
 <!-- HERO -->
-<section id="home">
-    <h1>New York Pays for<br>Google's Crimes.</h1>
-    <div class="hero-cta">
-        <a href="#why">See the evidence →</a>
-        <a href="#how">End the contracts →</a>
+<section class="hero" id="top">
+    <h1>New York Pays for Google's Crimes.</h1>
+    <p class="subtitle">Scroll down. Read the charges.</p>
+    <div class="arrow">↓</div>
+</section>
+
+<!-- CHARGES -->
+<div id="charges">
+
+<div class="divider"><div class="line"></div></div>
+
+<section class="charge">
+    <div class="charge-header">Google takes New York's money.</div>
+    <div class="charge-body">
+        <p><span class="red">$30–70 million</span> a year. That's the estimate — because the actual figure doesn't appear in any public database. Not Checkbook NYC. Not the Open Data portal. Nowhere.</p>
+        <p>NYC Cyber Command — cybersecurity for <span class="red">100+</span> city agencies — runs entirely on Google Cloud. Cost: <span class="red">$10–30 million</span> a year. No public contract. No competitive bid on record. No exit plan.</p>
+        <p>New York can't tell you what it pays Google. That's not an accident.</p>
     </div>
 </section>
 
-<!-- NUMBERS -->
-<div class="numbers">
-    <div class="number-block">
-        <div class="number-figure">$30–70M/yr</div>
-        <div class="number-desc">NYC pays Google. The exact figure isn't in any public database.</div>
+<div class="divider"><div class="line"></div></div>
+
+<section class="charge">
+    <div class="charge-header">Google takes New York's children.</div>
+    <div class="charge-body">
+        <p><span class="red">1.1 million</span> public school students on Google Workspace. <span class="red">350,000</span> Chromebooks in classrooms across every borough.</p>
+        <p>New York State Ed-Law 2-d says companies must sign privacy agreements before handling student data. Google won't sign for YouTube, Maps, or Search — the services students use every day through their school accounts.</p>
+        <p>The Department of Education signed the contracts anyway.</p>
     </div>
-    <div class="number-block">
-        <div class="number-figure">1.1 million</div>
-        <div class="number-desc">NYC students on Google Workspace. Google won't sign the state child privacy law.</div>
+</section>
+
+<div class="divider"><div class="line"></div></div>
+
+<section class="charge">
+    <div class="charge-header">Google takes New York's safety.</div>
+    <div class="charge-body">
+        <p>NYC is a sanctuary city. City law says agencies don't cooperate with ICE. Policy says immigrants are protected. Then the city pays Google.</p>
+        <p>Google holds a cloud contract with Customs and Border Protection. Google sits on a <span class="red">$9 billion</span> Pentagon cloud deal — CBP, the agency conducting raids in NYC neighborhoods, is a customer. Google created an entire subsidiary, Google Public Sector LLC, to chase military and law enforcement work.</p>
+        <p><span class="red">50</span> Google workers staged a sit-in at the Chelsea office to protest. Google fired them.</p>
     </div>
-    <div class="number-block">
-        <div class="number-figure">$9 billion</div>
-        <div class="number-desc">Google's Pentagon cloud deal. CBP — the agency conducting raids in NYC — is a customer.</div>
+</section>
+
+<div class="divider"><div class="line"></div></div>
+
+<section class="charge">
+    <div class="charge-header">Google takes New York's workers.</div>
+    <div class="charge-body">
+        <p><span class="red">$307 billion</span> in revenue in 2023. Record year. Google laid off <span class="red">12,000</span> people. Locked their accounts before telling them.</p>
+        <p>Half of Google's workforce are temps and contractors. Same desks. Lower pay. No security.</p>
+        <p>Google's AI gets trained by workers in Kenya making <span class="red">$1.32 an hour</span>. Violent content. Traumatic material. Minimal support.</p>
+        <p>When workers organized, Google ran "Project Vivian" — an anti-union operation with hired consultants. The NLRB found Google illegally fired organizers. Google settled gender discrimination claims from <span class="red">15,500</span> women for <span class="red">$118 million</span>.</p>
     </div>
-    <div class="number-block">
-        <div class="number-figure">$118 million</div>
-        <div class="number-desc">Google's gender discrimination settlement. 15,500 women.</div>
+</section>
+
+<div class="divider"><div class="line"></div></div>
+
+<section class="charge">
+    <div class="charge-header">Google takes New York's tax dollars.</div>
+    <div class="charge-body">
+        <p><span class="red">$2.1 billion</span> poured into NYC real estate. Chelsea. Hudson Square. <span class="red">12,000+</span> employees. City tax incentives helped make it happen.</p>
+        <p>What did New York get back? Vendor lock-in on contracts it can't find in its own transparency tools. Systems it doesn't own. Code it can't audit. Data it can't move.</p>
     </div>
-    <div class="number-block">
-        <div class="number-figure">$307 billion</div>
-        <div class="number-desc">Google's 2023 revenue. Same year they laid off 12,000 workers.</div>
+</section>
+
+<div class="divider"><div class="line"></div></div>
+
+<section class="charge">
+    <div class="charge-header">Google takes.<br>New York pays.</div>
+    <div class="charge-body">
+        <p>Every year, the cycle continues. Public money flows to a company that surveils children, arms border enforcement, exploits workers, hides its contracts, and fires anyone who objects.</p>
     </div>
-    <div class="number-block">
-        <div class="number-figure">$1.32/hr</div>
-        <div class="number-desc">What Google pays AI trainers in Kenya.</div>
-    </div>
-    <div class="number-block">
-        <div class="number-figure">30 days</div>
-        <div class="number-desc">To exit. The termination clauses are already in the contracts.</div>
-    </div>
+</section>
+
 </div>
 
-<!-- EVIDENCE -->
-<section id="why">
-    <h2>What New York<br>Is Paying For</h2>
-
-    <div class="evidence-section">
-        <h2>Children</h2>
-        <p>1.1 million NYC public school students use Google Workspace. 350,000 Chromebooks in classrooms across all five boroughs.</p>
-        <p>New York State Ed-Law 2-d requires companies to sign data privacy agreements before handling student data. <strong>Google refuses to sign for its "Additional Services"</strong> — YouTube, Maps, Search — the products students use daily through their school accounts.</p>
-        <p>The DOE signed the contracts anyway. There's no evidence of competitive bidding. Estimated annual cost: $5–20 million.</p>
+<!-- THE EXIT -->
+<section class="exit" id="exit">
+    <div class="exit-hero">
+        <h2>New York can take it back.</h2>
     </div>
-
-    <div class="evidence-section">
-        <h2>Money</h2>
-        <p>NYC spends an estimated <strong>$30–70 million a year</strong> on Google products and services. That number does not appear in Checkbook NYC or the city's Open Data portal.</p>
-        <p>NYC Cyber Command — responsible for cybersecurity across 100+ city agencies — runs entirely on Google Cloud. Estimated cost: $10–30 million a year. <strong>No public contract record found.</strong></p>
-        <p>No competitive bidding documentation. No published cost-benefit analysis. No exit plan.</p>
-    </div>
-
-    <div class="evidence-section">
-        <h2>Immigration</h2>
-        <p>NYC is a sanctuary city. City law prohibits agencies from cooperating with ICE. The Mayor's Office of Immigrant Affairs serves 600,000+ undocumented residents.</p>
-        <p>NYC also pays Google. Here's what Google does with the money:</p>
-        <ul class="facts">
-            <li>Holds a cloud infrastructure contract with U.S. Customs and Border Protection (2019)</li>
-            <li>Sits on the $9 billion JWCC military cloud contract serving DOD, DHS, and intelligence agencies</li>
-            <li>Created Google Public Sector LLC — a subsidiary dedicated to military and law enforcement contracts</li>
-            <li>Provides AI and cloud services used by agencies conducting surveillance, detention, and deportation operations</li>
-        </ul>
-        <p>In April 2024, approximately 50 Google workers were fired for staging a sit-in at the company's NYC office to protest Google's military contracts.</p>
-    </div>
-
-    <div class="evidence-section">
-        <h2>Labor</h2>
-        <p>Google's 2023 revenue: $307 billion. In January 2023, Google laid off 12,000 workers. Accounts were locked before employees were told.</p>
-        <ul class="facts">
-            <li>Roughly half of Google's workforce are temps, vendors, and contractors — same work, lower pay, fewer benefits</li>
-            <li>AI trainers in Kenya earn $1.32–$2.00/hr through subcontractors, handling violent and traumatic content</li>
-            <li>Google ran "Project Vivian," an internal anti-union campaign using hired consultants</li>
-            <li>The NLRB found Google illegally fired employee organizers (the "Thanksgiving Four," 2019)</li>
-            <li>Google paid $118 million to settle gender discrimination claims from 15,500 women</li>
-            <li>Data center workers have reported being denied water breaks</li>
-        </ul>
-    </div>
-
-    <div class="evidence-section">
-        <h2>Lock-in</h2>
-        <p>Google has invested $2.1 billion in NYC real estate — Chelsea, Hudson Square, 12,000+ employees — with city tax incentives.</p>
-        <p>In return:</p>
-        <ul class="facts">
-            <li>NYC agencies depend on Google Cloud with no documented migration plan</li>
-            <li>Every school on Workspace depends on a platform the city doesn't own or control</li>
-            <li>The city cannot audit, modify, or move its data without Google's cooperation</li>
-            <li>Contract values are hidden from the city's own transparency tools</li>
-        </ul>
-    </div>
-</section>
-
-<!-- HOW -->
-<section id="how">
-    <h2>How This Ends</h2>
-
-    <p style="font-size: 1.15rem; color: var(--white); font-weight: 600; margin-bottom: 0.5rem;">The exit clauses already exist.</p>
-    <p>NYC's standard contract language includes termination-for-convenience provisions. The city can end any of these contracts with <strong>30 days' written notice</strong>. No breach required.</p>
-
-    <h3>Who can act</h3>
-    <div class="who-can-act">
-        <p><strong>Comptroller Mark Levine</strong> can refuse to register Google contracts — effectively blocking renewals.</p>
-        <p><strong>City Council Technology Committee</strong> (Chair: Carmen De La Rosa) can hold hearings, subpoena records, and draft legislation.</p>
-        <p><strong>Any City Council member</strong> can introduce legislation requiring contract transparency, open-source alternatives, or data sovereignty standards.</p>
-    </div>
-
-    <h3>Precedent</h3>
-    <div class="precedent">
-        <strong>CityTime (2011)</strong><br>
-        <span>NYC terminated a corrupt $700M+ tech contract and recovered $500 million.</span>
-    </div>
-    <div class="precedent">
-        <strong>Amazon HQ2 (2019)</strong><br>
-        <span>Public pressure killed a $3 billion corporate subsidy deal.</span>
-    </div>
-    <div class="precedent">
-        <strong>Munich</strong><br>
-        <span>Migrated 15,000 government desktops to Linux. Saved €11.7 million.</span>
-    </div>
-    <div class="precedent">
-        <strong>France</strong><br>
-        <span>72,000 police computers running Ubuntu. Custom-built secure messaging on Matrix.</span>
-    </div>
-    <div class="precedent">
-        <strong>Schleswig-Holstein</strong><br>
-        <span>30,000 PCs switching to Nextcloud and LibreOffice.</span>
-    </div>
-
-    <h3>What we're demanding</h3>
-    <div class="demands">
-        <div class="demand">
-            <strong>Publish every active Google contract</strong>
-            <p>Costs, terms, data provisions, renewal dates. Put them in Checkbook NYC.</p>
+    <div class="exit-content">
+        <div class="exit-block">
+            <p>The termination clauses are already in the contracts. <span class="red" style="color:var(--red)">30 days'</span> written notice. No breach required.</p>
+            <p><strong>Comptroller Mark Levine</strong> can refuse to register Google contracts tomorrow. No vote needed.</p>
+            <p><strong>The City Council</strong> can hold hearings, subpoena records, pass laws requiring transparency and public ownership.</p>
         </div>
-        <div class="demand">
-            <strong>Terminate and transition</strong>
-            <p>Use the existing exit clauses. Begin a managed migration to publicly-owned infrastructure over 3 years.</p>
+        <div class="exit-block">
+            <h3>It's been done before.</h3>
+            <p>NYC terminated the CityTime contract. Recovered <span class="red" style="color:var(--red)">$500 million</span>. New Yorkers killed Amazon's <span class="red" style="color:var(--red)">$3 billion</span> HQ2 deal. Munich switched <span class="red" style="color:var(--red)">15,000</span> desktops to Linux and saved <span class="red" style="color:var(--red)">€11.7 million</span>. France runs <span class="red" style="color:var(--red)">72,000</span> police computers on open-source. Schleswig-Holstein is migrating <span class="red" style="color:var(--red)">30,000</span> PCs right now.</p>
         </div>
-        <div class="demand">
-            <strong>Protect students first</strong>
-            <p>Move NYC schools off Google Workspace. No platform that won't comply with Ed-Law 2-d.</p>
-        </div>
-        <div class="demand">
-            <strong>Ban conflicted vendors</strong>
-            <p>No city contracts with companies providing services to ICE, CBP, or immigration enforcement agencies.</p>
-        </div>
-        <div class="demand">
-            <strong>Create a NYC Digital Infrastructure Office</strong>
-            <p>Public staff, public code, public accountability.</p>
+        <div class="exit-block">
+            <h3>Five demands.</h3>
+            <ol class="demands">
+                <li><strong>Publish every contract.</strong> Costs, terms, data provisions, renewal dates. In Checkbook NYC. Now.</li>
+                <li><strong>Terminate and transition.</strong> Use the exit clauses. Move to publicly-owned infrastructure over 3 years.</li>
+                <li><strong>Protect students first.</strong> Off Google Workspace. No platform that won't comply with Ed-Law 2-d.</li>
+                <li><strong>Ban conflicted vendors.</strong> No city contracts with companies providing services to ICE or CBP.</li>
+                <li><strong>Build public infrastructure.</strong> Create a NYC Digital Infrastructure Office. Public staff. Public code.</li>
+            </ol>
         </div>
     </div>
 </section>
 
-<!-- ACT -->
-<section id="act">
-    <h2>What You Can Do</h2>
+<!-- THE CALL -->
+<section class="call" id="act">
+    <div class="call-inner">
+        <h2>This is your city.</h2>
 
-    <div class="act-block">
-        <h3>Sign</h3>
-        <p>Add your name to the public demand. We deliver signatures directly to your Council member and the Comptroller's office.</p>
-        <a href="#" class="btn btn-primary">Sign the demand →</a>
-        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);">We collect your name, zip code, and email. Nothing else. We don't share it.</p>
-    </div>
-
-    <div class="act-block">
-        <h3>Call</h3>
-        <p>Your Council member needs to hear this from a constituent. Calls get logged. Emails get filtered.</p>
-        <div class="call-script">
-            Hi, I'm [NAME] from [NEIGHBORHOOD]. I'm calling to ask [COUNCIL MEMBER] to support a full review of NYC's contracts with Google. The city spends tens of millions with no public transparency, and Google's federal contracts with CBP and the military conflict with our sanctuary city values. I'd like [COUNCIL MEMBER] to support Council hearings and co-sponsor legislation requiring disclosure of all tech vendor contracts. Thank you.
+        <div class="call-card">
+            <h3>Sign.</h3>
+            <p>Add your name to the demand. We deliver directly to your Council member and the Comptroller.</p>
+            <p>Name. Zip code. Email. That's all we take. We don't share it.</p>
+            <a href="#" class="cta">Sign the demand →</a>
         </div>
-        <p><strong>Key contacts:</strong></p>
-        <p>Technology Committee Chair: <strong>Carmen De La Rosa</strong><br>
-        Comptroller: <strong>Mark Levine</strong> — (212) 669-3916<br>
-        <a class="inline" href="#">Find your Council member →</a></p>
-    </div>
 
-    <div class="act-block">
-        <h3>Share</h3>
-        <div class="share-text">NYC pays Google $30-70M/yr. Google provides cloud services to CBP. NYC calls itself a sanctuary city. <strong>selfhost.nyc</strong></div>
-        <div class="share-text">1.1 million NYC kids on Google Workspace. Google won't sign the state student privacy law. <strong>selfhost.nyc</strong></div>
-        <div class="share-text">Google fired ~50 workers at its NYC office for protesting a $1.2B military AI contract. <strong>selfhost.nyc</strong></div>
-        <p style="margin-top: 1rem;"><strong>#SelfHostNYC</strong></p>
-    </div>
+        <div class="call-card">
+            <h3>Call.</h3>
+            <p>Your Council member. One call. Thirty seconds.</p>
+            <blockquote>Hi, I'm [NAME] from [NEIGHBORHOOD]. I'm asking [COUNCIL MEMBER] to support a full public review of NYC's contracts with Google and to co-sponsor legislation requiring disclosure of all city tech contracts. Thank you.</blockquote>
+            <p>Technology Committee Chair: <strong>Carmen De La Rosa</strong><br>
+            Comptroller: <strong>Mark Levine</strong> — <span class="red">(212) 669-3916</span></p>
+            <a href="#" class="cta">Find your Council member →</a>
+        </div>
 
-    <div class="act-block">
-        <h3>Join</h3>
-        <p>Parents. Teachers. Union members. Immigrants. Tech workers. Organizers.</p>
-        <a href="#" class="btn btn-primary">Join the coalition →</a>
+        <div class="call-card">
+            <h3>Share.</h3>
+            <div class="share-block">NYC pays Google $30-70M a year. Google provides cloud services to CBP. NYC calls itself a sanctuary city. selfhost.nyc</div>
+            <div class="share-block">1.1 million NYC kids on Google Workspace. Google won't sign the student privacy law. selfhost.nyc</div>
+            <div class="share-block">Google fired 50 workers at its NYC office for protesting its military contracts. selfhost.nyc</div>
+            <span class="hashtag">#SelfHostNYC</span>
+        </div>
+
+        <div class="call-card">
+            <h3>Join.</h3>
+            <p>Parents. Teachers. Union members. Immigrants. Tech workers.</p>
+            <a href="#" class="cta">Join the coalition →</a>
+        </div>
     </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about">
-    <h2>About</h2>
-    <p>selfhost.nyc is a campaign to end New York City's financial relationship with Google and move the city's technology to publicly-owned infrastructure.</p>
-
-    <h3>Why now</h3>
-    <ul class="facts">
-        <li>The spending is hidden. Tens of millions per year, invisible in public databases.</li>
-        <li>The conflicts are documented. Google serves CBP, DHS, and foreign militaries while NYC claims sanctuary status.</li>
-        <li>The alternatives are proven. Governments across Europe have already migrated.</li>
-    </ul>
-
-    <h3>Coalition</h3>
-    <div class="coalition-group">
-        <h4>Digital Rights</h4>
-        <p>S.T.O.P. · EFF · Parent Coalition for Student Privacy</p>
-    </div>
-    <div class="coalition-group">
-        <h4>Community Tech</h4>
-        <p>NYC Mesh · May First Movement Technology</p>
-    </div>
-    <div class="coalition-group">
-        <h4>Labor</h4>
-        <p>UFT · DC37</p>
-    </div>
-    <div class="coalition-group">
-        <h4>Research</h4>
-        <p>AI Now Institute · The Markup</p>
-    </div>
-    <p><a class="inline" href="#">Join the coalition →</a></p>
-
-    <h3 style="margin-top: 3rem;">FAQ</h3>
-    <details>
-        <summary>Can NYC actually do this?</summary>
-        <p>NYC terminated the CityTime contract and recovered $500 million. New Yorkers killed Amazon's $3 billion HQ2 deal. Munich switched 15,000 desktops to Linux. Yes.</p>
-    </details>
-    <details>
-        <summary>What replaces Google?</summary>
-        <p>Open-source software already used by governments worldwide: Nextcloud, LibreOffice, Matrix/Element, OpenStack, Kubernetes on city-owned servers. The technology exists. It's cheaper. And the city would own it.</p>
-    </details>
-    <details>
-        <summary>Will it cost more?</summary>
-        <p>Munich saved €11.7 million. But NYC can't answer this question either — the city doesn't publicly report what it currently pays Google. Transparency comes first.</p>
-    </details>
-    <details>
-        <summary>What about Google's 12,000 NYC employees?</summary>
-        <p>They work on Search, Ads, and commercial products — not city contracts. A public infrastructure program would create unionized city tech jobs.</p>
-    </details>
-
-    <h3 style="margin-top: 3rem;">Contact</h3>
-    <p><a class="inline" href="mailto:hello@selfhost.nyc">hello@selfhost.nyc</a></p>
-    <p><strong>#SelfHostNYC</strong> everywhere</p>
-</section>
-
+<!-- FOOTER -->
 <footer>
-    <p class="footer-email"><a href="mailto:hello@selfhost.nyc">hello@selfhost.nyc</a></p>
+    <p><a href="mailto:hello@selfhost.nyc">hello@selfhost.nyc</a> · #SelfHostNYC everywhere</p>
     <p>selfhost.nyc accepts no funding from technology corporations.</p>
 </footer>
+
+<script>
+// Nav scroll behavior
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 50);
+}, { passive: true });
+
+// IntersectionObserver for fade-in animations
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.15 });
+
+// Observe all animated elements
+document.querySelectorAll('.charge, .divider, .exit-hero, .exit-block, .call h2, .call-card').forEach(el => {
+    observer.observe(el);
+});
+</script>
 
 </body>
 </html>
