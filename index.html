@@ -165,6 +165,41 @@
         /* Red numbers */
         .red { color: var(--red); font-weight: 600; }
 
+        /* Headlines */
+        .headlines {
+            margin-top: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.15);
+        }
+        .headlines-title {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--red);
+            margin-bottom: 1rem;
+        }
+        .headlines ul {
+            list-style: none;
+        }
+        .headlines li {
+            margin-bottom: 0.8rem;
+            font-size: clamp(0.9rem, 1.4vw, 1rem);
+            line-height: 1.5;
+        }
+        .headlines a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .headlines a:hover {
+            color: var(--white);
+        }
+        .headlines .source {
+            color: rgba(255,255,255,0.4);
+            font-size: 0.8em;
+        }
+
         /* RED DIVIDER */
         .divider {
             display: flex;
@@ -394,6 +429,15 @@
         <p>Then the city signs checks to Google.</p>
         <p>Google holds a cloud contract with <strong>Customs and Border Protection</strong>. CBP is the agency conducting raids in NYC neighborhoods right now. Google also sits on a <span class="red">$9 billion</span> Pentagon cloud deal. Google created an entire subsidiary, <strong>Google Public Sector LLC</strong>, specifically to chase military and law enforcement contracts.</p>
         <p>Every dollar NYC pays Google goes to a company that arms the deportation machine. <span class="red">50</span> Google workers staged a sit-in at the Chelsea office to protest these contracts. Google fired them.</p>
+        <div class="headlines">
+            <div class="headlines-title">In the News</div>
+            <ul>
+                <li><a href="https://www.nytimes.com/2026/02/13/us/dhs-subpoenas-ice-critics.html" target="_blank">DHS sends hundreds of subpoenas to Google, Meta seeking info on ICE critics</a> <span class="source">NY Times, Feb 2026</span></li>
+                <li><a href="https://www.theguardian.com/technology/google" target="_blank">800+ tech workers call on CEOs to cancel ICE contracts</a> <span class="source">The Guardian, Feb 2026</span></li>
+                <li><a href="https://www.404media.co/google-has-chosen-a-side-in-trumps-mass-deportation-effort/" target="_blank">Google Has Chosen a Side in Trump's Mass Deportation Effort</a> <span class="source">404 Media, Nov 2025</span></li>
+                <li><a href="https://www.404media.co/cbp-quietly-launches-face-scanning-app-for-local-cops-to-do-immigration-enforcement/" target="_blank">Google hosts CBP facial recognition app while banning ICE-tracking apps</a> <span class="source">404 Media, Nov 2025</span></li>
+            </ul>
+        </div>
     </div>
 </section>
 
