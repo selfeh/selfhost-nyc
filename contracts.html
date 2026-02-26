@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Google Contracts — selfhost.nyc</title>
+    <meta name="description" content="94 Google-related contracts identified across 10+ NYC agencies. $5M+ in confirmed spending. The real total is likely much higher.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --red: #e63617;
+            --black: #000;
+            --white: #fff;
+            --off-white: #f5f5f5;
+            --gray: rgba(255,255,255,0.6);
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--black);
+            color: var(--white);
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.6;
+        }
+        nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 2rem;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(8px);
+        }
+        nav .logo {
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 0.02em;
+            color: var(--white);
+            text-decoration: none;
+        }
+        nav .links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav .links a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            transition: color 0.2s;
+        }
+        nav .links a:hover { color: var(--white); }
+        
+        .hero {
+            min-height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 8rem 2rem 4rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.5rem;
+        }
+        .hero .lead {
+            font-size: clamp(1.1rem, 2vw, 1.3rem);
+            color: var(--gray);
+            max-width: 65ch;
+        }
+        .red { color: var(--red); font-weight: 600; }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .stat-card {
+            background: rgba(255,255,255,0.03);
+            padding: 2rem;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .stat-card .number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--red);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .stat-card .label {
+            font-size: 0.9rem;
+            color: var(--gray);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .section {
+            padding: 4rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .section h2 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--white);
+        }
+        .section p {
+            font-size: 1.05rem;
+            color: var(--gray);
+            margin-bottom: 1.2rem;
+            max-width: 65ch;
+        }
+        
+        .vendor-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            font-size: 0.95rem;
+        }
+        .vendor-table th,
+        .vendor-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .vendor-table th {
+            color: var(--red);
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+        }
+        .vendor-table td {
+            color: var(--gray);
+        }
+        .vendor-table tr:hover td {
+            color: var(--white);
+        }
+        
+        .highlight-box {
+            background: rgba(230, 54, 23, 0.08);
+            border-left: 3px solid var(--red);
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+        }
+        .highlight-box p {
+            color: var(--white);
+            margin: 0;
+        }
+        
+        .contract-list {
+            background: rgba(255,255,255,0.02);
+            padding: 2rem;
+            margin: 2rem 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .contract-list h3 {
+            font-size: 1rem;
+            color: var(--red);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .contract-list ul {
+            list-style: none;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: var(--gray);
+            column-count: 2;
+            column-gap: 2rem;
+        }
+        .contract-list li {
+            margin-bottom: 0.4rem;
+        }
+        
+        .download {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            padding: 1rem 2rem;
+            background: var(--white);
+            color: var(--black);
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .download:hover { opacity: 0.9; }
+        
+        .note {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.4);
+            padding: 1.5rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        footer {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.4);
+        }
+        footer a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+        }
+        footer a:hover { color: var(--white); }
+        
+        @media (max-width: 600px) {
+            nav .links { gap: 1rem; }
+            nav .links a { font-size: 0.7rem; }
+            .contract-list ul { column-count: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="/" class="logo">selfhost.nyc</a>
+    <div class="links">
+        <a href="/">Home</a>
+        <a href="/contracts">Contracts</a>
+        <a href="https://ko-fi.com/selfhost" target="_blank" style="color: var(--red);">♥</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>The Contracts</h1>
+    <p class="lead">We searched NYC's public spending database for every Google-related contract we could find. <span class="red">94 contracts. 10+ agencies. $5 million+ in confirmed spending.</span> This is what the city admits to. The real total is buried in subcontracts, renewals, and centralized purchasing agreements.</p>
+</section>
+
+<section class="stats">
+    <div class="stat-card">
+        <span class="number">94</span>
+        <span class="label">Contracts Identified</span>
+    </div>
+    <div class="stat-card">
+        <span class="number">$5M+</span>
+        <span class="label">Confirmed Spending</span>
+    </div>
+    <div class="stat-card">
+        <span class="number">16</span>
+        <span class="label">Years (2010–2026)</span>
+    </div>
+    <div class="stat-card">
+        <span class="number">10+</span>
+        <span class="label">City Agencies</span>
+    </div>
+</section>
+
+<section class="section">
+    <h2>The Middleman Problem</h2>
+    <p>Here's what stands out: the city doesn't buy from Google directly. It buys through a handful of IT resellers who hold the actual contracts. This obscures the true scope of Google's presence in city infrastructure.</p>
+    
+    <table class="vendor-table">
+        <thead>
+            <tr>
+                <th>Prime Vendor</th>
+                <th>Contract Count</th>
+                <th>Key Agencies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>CDW Government LLC</strong></td>
+                <td>35+</td>
+                <td>DoITT, DOT, Health, Sanitation</td>
+            </tr>
+            <tr>
+                <td><strong>SHI International Corp</strong></td>
+                <td>7+</td>
+                <td>Transportation, Homeless Services</td>
+            </tr>
+            <tr>
+                <td><strong>DASTON Corporation</strong></td>
+                <td>4</td>
+                <td>Social Services</td>
+            </tr>
+            <tr>
+                <td><strong>Tempus Nova Inc</strong></td>
+                <td>4</td>
+                <td>DoITT</td>
+            </tr>
+            <tr>
+                <td>Others</td>
+                <td>40+</td>
+                <td>Various</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="highlight-box">
+        <p>CDW Government alone holds 35+ Google-related contracts with DoITT — NYC's central IT department. When the city wants Google Cloud, Workspace, Maps, or reCAPTCHA, it routes through CDW. That means CDW holds the contract terms, the pricing details, and the data provisions. Not the city. Not the public.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>What We're Buying</h2>
+    <p>The contracts paint a picture of deep infrastructure dependency:</p>
+    
+    <p><strong>Google Cloud Platform —</strong> Multi-year enterprise agreements through DoITT providing cloud infrastructure across city agencies. Used for everything from data storage to machine learning.</p>
+    
+    <p><strong>Google Workspace —</strong> Thousands of enterprise licenses. DoITT, Social Services, and potentially DOE. G-Suite, Gmail, Drive, Calendar. City workers' daily tools.</p>
+    
+    <p><strong>Google Maps APIs —</strong> Location services for Transportation, Housing Preservation, Environmental Protection. Mapping infrastructure for permits, inspections, planning.</p>
+    
+    <p><strong>Google Earth Engine —</strong> Environmental Protection uses this for flood modeling and climate analysis. Google processes satellite imagery of NYC infrastructure.</p>
+    
+    <p><strong>reCAPTCHA —</strong> Citywide security product. Every city website that uses CAPTCHA is feeding data to Google. Multiple renewals 2019–2026.</p>
+    
+    <p><strong>Google Analytics —</strong> Tracking code on city websites. MyCity platform uses it. NYC residents' web activity flows to Google.</p>
+</section>
+
+<section class="section">
+    <h2>The Pattern</h2>
+    <p>Look at the contract IDs and one thing becomes clear: these aren't one-time purchases. They're a system.</p>
+    
+    <p><strong>Renewal after renewal.</strong> Contracts started in 2010, 2012, 2014 keep getting extended. CT185820181428099 becomes CT185820191401378 becomes DO185820252007426. The city has never stopped paying Google.</p>
+    
+    <p><strong>Centralized through DoITT.</strong> The Department of Information Technology and Telecommunications holds most of the big contracts. Individual agencies don't negotiate with Google. They go through DoITT, which goes through CDW.</p>
+    
+    <p><strong>Bypassing competitive bidding.</strong> Contracts labeled "M/WBE SMALL PURCHASE" or "INTERGOVERNMENTAL PROCUREMENT." These categories exempt agencies from full RFP processes. No public competition. No alternatives considered.</p>
+</section>
+
+<section class="section">
+    <h2>The Data</h2>
+    <p>We pulled this from Checkbook NYC — the Comptroller's public spending database. It's incomplete by design. Subcontractors aren't always listed. Master agreements hide the details. Renewals get coded differently.</p>
+    
+    <p>What we found is floor, not ceiling.</p>
+    
+    <div class="contract-list">
+        <h3>Sample Contract IDs</h3>
+        <ul>
+            <li>CT185820262009063</li>
+            <li>DO185820252007426</li>
+            <li>CT185820252006241</li>
+            <li>DO182620252008281</li>
+            <li>CT184120248801943</li>
+            <li>CT106920248801164</li>
+            <li>CT185820201426453</li>
+            <li>DO185820260000796</li>
+            <li>DO182720252012316</li>
+            <li>CT185820192006722</li>
+            <li>DO181620252005191</li>
+            <li>CT185820222006527</li>
+            <li>DO185820242003031</li>
+            <li>85819G8216KXLA001</li>
+            <li>85818O0026001</li>
+        </ul>
+    </div>
+    
+    <a href="/data/nyc-google-contracts.csv" class="download" download>
+        ↓ Download Full CSV
+    </a>
+</section>
+
+<section class="section" style="padding-bottom: 6rem;">
+    <h2>The Gap</h2>
+    <p>This data raises questions the contracts don't answer:</p>
+    
+    <p>— What are the actual terms? (We see amounts, not the full agreements)</p>
+    <p>— What data does Google collect? (No privacy riders are public)</p>
+    <p>— How much is the total spend? (Subcontracts and renewals hide the true number)</p>
+    <p>— Are there competition clauses? (Can the city switch vendors?)</p>
+    
+    <p style="margin-top: 2rem;"><strong>This is why we campaign for public infrastructure.</strong> When the city owns its contracts, the public can see what it pays for. When everything routes through CDW to Google to cloud servers in Iowa, transparency is impossible by design.</p>
+</section>
+
+<div class="note">
+    <p>Last updated: February 26, 2026. Data sourced from Checkbook NYC (comptroller.nyc.gov/checkbook). Contracts identified through vendor and purpose field searches. Subcontractor relationships inferred from vendor type fields.</p>
+</div>
+
+<footer>
+    <p><a href="mailto:hello@selfhost.nyc">hello@selfhost.nyc</a> · <a href="https://ko-fi.com/selfhost" target="_blank">Support Us</a></p>
+</footer>
+
+</body>
+</html>
