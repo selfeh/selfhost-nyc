@@ -179,24 +179,34 @@
         <button class="filter" data-filter="alternatives">Alternatives</button>
     </div>
     
-    <div class="posts" id="posts-container">
-        <div class="empty">
-            <p>No stories yet. Check back soon.</p>
-        </div>
+    <div class="posts" id="posts-container" data-news="{}">
+        <p class="news-loading">Loading news...</p>
     </div>
     
     <footer>
         <p>selfhost.nyc — New York City's campaign for digital sovereignty</p>
     </footer>
     
+    <script src="/js/news-loader.js"></script>
     <script>
-        // Simple filter functionality
+        // Filter functionality
         document.querySelectorAll('.filter').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.filter').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-                // Filter logic would go here when posts exist
+                const filter = btn.dataset.filter;
+                NewsLoader.load({
+                    container: document.getElementById('posts-container'),
+                    maxStories: 50,
+                    filter: filter === 'all' ? null : filter
+                });
             });
+        });
+        
+        // Load all news initially
+        NewsLoader.load({
+            container: document.getElementById('posts-container'),
+            maxStories: 50
         });
     </script>
 </body>

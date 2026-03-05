@@ -5,35 +5,39 @@
       "url": "https://theintercept.com/feed/",
       "relevance": "high",
       "tags": ["surveillance", "military", "ice"],
-      "filterKeywords": ["Google", "Amazon", "Microsoft", "surveillance", "ICE", "CBP", "military", "Project Nimbus"]
+      "filterKeywords": ["Google", "Amazon", "Microsoft", "surveillance", "ICE", "CBP", "military", "Project Nimbus", "Pentagon", "defense contract"],
+      "excludeKeywords": ["review", "earnings", "stock"]
     },
     {
       "name": "Electronic Frontier Foundation",
       "url": "https://www.eff.org/rss/updates.xml",
       "relevance": "high",
       "tags": ["surveillance", "privacy"],
-      "filterKeywords": ["Google", "Amazon", "Microsoft", "surveillance", "ICE", "police", "facial recognition"]
+      "filterKeywords": ["Google", "Amazon", "Microsoft", "surveillance", "ICE", "police", "facial recognition", "Border Patrol", "Homeland Security"]
     },
     {
       "name": "TechCrunch",
       "url": "https://techcrunch.com/feed/",
       "relevance": "medium",
       "tags": ["general"],
-      "filterKeywords": ["Google", "government contract", "surveillance", "data privacy"]
+      "filterKeywords": ["government contract", "surveillance", "ICE contract", "border patrol", "military contract"],
+      "excludeKeywords": ["Google Pixel", "review", "earnings", "acquires", "funding"]
     },
     {
       "name": "Ars Technica",
       "url": "http://feeds.arstechnica.com/arstechnica/index",
       "relevance": "medium",
       "tags": ["general"],
-      "filterKeywords": ["Google", "surveillance", "privacy", "government"]
+      "filterKeywords": ["surveillance", "privacy", "government", "military", "Pentagon", "ICE"],
+      "excludeKeywords": ["Google Pixel", "review", "hands-on"]
     },
     {
       "name": "Wired",
       "url": "https://www.wired.com/feed/rss",
       "relevance": "medium",
       "tags": ["general"],
-      "filterKeywords": ["Google", "surveillance", "privacy", "ICE", "border"]
+      "filterKeywords": ["surveillance", "privacy", "ICE", "border", "military", "Project Nimbus"],
+      "excludeKeywords": ["Google Pixel", "review"]
     },
     {
       "name": "ACLU News",
@@ -47,28 +51,30 @@
       "url": "https://stoplapdspying.org/feed/",
       "relevance": "high",
       "tags": ["surveillance"],
-      "filterKeywords": ["Google", "Amazon", "surveillance", "police"]
+      "filterKeywords": ["Google", "Amazon", "surveillance", "police", "facial recognition"]
     },
     {
       "name": "No Tech For Apartheid",
       "url": "https://notechforapartheid.com/feed/",
       "relevance": "high",
       "tags": ["military", "project-nimbus"],
-      "filterKeywords": ["Google", "Amazon", "Project Nimbus", "Israel", "military"]
+      "filterKeywords": ["Google", "Amazon", "Project Nimbus", "Israel", "military", "Pentagon"]
     },
     {
       "name": "The Guardian - Technology",
       "url": "https://www.theguardian.com/technology/rss",
       "relevance": "medium",
       "tags": ["general"],
-      "filterKeywords": ["Google", "surveillance", "privacy", "government contract"]
+      "filterKeywords": ["surveillance", "privacy violation", "government contract", "military"],
+      "excludeKeywords": ["Google Pixel", "review", "hands-on", "first look"]
     },
     {
       "name": "Vice - Motherboard",
       "url": "https://www.vice.com/en/rss",
       "relevance": "medium",
       "tags": ["surveillance"],
-      "filterKeywords": ["Google", "surveillance", "police", "ICE", "data"]
+      "filterKeywords": ["surveillance", "police", "ICE", "data privacy"],
+      "excludeKeywords": ["horoscope", "gaming", "video game", "movie"]
     },
     {
       "name": "Surveillance Technology Oversight Project",
