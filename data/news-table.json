@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-05T13:41:59.036074+00:00",
-  "totalStories": 17,
+  "lastUpdated": "2026-03-05T18:00:10.237320+00:00",
+  "totalStories": 18,
   "stories": [
+    {
+      "id": "7f348636",
+      "title": "Congress Is Considering Abolishing Your Right to Be Anonymous Online",
+      "url": "https://theintercept.com/2026/03/05/kosa-online-age-verification-free-speech-privacy/",
+      "description": " The bipartisan push to remove anonymity from the internet is ushering in an era of unprecedented mass surveillance and censorship. \n The post  Congress Is Considering Abolishing Your Right to Be Anonymous Online  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-05T17:20:29+00:00",
+      "fetchedAt": "2026-03-05T18:00:04.184426+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
     {
       "id": "a3dfc6a1",
       "title": "Sam Altman admits OpenAI can\u2019t control Pentagon\u2019s use of AI",
@@ -52,7 +69,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "b006c077",
