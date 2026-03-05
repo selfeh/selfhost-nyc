@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News — selfhost.nyc</title>
+    <meta name="description" content="Latest news on Google's unethical practices, NYC's tech contracts, and the fight for digital sovereignty.">
+    <meta property="og:title" content="News — selfhost.nyc">
+    <meta property="og:description" content="Latest on Google's ethics violations and NYC's digital sovereignty campaign.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --red: #e63617;
+            --black: #000;
+            --white: #fff;
+            --gray: #888;
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--black);
+            color: var(--white);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 2rem;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+        }
+        nav .logo {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--white);
+            text-decoration: none;
+        }
+        nav .links a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-size: 0.8rem;
+            margin-left: 1.5rem;
+            transition: color 0.2s;
+        }
+        nav .links a:hover { color: var(--white); }
+        
+        header {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10rem 2rem 3rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        header p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0 2rem 3rem;
+            flex-wrap: wrap;
+        }
+        .filter {
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: var(--white);
+            padding: 0.5rem 1rem;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .filter:hover, .filter.active {
+            background: var(--red);
+            border-color: var(--red);
+        }
+        
+        .posts {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+        .post {
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding: 2rem 0;
+        }
+        .post:last-child { border-bottom: none; }
+        .post-header {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+        .post-tag {
+            font-size: 0.65rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 0.2rem 0.5rem;
+            background: var(--red);
+        }
+        .post-tag.ice { background: #c41e3a; }
+        .post-tag.military { background: #8b0000; }
+        .post-tag.surveillance { background: #4a0080; }
+        .post-tag.alternatives { background: #006400; }
+        .post-date {
+            color: var(--gray);
+            font-size: 0.85rem;
+        }
+        .post h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .post h2 a {
+            color: var(--white);
+            text-decoration: none;
+        }
+        .post h2 a:hover { color: var(--red); }
+        .post p {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.95rem;
+        }
+        .post-source {
+            color: var(--gray);
+            font-size: 0.8rem;
+            margin-top: 0.75rem;
+        }
+        
+        .empty {
+            text-align: center;
+            color: var(--gray);
+            padding: 4rem 2rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--gray);
+            font-size: 0.85rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">selfhost.nyc</a>
+        <div class="links">
+            <a href="/news/" style="color: var(--white);">News</a>
+            <a href="/">Home</a>
+        </div>
+    </nav>
+    
+    <header>
+        <h1>News</h1>
+        <p>Updates on Google's ethics violations, NYC's tech contracts, and the fight for digital sovereignty.</p>
+    </header>
+    
+    <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ice">ICE</button>
+        <button class="filter" data-filter="military">Military</button>
+        <button class="filter" data-filter="surveillance">Surveillance</button>
+        <button class="filter" data-filter="alternatives">Alternatives</button>
+    </div>
+    
+    <div class="posts" id="posts-container">
+        <div class="empty">
+            <p>No stories yet. Check back soon.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>selfhost.nyc — New York City's campaign for digital sovereignty</p>
+    </footer>
+    
+    <script>
+        // Simple filter functionality
+        document.querySelectorAll('.filter').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                // Filter logic would go here when posts exist
+            });
+        });
+    </script>
+</body>
+</html>

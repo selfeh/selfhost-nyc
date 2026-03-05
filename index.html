@@ -14,6 +14,7 @@
     <meta name="twitter:title" content="selfhost.nyc — Google Powers ICE. NYC Pays Google.">
     <meta name="twitter:description" content="NYC is a sanctuary city. Google powers CBP. Every dollar NYC pays Google funds the deportation machine. End the contracts.">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/news-styles.css">
     <!-- Yes, loading fonts from Google for a site about breaking up with Google. We know. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -570,6 +571,19 @@
         </div>
     </div>
 </section>
+
+<!-- LATEST NEWS -->
+<section class="news-section" id="news">
+    <div class="news-section__header">
+        <h3 class="news-section__title">Latest News</h3>
+        <a href="/news/" class="news-section__link">View all →</a>
+    </div>
+    <div class="news-container" data-news="{&quot;maxStories&quot;:5,&quot;compact&quot;:true}">
+        <p class="news-loading">Loading news...</p>
+    </div>
+</section>
+
+<script src="/js/news-loader.js"></script>
 
 <!-- FOOTER -->
 <footer>

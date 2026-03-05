@@ -1,0 +1,632 @@
+{
+  "schema": "news-table-v1",
+  "lastUpdated": "2026-03-05T06:39:28.500752+00:00",
+  "totalStories": 36,
+  "stories": [
+    {
+      "id": "b39b3436",
+      "title": "Daily Horoscope: March 5, 2026",
+      "url": "https://www.vice.com/en/article/daily-horoscope-march-5-2026/",
+      "description": " Let actions do the talking today. Words can be slippery, especially when expectations are high and patience low. \n The post  Daily Horoscope: March 5, 2026  appeared first on  VICE . ",
+      "source": "Vice - Motherboard",
+      "sourceRelevance": "medium",
+      "published": "2026-03-05T05:01:00+00:00",
+      "fetchedAt": "2026-03-05T06:39:26.112428+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
+    {
+      "id": "5f1a3c83",
+      "title": "Google and Epic announce settlement to end app store antitrust case",
+      "url": "https://arstechnica.com/gadgets/2026/03/google-and-epic-look-to-bury-the-hatchet-with-new-app-store-settlement/",
+      "description": "The era of the 30 percent app store cut has ended.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T20:48:16+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.922288+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": true
+    },
+    {
+      "id": "5e994116",
+      "title": "One of the Best Assassin\u2019s Creed Games Is Officially Being Remade",
+      "url": "https://www.vice.com/en/article/one-of-the-best-assassins-creed-games-is-officially-being-remade/",
+      "description": " Ubisoft teases Assassin's Creed Black Flag Resynced alongside updates on HEXE and INVICTUS. See the 2026 roadmap. \n The post  One of the Best Assassin&#8217;s Creed Games Is Officially Being Remade  appeared first on  VICE . ",
+      "source": "Vice - Motherboard",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T20:36:40+00:00",
+      "fetchedAt": "2026-03-05T06:39:26.112564+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
+    {
+      "id": "e9a20ad6",
+      "title": "Lawsuit: Google Gemini sent man on violent missions, set suicide \"countdown\"",
+      "url": "https://arstechnica.com/tech-policy/2026/03/lawsuit-google-gemini-sent-man-on-violent-missions-set-suicide-countdown/",
+      "description": "Gemini allegedly called man its \"husband,\" said they could be together in death.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T20:29:14+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.922328+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "7fe3787a",
+      "title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
+      "url": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
+      "description": "Google has dropped its commission, charging a 20% service fee and an optional 5% to use its billing services. It will also offer a new process for third-party app stores.",
+      "source": "TechCrunch",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T20:05:12+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.751092+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "1e09cb96",
+      "title": "U.S. Military Joins Drug War in Ecuador: \u201cIt Wasn\u2019t Going to Be Just Boat Strikes Forever\u201d",
+      "url": "https://theintercept.com/2026/03/04/us-military-ecuador-trump/",
+      "description": " Two government officials told The Intercept that the joint U.S.\u2013Ecuador military action won\u2019t just be a one-off raid. \n The post  U.S. Military Joins Drug War in Ecuador: \u201cIt Wasn\u2019t Going to Be Just Boat Strikes Forever\u201d  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-04T19:56:55+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.713838+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
+    {
+      "id": "bb1e9b3a",
+      "title": "Trump\u2019s War on Iran Could Screw Over US Farmers",
+      "url": "https://www.wired.com/story/trumps-war-on-iran-could-screw-over-us-farmers/",
+      "description": "The Middle East supplies a huge amount of the world\u2019s fertilizer. Conflict in the region has sent prices soaring ahead of the critical spring planting season.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T19:08:46+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.932620+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "7493c3ba",
+      "title": "How Vulnerable Are Computers to an 80-Year-Old Spy Technique? Congress Wants Answers",
+      "url": "https://www.wired.com/story/how-vulnerable-are-computers-to-an-80-year-old-spy-technique-congress-wants-answers/",
+      "description": "A pair of US lawmakers are calling for an investigation into how easily spies can steal information based on devices\u2019 electromagnetic and acoustic leaks\u2014a spying trick the NSA once codenamed TEMPEST.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T19:00:00+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.932685+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "23cfe430",
+      "title": "Google Search rolls out Gemini\u2019s Canvas in AI Mode to all US users",
+      "url": "https://techcrunch.com/2026/03/04/https-techcrunch-com-2026-03-04-google-search-rolls-out-geminis-canvas-in-ai-mode-to-all-us-users/",
+      "description": "Canvas in AI Mode is available to U.S. users in English for creating plans, projects, apps, and more.",
+      "source": "TechCrunch",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T18:50:58+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.751169+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "f3a3064b",
+      "title": "Google Pixel 10a review: The sidegrade",
+      "url": "https://arstechnica.com/gadgets/2026/03/the-sidegrade/",
+      "description": "Meet the new boss, same as the old boss.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T17:00:10+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.922357+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "4e817b4d",
+      "title": "Google Pixel 10a Review: Sensible Value",
+      "url": "https://www.wired.com/review/google-pixel-10a/",
+      "description": "It may not offer much new, but the Pixel 10a remains one of the best smartphones in the US for under $500.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T17:00:00+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.932722+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ca711731",
+      "title": "How Federal Agencies Got Caught Up in Trump's Anti-Immigration Crusade",
+      "url": "https://www.wired.com/story/how-the-federal-government-scrambled-its-agencies-to-support-ice/",
+      "description": "WIRED spoke with workers across seven government agencies\u2014from the IRS to HUD\u2014about how their work has been contorted to support ICE and other immigration efforts.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T16:00:00+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.932773+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "728378e4",
+      "title": "Father sues Google, claiming Gemini chatbot drove son into fatal delusion",
+      "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/",
+      "description": "A father is suing Google and Alphabet, alleging its Gemini chatbot reinforced his son\u2019s delusional belief it was his AI wife and coached him toward suicide and a planned airport attack.",
+      "source": "TechCrunch",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T14:58:36+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.751254+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "665203e8",
+      "title": "Google faces lawsuit after Gemini chatbot allegedly instructed man to kill himself",
+      "url": "https://www.theguardian.com/technology/2026/mar/04/gemini-chatbot-google-jonathan-gavalas",
+      "description": " Lawsuit is first wrongful death case brought against Google over flagship AI product after death of Jonathan Gavalas     Sign up for the Breaking News US email to get newsletter alerts in your inbox     Last August, Jonathan Gavalas became entirely consumed with his  Google  Gemini chatbot. The 36-",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-04T14:20:10",
+      "fetchedAt": "2026-03-05T06:39:25.285599+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fbadf186",
+      "title": "Will James Talarico Really Fight for Justice in Texas?",
+      "url": "https://theintercept.com/2026/03/04/james-talarico-jasmine-crockett-texas-senate-primary/",
+      "description": " The Senate primary between Talarico and Rep. Jasmine Crockett emphasized style over substance. Now local organizers want concrete promises. \n The post  Will James Talarico Really Fight for Justice in Texas?  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-04T13:14:47+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.713959+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "8b900dde",
+      "title": "EFF to Third Circuit: Electronic Device Searches at the Border Require a Warrant",
+      "url": "https://www.eff.org/deeplinks/2026/03/eff-third-circuit-electronic-device-searches-border-require-warrant",
+      "description": "    EFF, along with the national ACLU and the ACLU affiliates in Pennsylvania, Delaware, and New Jersey, filed an  amicus brief  in the U.S. Court of Appeals for the Third Circuit urging the court to require a warrant for border searches of electronic devices, an  argument  EFF has been making in th",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-03-03T23:56:33+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.739375+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "796a9e15",
+      "title": "OpenAI amends Pentagon deal as Sam Altman admits it looks \u2018sloppy\u2019",
+      "url": "https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt",
+      "description": " ChatGPT owner\u2019s CEO says it will bar its technology being used for mass surveillance or by intelligence services     Business live \u2013 latest updates     OpenAI is amending its hastily arranged deal to supply artificial intelligence to the US Department of War (DoW) after the ChatGPT owner\u2019s chief ex",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-03T11:35:34",
+      "fetchedAt": "2026-03-05T06:39:25.285707+00:00",
+      "tags": [
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "b006c077",
+      "title": "Letter to the BoPC on Flock Safety",
+      "url": "https://stoplapdspying.org/letter-to-the-bopc-on-flock-safety/",
+      "description": " Read our letter to the Board of Police Commissioners exposing LAPD's partnership with Flock Safety and its harms to our communities. Join our fight to shut down Flock!  \n The post  Letter to the BoPC on Flock Safety  appeared first on  Stop LAPD Spying Coalition . ",
+      "source": "Stop LAPD Spying",
+      "sourceRelevance": "high",
+      "published": "2026-03-03T01:17:38+00:00",
+      "fetchedAt": "2026-03-05T06:39:25.073903+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": false
+    },
+    {
+      "id": "c74062a8",
+      "title": "The Regime Change President Who Won\u2019t (or Can\u2019t) Actually Change Any Regimes",
+      "url": "https://theintercept.com/2026/03/02/trump-regime-change-iran-venezuela/",
+      "description": " The Iran war shows that Trump is loving his military interventions \u2014 but they are never what he claims them to be. \n The post  The Regime Change President Who Won\u2019t (or Can\u2019t) Actually Change Any Regimes  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-02T19:10:20+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.714119+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
+    {
+      "id": "49eefbf9",
+      "title": "National Book Tour for Cindy Cohn\u2019s Memoir, \u2018Privacy\u2019s Defender\u2019",
+      "url": "https://www.eff.org/press/releases/national-book-tour-cindy-cohns-memoir-privacys-defender",
+      "description": "   MIT Press Publishes EFF Executive Director\u2019s Book As She Prepares to Depart Organization After 25 Years         SAN FRANCISCO \u2013 Electronic Frontier Foundation Executive Director Cindy Cohn will launch her memoir,     Privacy\u2019s Defender: My Thirty-Year Fight Against Digital Surveillance     (MIT P",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-03-02T16:15:10+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.739543+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "903eab81",
+      "title": "Trump\u2019s Iran Attack Was Illegal, Former U.S. Military Officials Allege",
+      "url": "https://theintercept.com/2026/03/01/trump-iran-attack-war-powers-resolution-united-nations-charter-legal/",
+      "description": " \u201cThis is an introduction of U.S. forces into hostilities. It absolutely triggers the 48-hour notice requirement.\u201d \n The post  Trump\u2019s Iran Attack Was Illegal, Former U.S. Military Officials Allege  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-01T18:58:14+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.714243+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "ICE",
+        "military"
+      ],
+      "featured": false
+    },
+    {
+      "id": "61a0be89",
+      "title": "Fool Me Twice: The Case for War With Iran Is Even Thinner Than It Was for Iraq",
+      "url": "https://theintercept.com/2026/02/28/us-attack-iran-iraq-war/",
+      "description": " The case for invading Iraq was based on lies. The Trump administration\u2019s case for war with Iran hardly exists at all. \n The post  Fool Me Twice: The Case for War With Iran Is Even Thinner Than It Was for Iraq  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-02-28T16:43:25+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.714356+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "645d2bc2",
+      "title": "Victory! Tenth Circuit Finds Fourth Amendment Doesn\u2019t Support Broad Search of Protesters\u2019 Devices and Digital Data",
+      "url": "https://www.eff.org/deeplinks/2026/02/victory-tenth-circuit-finds-fourth-amendment-doesnt-support-broad-search-0",
+      "description": "    In a big win for protesters\u2019 rights, the U.S. Court of Appeals for the Tenth Circuit  overturned  a lower court\u2019s dismissal of a challenge to sweeping warrants to search a protester\u2019s devices and digital data and a nonprofit\u2019s social media data. \n The case,   Armendariz v. City of Colorado Sprin",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-27T06:03:02+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.739639+00:00",
+      "tags": [
+        "nyc"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "de9a7cdf",
+      "title": "Zohran Mamdani Kept Columbia Student in New York \u2014 Then Phoned With Trump to Secure Her Release",
+      "url": "https://theintercept.com/2026/02/26/columbia-university-student-detained-dhs/",
+      "description": " ICE agents pretended to be New York Police Department officers to get into Columbia housing, a member of the New York city council said. \n The post  Zohran Mamdani Kept Columbia Student in New York \u2014 Then Phoned With Trump to Secure Her Release  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-02-26T16:22:28+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.714537+00:00",
+      "tags": [
+        "ice",
+        "surveillance",
+        "nyc"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "5b98464d",
+      "title": "How to Pick Your Password Manager",
+      "url": "https://www.eff.org/deeplinks/2026/02/how-pick-your-password-manager",
+      "description": "     Phishing and data breaches are a constant on the internet. The single best defense against both is to use a password manager to generate and automatically fill a unique password for every site. While 1Password has    recently raised their prices   , and researchers have    recently published   ",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-25T17:26:39+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.739712+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "784f25ce",
+      "title": "Tech Companies Shouldn\u2019t Be Bullied Into Doing Surveillance",
+      "url": "https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance",
+      "description": "     The Secretary of Defense has given    an ultimatum    to the artificial intelligence company Anthropic in an attempt to bully them into making their technology available to the U.S. military without any restrictions for their use. Anthropic should stick by their principles and refuse to allow t",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-24T23:42:44+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.739777+00:00",
+      "tags": [
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "3d9d8fcb",
+      "title": "ICE: A Legacy of Violence and White Supremacy",
+      "url": "https://mijente.net/blog/ice-a-legacy-of-violence-and-white-supremacy/",
+      "description": " ICE is not simply enforcing immigration law \u2013 it is expanding the boundaries of state violence.&#160; In the last year, we&#8217;ve seen disturbing evolution of the Department of Homeland Security (DHS) \u2013 specifically with Immigration and Customs Enforcement (ICE) and... \n The post  ICE: A Legacy o",
+      "source": "Mijente",
+      "sourceRelevance": "high",
+      "published": "2026-02-24T14:26:33+00:00",
+      "fetchedAt": "2026-03-05T06:39:28.500692+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "787edb05",
+      "title": "EFF to Wisconsin Legislature: VPN Bans Are Still a Terrible Idea",
+      "url": "https://www.eff.org/deeplinks/2026/02/eff-wisconsin-legislature-vpn-bans-are-still-terrible-idea",
+      "description": "      Update, February 25, 2026:  In response to widespread pushback, Wisconsin lawmakers have removed the provision banning VPN services from S.B. 130 / A.B. 105. The bill now awaits Governor Tony Evers\u2019 signature. While the removal of the VPN provision is a positive step, EFF continues to oppose t",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-18T00:49:03+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.739881+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "173a8e38",
+      "title": "San Jose Can Protect Immigrants by Ending Flock Surveillance System",
+      "url": "https://www.eff.org/deeplinks/2026/02/op-ed-san-jose-can-protect-immigrants-ending-flock-surveillance-system",
+      "description": "     (This appeared as  an op-ed published February 12, 2026 in the San Jose Spotlight , written by Huy Tran (SIREN), Jeffrey Wang (CAIR-SFBA), and Jennifer Pinsof.)  \n As ICE and other federal agencies continue their assault on civil liberties, local leaders are stepping up to protect their communi",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-17T18:55:34+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.739936+00:00",
+      "tags": [
+        "ice",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance",
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "52800e3f",
+      "title": "Weekly Update 02/16",
+      "url": "https://stoplapdspying.org/weekly-update-02-16/",
+      "description": " On Tuesday February 10th, we went to the Board of Police Commissioner&#8217;s meeting where they had nearly 4 million dollars worth of drone equipment for LAPD. We understand this to be mission creep: they claimed the drones are for &#8220;first responding,&#8221; but we know they are also for mass",
+      "source": "Stop LAPD Spying",
+      "sourceRelevance": "high",
+      "published": "2026-02-17T18:34:30+00:00",
+      "fetchedAt": "2026-03-05T06:39:25.074044+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": false
+    },
+    {
+      "id": "02e5ab79",
+      "title": "New Report Helps Journalists Dig Deeper Into Police Surveillance Technology",
+      "url": "https://www.eff.org/press/releases/new-report-helps-journalists-dig-deeper-police-surveillance-technology",
+      "description": "   Report from EFF, Center for Just Journalism, and IPVM Helps Cut Through Sales Hype        SAN FRANCISCO \u2014 A new report released today offers journalists tips on cutting through the sales hype about police surveillance technology and report accurately on costs, benefits, privacy, and accountabilit",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-17T17:56:51+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.740009+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "surveillance",
+        "ICE",
+        "police"
+      ],
+      "featured": false
+    },
+    {
+      "id": "6ce649fe",
+      "title": "\ud83d\udde3 Homeland Security Wants Names | EFFector 38.3",
+      "url": "https://www.eff.org/deeplinks/2026/02/homeland-security-wants-names-effector-383",
+      "description": "    Criticize the government online? The Department of Homeland Security (DHS) might ask Google to cough up your name. By abusing an investigative tool called \"administrative subpoenas,\" DHS has been demanding that tech companies hand over users' names, locations, and more. We're explaining  how com",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-11T18:29:03+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.740117+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "3f9fb0bf",
+      "title": "\u201cFree\u201d Surveillance Tech Still Comes at a High and Dangerous Cost",
+      "url": "https://www.eff.org/deeplinks/2026/02/free-surveillance-tech-still-comes-high-and-dangerous-cost",
+      "description": "     Surveillance    technology    vendors, federal agencies, and wealthy private donors have long helped provide local law enforcement \u201cfree\u201d access to surveillance equipment that bypasses local oversight. The result is predictable: serious accountability gaps and data pipelines to other entities, ",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-11T18:00:12+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.740192+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "899f1746",
+      "title": "Open Letter to Tech Companies: Protect Your Users From Lawless DHS Subpoenas",
+      "url": "https://www.eff.org/deeplinks/2026/02/open-letter-tech-companies-protect-your-users-lawless-dhs-subpoenas",
+      "description": "     We are calling on technology companies like Meta and Google to stand up for their users by resisting the Department of Homeland Security's (DHS) lawless administrative subpoenas for user data.  \u00a0  \n  In the past year, DHS\u00a0has consistently targeted people engaged in First Amendment activity. Amo",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-10T22:52:04+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.740263+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": false
+    },
+    {
+      "id": "5d388fff",
+      "title": "No One, Including Our Furry Friends, Will Be Safer in Ring's Surveillance Nightmare",
+      "url": "https://www.eff.org/deeplinks/2026/02/no-one-including-our-furry-friends-will-be-safer-rings-surveillance-nightmare-0",
+      "description": "     Amazon Ring\u2019s Super Bowl ad offered a vision of our streets that should leave every person unsettled about the company\u2019s goals for disintegrating our privacy in public.  \n\n  In the ad, disguised as a heartfelt effort to reunite the lost dogs of the country with their innocent owners, the compan",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-02-10T21:11:04+00:00",
+      "fetchedAt": "2026-03-05T06:39:22.740358+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "Amazon",
+        "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "954001a1",
+      "title": "Weekly Update 02/09",
+      "url": "https://stoplapdspying.org/weekly-update-02-09-2/",
+      "description": " On February 3rd, 2026, the Coalition went to the Board of Police Commissioners Meeting where we continued to expose LAPD for their constant collaboration and partnership with the IOF (Israeli occupation forces). We know that the LAPD and IOF exchange tactics of warfare and genocide from project lav",
+      "source": "Stop LAPD Spying",
+      "sourceRelevance": "high",
+      "published": "2026-02-09T19:49:30+00:00",
+      "fetchedAt": "2026-03-05T06:39:25.074102+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": false
+    }
+  ]
+}

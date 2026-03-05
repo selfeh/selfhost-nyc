@@ -1,0 +1,89 @@
+{
+  "sources": [
+    {
+      "name": "The Intercept",
+      "url": "https://theintercept.com/feed/",
+      "relevance": "high",
+      "tags": ["surveillance", "military", "ice"],
+      "filterKeywords": ["Google", "Amazon", "Microsoft", "surveillance", "ICE", "CBP", "military", "Project Nimbus"]
+    },
+    {
+      "name": "Electronic Frontier Foundation",
+      "url": "https://www.eff.org/rss/updates.xml",
+      "relevance": "high",
+      "tags": ["surveillance", "privacy"],
+      "filterKeywords": ["Google", "Amazon", "Microsoft", "surveillance", "ICE", "police", "facial recognition"]
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "relevance": "medium",
+      "tags": ["general"],
+      "filterKeywords": ["Google", "government contract", "surveillance", "data privacy"]
+    },
+    {
+      "name": "Ars Technica",
+      "url": "http://feeds.arstechnica.com/arstechnica/index",
+      "relevance": "medium",
+      "tags": ["general"],
+      "filterKeywords": ["Google", "surveillance", "privacy", "government"]
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "relevance": "medium",
+      "tags": ["general"],
+      "filterKeywords": ["Google", "surveillance", "privacy", "ICE", "border"]
+    },
+    {
+      "name": "ACLU News",
+      "url": "https://www.aclu.org/news/rss.xml",
+      "relevance": "high",
+      "tags": ["surveillance", "ice"],
+      "filterKeywords": ["Google", "Amazon", "surveillance", "ICE", "police", "privacy"]
+    },
+    {
+      "name": "Stop LAPD Spying",
+      "url": "https://stoplapdspying.org/feed/",
+      "relevance": "high",
+      "tags": ["surveillance"],
+      "filterKeywords": ["Google", "Amazon", "surveillance", "police"]
+    },
+    {
+      "name": "No Tech For Apartheid",
+      "url": "https://notechforapartheid.com/feed/",
+      "relevance": "high",
+      "tags": ["military", "project-nimbus"],
+      "filterKeywords": ["Google", "Amazon", "Project Nimbus", "Israel", "military"]
+    },
+    {
+      "name": "The Guardian - Technology",
+      "url": "https://www.theguardian.com/technology/rss",
+      "relevance": "medium",
+      "tags": ["general"],
+      "filterKeywords": ["Google", "surveillance", "privacy", "government contract"]
+    },
+    {
+      "name": "Vice - Motherboard",
+      "url": "https://www.vice.com/en/rss",
+      "relevance": "medium",
+      "tags": ["surveillance"],
+      "filterKeywords": ["Google", "surveillance", "police", "ICE", "data"]
+    },
+    {
+      "name": "Surveillance Technology Oversight Project",
+      "url": "https://www.stopspying.org/feed.xml",
+      "relevance": "high",
+      "tags": ["surveillance", "nyc"],
+      "filterKeywords": ["Google", "surveillance", "police", "NYC", "New York"]
+    },
+    {
+      "name": "Mijente",
+      "url": "https://mijente.net/feed/",
+      "relevance": "high",
+      "tags": ["ice", "surveillance"],
+      "filterKeywords": ["Google", "Amazon", "Microsoft", "ICE", "surveillance", "tech"]
+    }
+  ],
+  "lastUpdated": "2025-03-05"
+}
