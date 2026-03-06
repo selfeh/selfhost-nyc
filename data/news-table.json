@@ -1,8 +1,110 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-05T18:00:10.237320+00:00",
-  "totalStories": 18,
+  "lastUpdated": "2026-03-06T04:00:36.590882+00:00",
+  "totalStories": 24,
   "stories": [
+    {
+      "id": "79eff7cb",
+      "title": "Workers report watching Ray-Ban Meta-shot footage of people using the bathroom",
+      "url": "https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/",
+      "description": "Meta accused of \"concealing the facts\" about smart glass users' privacy.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-05T23:36:04+00:00",
+      "fetchedAt": "2026-03-06T04:00:31.254992+00:00",
+      "tags": [
+        "privacy"
+      ],
+      "keywordMatches": [
+        "privacy"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ba48c58a",
+      "title": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
+      "url": "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft/",
+      "description": "Sources allege the Defense Department experimented with Microsoft\u2019s version of OpenAI technology before the ChatGPT-maker lifted its prohibition on military applications.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-05T22:00:00+00:00",
+      "fetchedAt": "2026-03-06T04:00:31.271049+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "50214f79",
+      "title": "FBI investigating hack on its wiretap and surveillance systems: Report",
+      "url": "https://techcrunch.com/2026/03/05/fbi-investigating-hack-on-its-wiretap-and-surveillance-systems-report/",
+      "description": "Hackers allegedly broke into the FBI\u2019s networks, according to a report by CNN.",
+      "source": "TechCrunch",
+      "sourceRelevance": "medium",
+      "published": "2026-03-05T21:33:24+00:00",
+      "fetchedAt": "2026-03-06T04:00:31.247995+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "73036afb",
+      "title": "OpenAI introduces GPT-5.4 with more knowledge-work capability",
+      "url": "https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/",
+      "description": "Updates come amid user blowback over the company's Pentagon deal.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-05T20:55:25+00:00",
+      "fetchedAt": "2026-03-06T04:00:31.255091+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "Pentagon"
+      ],
+      "featured": false
+    },
+    {
+      "id": "3b2aceb0",
+      "title": "The Controversies Finally Caught Up to Kristi Noem",
+      "url": "https://www.wired.com/story/the-controversies-finally-caught-up-to-kristi-noem/",
+      "description": "Donald Trump said he would replace the secretary of the Department of Homeland Security. Noem\u2019s tenure was marked by aggressive anti-immigration tactics and ICE and CBP\u2019s killing of two US protesters.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-05T19:43:46+00:00",
+      "fetchedAt": "2026-03-06T04:00:31.271223+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "88cf36dc",
+      "title": "Military Leaders See Iran War as \u201cGod\u2019s Divine Plan\u201d \u2014 a Chilling Turn for Trump\u2019s Fascism",
+      "url": "https://theintercept.com/2026/03/05/iran-war-end-times-christian/",
+      "description": " A military watchdog has been \u201cinundated\u201d with complaints that officials are using end-times Christian rhetoric to justify war. \n The post  Military Leaders See Iran War as \u201cGod\u2019s Divine Plan\u201d \u2014 a Chilling Turn for Trump\u2019s Fascism  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-05T18:58:00+00:00",
+      "fetchedAt": "2026-03-06T04:00:31.177009+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
     {
       "id": "7f348636",
       "title": "Congress Is Considering Abolishing Your Right to Be Anonymous Online",
@@ -18,7 +120,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "a3dfc6a1",
@@ -35,7 +137,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "b3bb32ba",
@@ -52,7 +154,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "1e09cb96",
