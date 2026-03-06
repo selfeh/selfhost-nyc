@@ -1,8 +1,26 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-06T04:00:36.590882+00:00",
-  "totalStories": 24,
+  "lastUpdated": "2026-03-06T18:00:17.501855+00:00",
+  "totalStories": 25,
   "stories": [
+    {
+      "id": "246fc940",
+      "title": "Weasel Words: OpenAI\u2019s Pentagon Deal Won\u2019t Stop AI\u2011Powered Surveillance",
+      "url": "https://www.eff.org/deeplinks/2026/03/weasel-words-openais-pentagon-deal-wont-stop-ai-powered-surveillance",
+      "description": "     OpenAI, the maker of ChaptGPT, is rightfully facing widespread criticism for its decisions to fill the gap the U.S. Department of Defense (DoD) created when rival Anthropic    refused to    drop its restrictions against using its AI for surveillance and autonomous weapons systems. After protest",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-03-06T16:03:15+00:00",
+      "fetchedAt": "2026-03-06T18:00:11.804130+00:00",
+      "tags": [
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
     {
       "id": "79eff7cb",
       "title": "Workers report watching Ray-Ban Meta-shot footage of people using the bathroom",
@@ -52,7 +70,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "73036afb",
