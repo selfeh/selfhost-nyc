@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-07T04:00:49.547435+00:00",
-  "totalStories": 27,
+  "lastUpdated": "2026-03-07T18:00:11.113203+00:00",
+  "totalStories": 28,
   "stories": [
+    {
+      "id": "ae764593",
+      "title": "What does the US military\u2019s feud with Anthropic mean for AI used in war?",
+      "url": "https://www.theguardian.com/technology/2026/mar/07/anthropic-claude-ai-pentagon-us-military",
+      "description": " Tech policy professor who served in US air force explains how a feud between an AI startup and the US military illuminates ethical fault lines  Anthropic\u2019s ongoing fight with the Department of Defense over what  safety restrictions  it can put on its  artificial intelligence  models has captivated ",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-07T14:00:53",
+      "fetchedAt": "2026-03-07T18:00:08.791742+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "9bbe6032",
       "title": "Anthropic\u2019s\u00a0Pentagon deal is a cautionary tale for startups chasing federal contracts",
@@ -56,7 +73,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "79eff7cb",
