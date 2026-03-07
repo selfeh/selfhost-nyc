@@ -1,8 +1,45 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-06T18:00:17.501855+00:00",
-  "totalStories": 25,
+  "lastUpdated": "2026-03-07T04:00:49.547435+00:00",
+  "totalStories": 27,
   "stories": [
+    {
+      "id": "9bbe6032",
+      "title": "Anthropic\u2019s\u00a0Pentagon deal is a cautionary tale for startups chasing federal contracts",
+      "url": "https://techcrunch.com/video/anthropics-pentagon-deal-is-a-cautionary-tale-for-startups-chasing-federal-contracts/",
+      "description": "The Pentagon has officially\u00a0designated\u00a0Anthropic\u00a0a supply-chain risk\u00a0after the two failed to agree on how much control the military should have over its AI models,\u00a0including\u00a0its\u00a0use in\u00a0autonomous weapons and mass domestic surveillance. As\u00a0Anthropic\u2019s\u00a0$200 million contract fell apart, the DoD turned ",
+      "source": "TechCrunch",
+      "sourceRelevance": "medium",
+      "published": "2026-03-06T18:09:11+00:00",
+      "fetchedAt": "2026-03-07T04:00:43.996659+00:00",
+      "tags": [
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "d75e3f49",
+      "title": "ICE Poses a Real Threat to Our Elections",
+      "url": "https://theintercept.com/2026/03/06/democrats-dhs-ice-reform-midterm-election-integrity/",
+      "description": " DHS has built a national police force with massive surveillance capabilities \u2014 which it could use to interfere with our elections. \n The post  ICE Poses a Real Threat to Our Elections  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-06T18:02:00+00:00",
+      "fetchedAt": "2026-03-07T04:00:43.958109+00:00",
+      "tags": [
+        "ice",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance",
+        "ICE"
+      ],
+      "featured": true
+    },
     {
       "id": "246fc940",
       "title": "Weasel Words: OpenAI\u2019s Pentagon Deal Won\u2019t Stop AI\u2011Powered Surveillance",
@@ -36,7 +73,7 @@
       "keywordMatches": [
         "privacy"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "ba48c58a",
@@ -53,7 +90,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "50214f79",
