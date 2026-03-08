@@ -41,10 +41,11 @@
     },
     {
       "name": "ACLU News",
-      "url": "https://www.aclu.org/news/rss.xml",
+      "url": "https://www.aclu.org/news/feed",
       "relevance": "high",
       "tags": ["surveillance", "ice"],
-      "filterKeywords": ["Google", "Amazon", "surveillance", "ICE", "police", "privacy"]
+      "filterKeywords": ["Google", "Amazon", "surveillance", "ICE", "police", "privacy"],
+      "excludeKeywords": ["review", "podcast"]
     },
     {
       "name": "Stop LAPD Spying",
@@ -55,10 +56,10 @@
     },
     {
       "name": "No Tech For Apartheid",
-      "url": "https://notechforapartheid.com/feed/",
+      "url": "https://notechforapartheid.org/rss.xml",
       "relevance": "high",
       "tags": ["military", "project-nimbus"],
-      "filterKeywords": ["Google", "Amazon", "Project Nimbus", "Israel", "military", "Pentagon"]
+      "filterKeywords": ["Google", "Amazon", "Project Nimbus", "Israel", "military", "Pentagon", "Nimbus"]
     },
     {
       "name": "The Guardian - Technology",
@@ -69,16 +70,16 @@
       "excludeKeywords": ["Google Pixel", "review", "hands-on", "first look"]
     },
     {
-      "name": "Vice - Motherboard",
-      "url": "https://www.vice.com/en/rss",
-      "relevance": "medium",
+      "name": "404 Media - Surveillance",
+      "url": "https://www.404media.co/rss/",
+      "relevance": "high",
       "tags": ["surveillance"],
-      "filterKeywords": ["surveillance", "police", "ICE", "data privacy"],
-      "excludeKeywords": ["horoscope", "gaming", "video game", "movie"]
+      "filterKeywords": ["surveillance", "police", "Google", "Amazon", "Microsoft", "AI surveillance"],
+      "excludeKeywords": ["review", "gaming"]
     },
     {
       "name": "Surveillance Technology Oversight Project",
-      "url": "https://www.stopspying.org/feed.xml",
+      "url": "https://www.stopspying.org/home?format=rss",
       "relevance": "high",
       "tags": ["surveillance", "nyc"],
       "filterKeywords": ["Google", "surveillance", "police", "NYC", "New York"]
@@ -89,7 +90,37 @@
       "relevance": "high",
       "tags": ["ice", "surveillance"],
       "filterKeywords": ["Google", "Amazon", "Microsoft", "ICE", "surveillance", "tech"]
+    },
+    {
+      "name": "AI Now Institute",
+      "url": "https://ainowinstitute.org/feed",
+      "relevance": "high",
+      "tags": ["surveillance", "privacy"],
+      "filterKeywords": ["Google", "Amazon", "Microsoft", "surveillance", "public sector", "government", "city"],
+      "excludeKeywords": ["event", "fellowship"]
+    },
+    {
+      "name": "Data & Society",
+      "url": "https://datasociety.net/feed/",
+      "relevance": "high",
+      "tags": ["surveillance", "privacy"],
+      "filterKeywords": ["surveillance", "policing", "Google", "Amazon", "Microsoft", "AI", "algorithm"]
+    },
+    {
+      "name": "Brennan Center",
+      "url": "https://www.brennancenter.org/rss.xml",
+      "relevance": "medium",
+      "tags": ["surveillance"],
+      "filterKeywords": ["surveillance", "privacy", "police", "ICE", "immigration", "tech"]
+    },
+    {
+      "name": "Freedom of the Press Foundation",
+      "url": "https://freedom.press/rss/",
+      "relevance": "medium",
+      "tags": ["surveillance", "privacy"],
+      "filterKeywords": ["surveillance", "Google", "Amazon", "Microsoft", "tech", "privacy"]
     }
   ],
-  "lastUpdated": "2025-03-05"
+  "lastUpdated": "2026-03-08",
+  "notes": "ACLU, STOP RSS feeds fixed. Vice replaced with 404 Media. Added AI Now, Data & Society, Brennan Center."
 }

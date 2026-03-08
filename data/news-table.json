@@ -1,7 +1,7 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-07T18:00:11.113203+00:00",
-  "totalStories": 28,
+  "lastUpdated": "2026-03-08T04:01:10.342529+00:00",
+  "totalStories": 31,
   "stories": [
     {
       "id": "ae764593",
@@ -66,6 +66,24 @@
       "sourceRelevance": "high",
       "published": "2026-03-06T16:03:15+00:00",
       "fetchedAt": "2026-03-06T18:00:11.804130+00:00",
+      "tags": [
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "33db655e",
+      "title": "The one question everyone should be asking after OpenAI\u2019s deal with the Pentagon",
+      "url": "https://ainowinstitute.org/news/12263",
+      "description": " \u201cIn terms of safety guardrails for \u2018high-stake decisions\u2019 or surveillance, the existing \nguardrails for generative AI are deeply lacking, and it has been shown how easily \ncompromised they are, intentionally or inadvertently,\u201d Heidy Khlaaf, the chief AI \nscientist at the nonprofit AI Now Institute,",
+      "source": "AI Now Institute",
+      "sourceRelevance": "high",
+      "published": "2026-03-06T01:39:28+00:00",
+      "fetchedAt": "2026-03-08T04:01:09.490593+00:00",
       "tags": [
         "military",
         "surveillance"
@@ -246,6 +264,23 @@
       "featured": false
     },
     {
+      "id": "876fa989",
+      "title": "Podcast: The Depravity Economy",
+      "url": "https://www.404media.co/podcast-the-depravity-economy/",
+      "description": "How Polymarket and Kalshi bet on Iran; AI translations are impacting Wikipedia; and an Amazon change impacting wishlists.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-03-04T16:22:49",
+      "fetchedAt": "2026-03-08T04:01:07.617153+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Amazon"
+      ],
+      "featured": false
+    },
+    {
       "id": "b006c077",
       "title": "Letter to the BoPC on Flock Safety",
       "url": "https://stoplapdspying.org/letter-to-the-bopc-on-flock-safety/",
@@ -294,6 +329,23 @@
       ],
       "keywordMatches": [
         "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "2e5242cf",
+      "title": "Amazon Data Centers on Fire After Iranian Missile Strikes on Dubai",
+      "url": "https://www.404media.co/amazon-data-centers-on-fire-after-iranian-missile-strikes-on-dubai/",
+      "description": "Some AWS services are down in the Middle East. Recovery is unclear as it requires 'careful assessment to ensure the safety of our operators,' according to Amazon.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-03-02T15:59:51",
+      "fetchedAt": "2026-03-08T04:01:07.617293+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Amazon"
       ],
       "featured": false
     },
