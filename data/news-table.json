@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-08T17:00:10.345595+00:00",
-  "totalStories": 33,
+  "lastUpdated": "2026-03-09T17:00:16.417559+00:00",
+  "totalStories": 34,
   "stories": [
+    {
+      "id": "8da27bca",
+      "title": "U.S. Military Refuses to Endorse Trump Claim That Iran Bombed Girls\u2019 School",
+      "url": "https://theintercept.com/2026/03/09/iran-trump-hegseth-bomb-girls-school/",
+      "description": " \u201cIt would be inappropriate to comment given the incident is under investigation,\u201d CENTCOM told The Intercept. \n The post  U.S. Military Refuses to Endorse Trump Claim That Iran Bombed Girls\u2019 School  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-09T16:53:06+00:00",
+      "fetchedAt": "2026-03-09T17:00:09.584537+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "294b05b8",
       "title": "OpenAI on Surveillance and Autonomous Killings: You\u2019re Going to Have to Trust Us",
@@ -54,7 +71,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "9bbe6032",
