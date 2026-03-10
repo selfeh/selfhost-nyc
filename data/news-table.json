@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-10T03:00:28.927067+00:00",
-  "totalStories": 38,
+  "lastUpdated": "2026-03-10T17:00:08.953009+00:00",
+  "totalStories": 39,
   "stories": [
+    {
+      "id": "cf37d4e5",
+      "title": "With World's Eyes on Iran, Israel Locks Down the West Bank",
+      "url": "https://theintercept.com/2026/03/10/israel-iran-war-west-bank-lockdown/",
+      "description": " The Israeli military has closed checkpoints around the West Bank, restricting Palestinians\u2019 movement as settler violence ramps up. \n The post  With World&#8217;s Eyes on Iran, Israel Locks Down the West Bank  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-10T08:55:00+00:00",
+      "fetchedAt": "2026-03-10T17:00:02.701064+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "314aa302",
       "title": "An iPhone-hacking toolkit used by Russian spies likely came from U.S military contractor",
@@ -52,7 +69,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "4fa20e19",
