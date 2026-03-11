@@ -1,8 +1,95 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-10T17:00:08.953009+00:00",
-  "totalStories": 39,
+  "lastUpdated": "2026-03-11T03:00:24.243656+00:00",
+  "totalStories": 44,
   "stories": [
+    {
+      "id": "2f1dfa9c",
+      "title": "The Government Must Not Force Companies to Participate in AI-powered Surveillance",
+      "url": "https://www.eff.org/deeplinks/2026/03/government-must-not-force-companies-participate-ai-powered-surveillance",
+      "description": "    The rapidly escalating conflict between Anthropic and the Pentagon, which started when the company  refused  to let the government use its technology to spy on Americans, has now gone to court. The Department of Defense retaliated by designating the company a \u201csupply chain risk\u201d (SCR). Now, Anth",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-03-10T20:39:18+00:00",
+      "fetchedAt": "2026-03-11T03:00:17.602349+00:00",
+      "tags": [
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "4b72d970",
+      "title": "Scientists Discover Vast Ancient Trade Network That Rewrites History with Parrot DNA",
+      "url": "https://www.404media.co/scientists-discover-vast-ancient-trade-network-that-rewrites-history-with-parrot-dna/",
+      "description": "\u201cI think we often underestimate their capabilities,\u201d said one of the researchers who uncovered  a pre-Inca trade route linking the Amazon rainforest to the Pacific coast.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-03-10T19:21:45",
+      "fetchedAt": "2026-03-11T03:00:20.671808+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Amazon"
+      ],
+      "featured": true
+    },
+    {
+      "id": "9dbe7348",
+      "title": "Anthropic sues US over blacklisting; White House calls firm \"radical left, woke\"",
+      "url": "https://arstechnica.com/tech-policy/2026/03/anthropic-sues-us-over-blacklisting-white-house-calls-firm-radical-left-woke/",
+      "description": "Anthropic says it was blacklisted for opposing autonomous weapons, mass surveillance.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-10T18:26:54+00:00",
+      "fetchedAt": "2026-03-11T03:00:17.623278+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "381ba089",
+      "title": "DHS Ousts CBP Privacy Officers Who Questioned \u2018Illegal\u2019 Orders",
+      "url": "https://www.wired.com/story/cbp-privacy-threshold-analysis-foia/",
+      "description": "Department of Homeland Security leaders removed top privacy officers who objected to mislabeling government records to block their public release, WIRED has learned.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-10T18:23:28+00:00",
+      "fetchedAt": "2026-03-11T03:00:17.639791+00:00",
+      "tags": [
+        "ice",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "privacy"
+      ],
+      "featured": false
+    },
+    {
+      "id": "67ca215f",
+      "title": "US military contractor likely built iPhone hacking tools used by Russian spies in Ukraine",
+      "url": "https://techcrunch.com/2026/03/10/us-military-contractor-likely-built-iphone-hacking-tools-used-by-russian-spies-in-ukraine/",
+      "description": "Google found a series of hacking tools they said were used by a Russian espionage group and a cybercriminal group in China. Sources from a U.S. government defense contractor said some of those hacking tools were theirs.",
+      "source": "TechCrunch",
+      "sourceRelevance": "medium",
+      "published": "2026-03-10T17:44:22+00:00",
+      "fetchedAt": "2026-03-11T03:00:17.616032+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military contract"
+      ],
+      "featured": false
+    },
     {
       "id": "cf37d4e5",
       "title": "With World's Eyes on Iran, Israel Locks Down the West Bank",
@@ -18,7 +105,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "314aa302",
@@ -35,7 +122,7 @@
       "keywordMatches": [
         "military contract"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "b79326f9",
@@ -52,7 +139,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "27424874",
