@@ -1,8 +1,26 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-12T03:00:35.477007+00:00",
-  "totalStories": 50,
+  "lastUpdated": "2026-03-12T17:00:15.656545+00:00",
+  "totalStories": 51,
   "stories": [
+    {
+      "id": "a2b43b12",
+      "title": "\u2018Invasive\u2019 AI-led mass surveillance in Africa violating freedoms, warn experts",
+      "url": "https://www.theguardian.com/global-development/2026/mar/12/invasive-ai-led-mass-surveillance-in-africa-violating-freedoms-warn-experts",
+      "description": " Countries across the continent have spent more than $2bn on Chinese tracking technology that is not \u2018necessary or proportionate\u2019, new report finds  The rapid expansion of AI-powered mass-surveillance systems across Africa is violating citizens\u2019 right to privacy and having a chilling effect on socie",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-12T06:00:11",
+      "fetchedAt": "2026-03-12T17:00:13.064295+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
     {
       "id": "5770fe38",
       "title": "Binance sues WSJ, panicked by gov\u2019t probes into sanctioned crypto transfers",
@@ -53,7 +71,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "35e25c4e",
