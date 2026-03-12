@@ -1,8 +1,43 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-11T17:00:11.751326+00:00",
-  "totalStories": 48,
+  "lastUpdated": "2026-03-12T03:00:35.477007+00:00",
+  "totalStories": 50,
   "stories": [
+    {
+      "id": "5770fe38",
+      "title": "Binance sues WSJ, panicked by gov\u2019t probes into sanctioned crypto transfers",
+      "url": "https://arstechnica.com/tech-policy/2026/03/binance-sues-wsj-over-report-sparking-government-probes-into-exchange/",
+      "description": "Binance\u2019s lawsuit accusing WSJ of defamation unlikely to stall government probes.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-11T18:04:13+00:00",
+      "fetchedAt": "2026-03-12T03:00:27.531364+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "government"
+      ],
+      "featured": true
+    },
+    {
+      "id": "3cb3befb",
+      "title": "Pentagon Report: U.S. Military Fired Missile at Elementary School in Iran",
+      "url": "https://theintercept.com/2026/03/11/iran-school-missile-investigation/",
+      "description": " Despite attempts by Trump to claim otherwise, the U.S. military was responsible for killing at least 175 in a strike on a school in Iran. \n The post  Pentagon Report: U.S. Military Fired Missile at Elementary School in Iran  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-11T17:07:17+00:00",
+      "fetchedAt": "2026-03-12T03:00:27.485396+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military",
+        "Pentagon"
+      ],
+      "featured": true
+    },
     {
       "id": "3625707a",
       "title": "Government Spying \ud83e\udd1d Targeted Advertising | EFFector 38.5",
@@ -36,7 +71,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "1c0f9ed5",
@@ -54,7 +89,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "4df07f0d",
