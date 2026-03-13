@@ -1,8 +1,42 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-13T03:01:07.630557+00:00",
-  "totalStories": 55,
+  "lastUpdated": "2026-03-13T17:00:18.551279+00:00",
+  "totalStories": 57,
   "stories": [
+    {
+      "id": "52935239",
+      "title": "Anthropic-Pentagon battle shows how big tech has reversed course on AI and war",
+      "url": "https://www.theguardian.com/technology/2026/mar/13/anthropic-pentagon-artificial-intelligence",
+      "description": " Less than a decade ago, Google employees scuttled any military use of its AI. Now Anthropic is fighting Trump officials not over if, but how  The standoff between Anthropic and the Pentagon has forced the tech industry to once again grapple with the question of how its products are used for war \u2013 a",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-13T11:00:47",
+      "fetchedAt": "2026-03-13T17:00:16.122822+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2cd44472",
+      "title": "Palantir Demos Show How the Military Could Use AI Chatbots to Generate War Plans",
+      "url": "https://www.wired.com/story/palantir-demos-show-how-the-military-can-use-ai-chatbots-to-generate-war-plans/",
+      "description": "Software demos and Pentagon records detail how chatbots like Anthropic\u2019s Claude could help the Pentagon analyze intelligence and suggest next steps.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-13T10:00:00+00:00",
+      "fetchedAt": "2026-03-13T17:00:02.304573+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "a2b43b12",
       "title": "\u2018Invasive\u2019 AI-led mass surveillance in Africa violating freedoms, warn experts",
@@ -36,7 +70,7 @@
       "keywordMatches": [
         "government"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "3cb3befb",
@@ -54,7 +88,7 @@
         "military",
         "Pentagon"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "3625707a",
