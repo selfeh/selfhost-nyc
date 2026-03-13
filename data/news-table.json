@@ -1,7 +1,7 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-12T17:00:15.656545+00:00",
-  "totalStories": 51,
+  "lastUpdated": "2026-03-13T03:01:07.630557+00:00",
+  "totalStories": 55,
   "stories": [
     {
       "id": "a2b43b12",
@@ -631,6 +631,23 @@
       "featured": false
     },
     {
+      "id": "14a046a8",
+      "title": "Your Questions Answered: Filming ICE Interactions Safely",
+      "url": "https://www.aclu.org/news/immigrants-rights/your-questions-answered-filming-ice-interactions-safely",
+      "description": "Despite government attacks against protesters and the press, documenting interactions with law enforcement and federal agents is protected by the First Amendment. ACLU experts break down what you need to know.",
+      "source": "ACLU News",
+      "sourceRelevance": "high",
+      "published": "2026-03-03T17:19:25+00:00",
+      "fetchedAt": "2026-03-13T03:01:03.395061+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
       "id": "b006c077",
       "title": "Letter to the BoPC on Flock Safety",
       "url": "https://stoplapdspying.org/letter-to-the-bopc-on-flock-safety/",
@@ -717,6 +734,42 @@
       "featured": false
     },
     {
+      "id": "29ac6b1f",
+      "title": "ICE is Rapidly Expanding Dangerous 287(g) Agreements with Local Police",
+      "url": "https://www.aclu.org/news/immigrants-rights/ice-expanding-287g-agreements-police",
+      "description": "A new ACLU report, \u201cDeputized for Disaster,\u201d illustrates the dangers of the Trump administration\u2019s rapid expansion of the 287(g) program \u2014 and how communities are increasingly afraid of local law enforcement officers sworn to protect them.",
+      "source": "ACLU News",
+      "sourceRelevance": "high",
+      "published": "2026-02-26T15:52:19+00:00",
+      "fetchedAt": "2026-03-13T03:01:03.395190+00:00",
+      "tags": [
+        "ice",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "ICE",
+        "police"
+      ],
+      "featured": false
+    },
+    {
+      "id": "512bd293",
+      "title": "License Plate Readings Shouldn\u2019t Be Public Data",
+      "url": "https://www.aclu.org/news/privacy-technology/alpr-as-public-data",
+      "description": "Such readings shouldn\u2019t generally be retained at all, but if they are at least privacy needs to be protected",
+      "source": "ACLU News",
+      "sourceRelevance": "high",
+      "published": "2026-02-25T14:52:09+00:00",
+      "fetchedAt": "2026-03-13T03:01:03.395247+00:00",
+      "tags": [
+        "privacy"
+      ],
+      "keywordMatches": [
+        "privacy"
+      ],
+      "featured": false
+    },
+    {
       "id": "784f25ce",
       "title": "Tech Companies Shouldn\u2019t Be Bullied Into Doing Surveillance",
       "url": "https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance",
@@ -731,6 +784,23 @@
       ],
       "keywordMatches": [
         "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "8c001e4b",
+      "title": "R\u00fcmeysa \u00d6zt\u00fcrk: I Saw the Horrors of ICE Detention Firsthand. It is No Place for a Child.",
+      "url": "https://www.aclu.org/news/immigrants-rights/rumeysa-ozturk-i-saw-the-horrors-of-ice-detention-firsthand-it-is-no-place-for-a-child",
+      "description": "As she witnesses the news of ICE detaining thousands of children, child development scholar R\u00fcmeysa \u00d6zt\u00fcrk reflects on how detention and deportation negatively impact children for a lifetime, in relation to her own experiences of being detained.",
+      "source": "ACLU News",
+      "sourceRelevance": "high",
+      "published": "2026-02-24T19:33:26+00:00",
+      "fetchedAt": "2026-03-13T03:01:03.395318+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
       ],
       "featured": false
     },
