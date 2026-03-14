@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-13T17:00:18.551279+00:00",
-  "totalStories": 57,
+  "lastUpdated": "2026-03-14T03:01:22.872883+00:00",
+  "totalStories": 58,
   "stories": [
+    {
+      "id": "abe9a526",
+      "title": "Anti-ICE Protesters Convicted on Terrorism Charges for Wearing All Black",
+      "url": "https://theintercept.com/2026/03/13/ice-protesters-terrorism-prairieland-antifa/",
+      "description": " The government won on most of its charges, including convicting defendants for moving a box of radical zines. \n The post  Anti-ICE Protesters Convicted on Terrorism Charges for Wearing All Black  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-13T21:25:24+00:00",
+      "fetchedAt": "2026-03-14T03:01:18.661829+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
     {
       "id": "52935239",
       "title": "Anthropic-Pentagon battle shows how big tech has reversed course on AI and war",
@@ -53,7 +70,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "5770fe38",
