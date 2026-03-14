@@ -1,8 +1,27 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-14T03:01:22.872883+00:00",
-  "totalStories": 58,
+  "lastUpdated": "2026-03-14T17:00:12.267151+00:00",
+  "totalStories": 59,
   "stories": [
+    {
+      "id": "d2ef2da4",
+      "title": "Fake rooms, props and a script to lure victims: inside an abandoned Cambodia scam centre",
+      "url": "https://www.theguardian.com/technology/2026/mar/14/inside-abandoned-scam-centre-cambodia-thai-border",
+      "description": " Sprawling compound, including mock-up banks and police offices, uncovered by Thai military during border clashes  It is as if you have walked into a branch of one of Vietnam\u2019s banks. A row of customer service desks, divided by plastic screens, with landline phones, promotional leaflets and staff bu",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-14T02:25:17",
+      "fetchedAt": "2026-03-14T17:00:09.818460+00:00",
+      "tags": [
+        "ice",
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "abe9a526",
       "title": "Anti-ICE Protesters Convicted on Terrorism Charges for Wearing All Black",
@@ -52,7 +71,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "a2b43b12",
