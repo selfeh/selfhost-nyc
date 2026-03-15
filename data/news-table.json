@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-14T17:00:12.267151+00:00",
-  "totalStories": 59,
+  "lastUpdated": "2026-03-15T03:01:20.217080+00:00",
+  "totalStories": 60,
   "stories": [
+    {
+      "id": "efa153c4",
+      "title": "Weekly Update 03/14",
+      "url": "https://stoplapdspying.org/weekly-update-03-14/",
+      "description": " This past week, on Tuesday March 10th, we attended the Board of Police Commissioners meeting where we continued to fight back against Flock &#8220;Safety.&#8221; Notably, we exposed Flock&#8217;s &#8220;accountability&#8221; letter where they admit to information sharing with federal agencies. We a",
+      "source": "Stop LAPD Spying",
+      "sourceRelevance": "high",
+      "published": "2026-03-14T18:45:33+00:00",
+      "fetchedAt": "2026-03-15T03:01:04.891026+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": true
+    },
     {
       "id": "d2ef2da4",
       "title": "Fake rooms, props and a script to lure victims: inside an abandoned Cambodia scam centre",
@@ -54,7 +71,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2cd44472",
