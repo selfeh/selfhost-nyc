@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-15T17:00:23.812217+00:00",
-  "totalStories": 61,
+  "lastUpdated": "2026-03-17T17:00:14.697158+00:00",
+  "totalStories": 62,
   "stories": [
+    {
+      "id": "1899d0aa",
+      "title": "Why We Have to Fight Back Against ICE Protesters\u2019 Terror Convictions",
+      "url": "https://theintercept.com/2026/03/17/ice-protester-terrorism-convictions-trump-prairieland/",
+      "description": " Since his first inauguration, Trump has been throwing charges at protesters and seeing what sticks. He always failed \u2014 until now. \n The post  Why We Have to Fight Back Against ICE Protesters\u2019 Terror Convictions  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-17T10:07:00+00:00",
+      "fetchedAt": "2026-03-17T17:00:05.739732+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
     {
       "id": "823c1849",
       "title": "These aren\u2019t AI firms, they\u2019re defense contractors. We can\u2019t let them hide behind their models",
@@ -54,7 +71,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "abe9a526",
