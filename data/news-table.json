@@ -1,8 +1,42 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-17T17:00:14.697158+00:00",
-  "totalStories": 62,
+  "lastUpdated": "2026-03-18T03:01:07.192633+00:00",
+  "totalStories": 64,
   "stories": [
+    {
+      "id": "a842f44a",
+      "title": "Justice Department Says Anthropic Can\u2019t Be Trusted With Warfighting Systems",
+      "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
+      "description": "In response to Anthropic\u2019s lawsuit, the government said it lawfully penalized the company for trying to limit how its Claude AI models could be used by the military.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-18T00:51:14+00:00",
+      "fetchedAt": "2026-03-18T03:01:01.971685+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "d8dd99e9",
+      "title": "'I Have No Rights': Minnesota Residents Sue Trump Administration for Racial Profiling, Stops Without Suspicion, and Warrantless Arrests",
+      "url": "https://www.aclu.org/news/immigrants-rights/i-have-no-rights-minnesota-residents-sue-trump-administration-for-racial-profiling-stops-without-suspicion-and-warrantless-arrests",
+      "description": "Immigration arrests have upended life in Minnesota as citizens detail unlawful and violent interactions with ICE in court testimonies as part of an ACLU lawsuit against the Trump administration.",
+      "source": "ACLU News",
+      "sourceRelevance": "high",
+      "published": "2026-03-17T20:28:31+00:00",
+      "fetchedAt": "2026-03-18T03:01:02.866575+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
     {
       "id": "1899d0aa",
       "title": "Why We Have to Fight Back Against ICE Protesters\u2019 Terror Convictions",
@@ -35,7 +69,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "efa153c4",
@@ -52,7 +86,7 @@
       "keywordMatches": [
         "police"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "d2ef2da4",
