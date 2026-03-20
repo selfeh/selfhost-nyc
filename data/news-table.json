@@ -1,8 +1,42 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-20T03:01:09.106542+00:00",
-  "totalStories": 71,
+  "lastUpdated": "2026-03-20T17:00:14.228864+00:00",
+  "totalStories": 73,
   "stories": [
+    {
+      "id": "408097ff",
+      "title": "The Danger Behind Meta Killing End-to-End Encryption for Instagram DMs",
+      "url": "https://www.wired.com/story/the-danger-behind-metas-decision-to-kill-end-to-end-encrypted-instagram-dms/",
+      "description": "Meta blamed users for not opting into the privacy-protecting feature. Experts fear the move could be the first major domino to fall for end-to-end encryption tech worldwide.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-20T10:00:00+00:00",
+      "fetchedAt": "2026-03-20T17:00:03.254991+00:00",
+      "tags": [
+        "privacy"
+      ],
+      "keywordMatches": [
+        "privacy"
+      ],
+      "featured": true
+    },
+    {
+      "id": "b9e42f6d",
+      "title": "Data Centers Are Military Targets Now",
+      "url": "https://theintercept.com/2026/03/20/ai-data-centers-military-targets-iran-war/",
+      "description": " With militaries increasingly relying on artificial intelligence, data centers have emerged as new targets for strikes. \n The post  Data Centers Are Military Targets Now  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-20T09:05:00+00:00",
+      "fetchedAt": "2026-03-20T17:00:03.160511+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "59c727fb",
       "title": "Pentagon Claims It Needs Additional $200 Billion to Pay for War on Iran",
@@ -37,7 +71,7 @@
         "surveillance",
         "privacy"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "4258fb70",
@@ -54,7 +88,7 @@
       "keywordMatches": [
         "Google"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "e682d618",
