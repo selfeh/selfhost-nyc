@@ -1,8 +1,78 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-18T17:00:08.995752+00:00",
-  "totalStories": 67,
+  "lastUpdated": "2026-03-20T03:01:09.106542+00:00",
+  "totalStories": 71,
   "stories": [
+    {
+      "id": "59c727fb",
+      "title": "Pentagon Claims It Needs Additional $200 Billion to Pay for War on Iran",
+      "url": "https://theintercept.com/2026/03/19/pentagon-budget-iran-war-hegseth/",
+      "description": " \u201cObviously, it takes money to kill bad guys,\u201d said Pete Hegseth, when asked about the funding request. \n The post  Pentagon Claims It Needs Additional $200 Billion to Pay for War on Iran  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-19T17:52:39+00:00",
+      "fetchedAt": "2026-03-20T03:01:02.702568+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "Pentagon"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ebe3a978",
+      "title": "ChatGPT\u2019s \u2018Adult Mode\u2019 Could Spark a New Era of Intimate Surveillance",
+      "url": "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance/",
+      "description": "OpenAI plans to allow sexting with ChatGPT. A human-AI interaction expert warns of a privacy nightmare.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-19T16:06:49+00:00",
+      "fetchedAt": "2026-03-19T17:00:04.245514+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "surveillance",
+        "privacy"
+      ],
+      "featured": true
+    },
+    {
+      "id": "4258fb70",
+      "title": "Mapping Google's Unmappable City",
+      "url": "https://www.404media.co/mapping-googles-unmappable-city/",
+      "description": "How filmmaker Chris Parr put North Oaks, Minnesota on the map.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-03-19T13:28:55",
+      "fetchedAt": "2026-03-19T17:00:19.661503+00:00",
+      "tags": [
+        "nyc"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": true
+    },
+    {
+      "id": "e682d618",
+      "title": "Air Force Academy Prepares Ideological Overhaul, With Erika Kirk Bringing \u201cBold Christian Faith\u201d",
+      "url": "https://theintercept.com/2026/03/19/air-force-academy-charlie-erika-kirk/",
+      "description": " The academy\u2019s oversight board records show leaders dismantling DEI to align with Trump directives. Critics warn the military is becoming \u201ca Christian nationalist praetorian guard.\u201d \n The post  Air Force Academy Prepares Ideological Overhaul, With Erika Kirk Bringing \u201cBold Christian Faith\u201d  appeared",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-19T09:11:00+00:00",
+      "fetchedAt": "2026-03-19T17:00:04.000370+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
     {
       "id": "40a21743",
       "title": "Confessions of the ICE Agent Whisperer",
@@ -18,7 +88,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "20448ca4",
@@ -35,7 +105,7 @@
       "keywordMatches": [
         "privacy"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "a842f44a",
@@ -52,7 +122,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "d8dd99e9",
