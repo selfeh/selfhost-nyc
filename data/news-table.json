@@ -1,8 +1,78 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-20T17:00:14.228864+00:00",
-  "totalStories": 73,
+  "lastUpdated": "2026-03-21T03:01:11.175717+00:00",
+  "totalStories": 77,
   "stories": [
+    {
+      "id": "d7c507ad",
+      "title": "Congress Is Dropping the Ball with a Clean Extension of FISA",
+      "url": "https://www.eff.org/deeplinks/2026/03/congress-dropping-ball-clean-extension-fisa",
+      "description": "     Two years ago, Congress passed the \u201cReforming Intelligence and Securing America\u201d Act (RISAA) that included nominal reforms to    Section 702 of the Foreign Intelligence Surveillance Act (FISA)   . The bill unfortunately included some problematic expansions of the law  \u2014  but it also included a ",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-03-20T22:20:49+00:00",
+      "fetchedAt": "2026-03-21T03:01:05.320548+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "85ee2391",
+      "title": "Once again, ULA can't deliver when the US military needs a satellite in orbit",
+      "url": "https://arstechnica.com/space/2026/03/spacex-swipes-yet-another-military-contract-from-united-launch-alliance/",
+      "description": "ULA's Vulcan launch vehicle is grounded after a solid rocket booster anomaly last month.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-20T21:35:56+00:00",
+      "fetchedAt": "2026-03-21T03:01:05.341838+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "c14981d4",
+      "title": "A Top Democrat Is Urging Colleagues to Support Trump\u2019s Spy Machine",
+      "url": "https://www.wired.com/story/a-top-democrat-is-urging-colleagues-to-support-trumps-spy-machine/",
+      "description": "Congressman Jim Himes claims a sweeping surveillance authority should stay intact because he hasn't seen abuses by Kash Patel's FBI, according to internal messaging obtained by WIRED.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-20T20:46:45+00:00",
+      "fetchedAt": "2026-03-21T03:01:05.371501+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "87192bd7",
+      "title": "Pentagon Implores Civilian Workers to Join ICE \u201cVolunteer Force\u201d",
+      "url": "https://theintercept.com/2026/03/20/pentagon-ice-dhs-cbp-civilian-volunteer-force/",
+      "description": " The Defense Department is recruiting on behalf of DHS while the latter faces public backlash and a continued lack of government funding. \n The post  Pentagon Implores Civilian Workers to Join ICE \u201cVolunteer Force\u201d  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-20T18:47:17+00:00",
+      "fetchedAt": "2026-03-21T03:01:05.289584+00:00",
+      "tags": [
+        "ice",
+        "military"
+      ],
+      "keywordMatches": [
+        "ICE",
+        "Pentagon"
+      ],
+      "featured": false
+    },
     {
       "id": "408097ff",
       "title": "The Danger Behind Meta Killing End-to-End Encryption for Instagram DMs",
@@ -18,7 +88,7 @@
       "keywordMatches": [
         "privacy"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "b9e42f6d",
@@ -35,7 +105,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "59c727fb",
@@ -52,7 +122,7 @@
       "keywordMatches": [
         "Pentagon"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "ebe3a978",
