@@ -1,8 +1,95 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-21T03:01:11.175717+00:00",
-  "totalStories": 77,
+  "lastUpdated": "2026-03-23T17:00:14.593781+00:00",
+  "totalStories": 82,
   "stories": [
+    {
+      "id": "75574ebf",
+      "title": "ICE Invades Airports Across the US",
+      "url": "https://www.wired.com/story/ice-invades-airports-across-the-us/",
+      "description": "Agents from ICE are being deployed to over a dozen airports around the country, including New York, Atlanta, and Chicago.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-23T16:52:09+00:00",
+      "fetchedAt": "2026-03-23T17:00:05.293398+00:00",
+      "tags": [
+        "ice",
+        "nyc"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
+    {
+      "id": "42a5e8d6",
+      "title": "Pentagon Reveals Attacks in Latin America Are Just the Beginning",
+      "url": "https://theintercept.com/2026/03/23/trump-operation-total-extermination-ecuador-colombia-cuba/",
+      "description": " With \u201cOperation Total Extermination\u201d and Trump\u2019s threats against Cuba, expect more U.S. military strikes in the region. \n The post  Pentagon Reveals Attacks in Latin America Are Just the Beginning  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-23T15:44:49+00:00",
+      "fetchedAt": "2026-03-23T17:00:05.209469+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military",
+        "Pentagon"
+      ],
+      "featured": true
+    },
+    {
+      "id": "fd5ad4b4",
+      "title": "More Than 1 Million People in Lebanon Have Been Displaced. These Are Their Stories.",
+      "url": "https://theintercept.com/2026/03/22/beirut-lebanon-displaced-israel-iran-war/",
+      "description": " Israel\u2019s military strikes in Lebanon sparked a humanitarian crisis, driving thousands to the streets of Beirut. \n The post  More Than 1 Million People in Lebanon Have Been Displaced. These Are Their Stories.  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-22T10:11:00+00:00",
+      "fetchedAt": "2026-03-22T17:00:06.589116+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "a544bf5f",
+      "title": "How the FBI can conduct mass surveillance \u2013 even without AI",
+      "url": "https://www.theguardian.com/technology/2026/mar/21/fbi-mass-surveillance-data-artificial-intelligence",
+      "description": " Anthropic fought against the government\u2019s misuse of its technology, but authorities are buying Americans\u2019 data, enabling them to surveil citizens at scale  The FBI declares it can conduct mass surveillance without AI, despite Anthropic\u2019s protest.  A central part of the standoff between Anthropic an",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-21T14:00:53",
+      "fetchedAt": "2026-03-21T17:00:09.803099+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": false
+    },
+    {
+      "id": "f0158ad7",
+      "title": "Hegseth Makes Troops Prove \u201cSincerely Held\u201d Faith in Latest Beard Crackdown",
+      "url": "https://theintercept.com/2026/03/21/hegseth-military-beard-hair-crackdown/",
+      "description": " Hegseth\u2019s obsession with beards risks jeopardizing religious liberties as the military undergoes an apparent Christian nationalist turn. \n The post  Hegseth Makes Troops Prove \u201cSincerely Held\u201d Faith in Latest Beard Crackdown  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-21T10:13:00+00:00",
+      "fetchedAt": "2026-03-21T17:00:06.703777+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
     {
       "id": "d7c507ad",
       "title": "Congress Is Dropping the Ball with a Clean Extension of FISA",
@@ -18,7 +105,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "85ee2391",
@@ -35,7 +122,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "c14981d4",
@@ -52,7 +139,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "87192bd7",
