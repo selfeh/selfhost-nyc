@@ -1,8 +1,43 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-23T17:00:14.593781+00:00",
-  "totalStories": 82,
+  "lastUpdated": "2026-03-24T03:01:18.719856+00:00",
+  "totalStories": 84,
   "stories": [
+    {
+      "id": "9cd0f545",
+      "title": "A Mysterious Numbers Station Is Broadcasting Through the Iran War",
+      "url": "https://www.wired.com/story/a-mysterious-numbers-station-is-broadcasting-through-the-iran-war/",
+      "description": "First heard as US and Israeli strikes on Iran began, the shortwave broadcast has since been traced to a US military base in Germany\u2014but its purpose and its operator remain unclear.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-23T18:59:17+00:00",
+      "fetchedAt": "2026-03-24T03:01:02.573573+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "8cf0d3e2",
+      "title": "Weekly Update 03/23",
+      "url": "https://stoplapdspying.org/weekly-update-03-23/",
+      "description": " This week, we visited Cal State LA to chat with students about art in the movement, as well as Flock, and our work to fight against the war on youth. On Tuesday 3/17, we attended the Board of Police Commissioner&#8217;s Meeting which was later canceled! We had our monthly General Community Meeting ",
+      "source": "Stop LAPD Spying",
+      "sourceRelevance": "high",
+      "published": "2026-03-23T18:15:26+00:00",
+      "fetchedAt": "2026-03-24T03:01:05.309196+00:00",
+      "tags": [
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": true
+    },
     {
       "id": "75574ebf",
       "title": "ICE Invades Airports Across the US",
@@ -37,7 +72,7 @@
         "military",
         "Pentagon"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "fd5ad4b4",
@@ -54,7 +89,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "a544bf5f",
