@@ -1,8 +1,96 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-24T03:01:18.719856+00:00",
-  "totalStories": 84,
+  "lastUpdated": "2026-03-24T17:00:13.078683+00:00",
+  "totalStories": 89,
   "stories": [
+    {
+      "id": "ed962f4f",
+      "title": "Kalshi and Polymarket ban insider trading as senators look to curb prediction markets",
+      "url": "https://www.theguardian.com/technology/2026/mar/24/kalshi-polymarket-insider-trading-regulation",
+      "description": " Top prediction market sites usher in new guardrails after senators introduced bill that could limit booming industry   Kalshi  and  Polymarket , the two biggest prediction market sites, rushed to institute new industry guardrails and add new surveillance tools on Monday after two key senators  anno",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-24T14:46:48",
+      "fetchedAt": "2026-03-24T17:00:08.595780+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "02fc7bee",
+      "title": "A Top Google Search Result for Claude Plugins Was Planted by Hackers",
+      "url": "https://www.404media.co/a-top-google-search-result-for-claude-plugins-was-planted-by-hackers/",
+      "description": "Hackers paid to make a malicious link the top Google Search result.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-03-24T13:35:37",
+      "fetchedAt": "2026-03-24T17:00:08.611337+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ed346a08",
+      "title": "Your Body Is Betraying Your Right to Privacy",
+      "url": "https://www.wired.com/story/book-excerpt-your-data-will-be-used-against-you-andrew-guthrie-ferguson/",
+      "description": "Attachment to smart devices and biometric surveillance leaves Americans more vulnerable to police searches than ever. Left unchecked it will only get worse.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-24T10:00:00+00:00",
+      "fetchedAt": "2026-03-24T17:00:05.552318+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "surveillance",
+        "privacy"
+      ],
+      "featured": true
+    },
+    {
+      "id": "aa21f70b",
+      "title": "\u2018Get Down! Get Down! They\u2019re Gonna See Us!\u2019: Six Months of Hiding From ICE",
+      "url": "https://www.wired.com/story/get-down-get-down-six-months-of-hiding-from-ice/",
+      "description": "A family in Chicago has been terrified to leave their apartment. Agents could be anywhere.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-24T10:00:00+00:00",
+      "fetchedAt": "2026-03-24T17:00:05.552426+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "b65f1602",
+      "title": "ICE Paid the Salaries of This Town\u2019s Entire Police Force",
+      "url": "https://www.wired.com/story/ice-is-paying-the-salaries-of-this-towns-entire-police-force/",
+      "description": "Under a Homeland Security program, police departments around the US are signing up to assist in immigration enforcement. The cops of Carroll, New Hampshire, are going all in\u2014and they\u2019re likely not alone.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-24T09:00:00+00:00",
+      "fetchedAt": "2026-03-24T17:00:05.552528+00:00",
+      "tags": [
+        "ice",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
     {
       "id": "9cd0f545",
       "title": "A Mysterious Numbers Station Is Broadcasting Through the Iran War",
@@ -18,7 +106,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "8cf0d3e2",
@@ -36,7 +124,7 @@
       "keywordMatches": [
         "police"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "75574ebf",
@@ -54,7 +142,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "42a5e8d6",
