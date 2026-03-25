@@ -1,8 +1,61 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-25T03:01:09.023615+00:00",
-  "totalStories": 90,
+  "lastUpdated": "2026-03-25T17:00:36.793665+00:00",
+  "totalStories": 93,
   "stories": [
+    {
+      "id": "892bdd91",
+      "title": "Apple begins age checks in the UK with latest iOS update",
+      "url": "https://arstechnica.com/tech-policy/2026/03/apple-begins-age-checks-in-the-uk-with-latest-ios-update/",
+      "description": "Move follows government pressure on smartphone makers to do more to protect children online.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-25T14:08:32+00:00",
+      "fetchedAt": "2026-03-25T17:00:23.053818+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "government"
+      ],
+      "featured": true
+    },
+    {
+      "id": "a4793fbd",
+      "title": "How to Keep ICE Agents Out of Your Devices at Airports",
+      "url": "https://theintercept.com/2026/03/25/ice-airports-phone-security-privacy-safety/",
+      "description": " If you\u2019re traveling, follow these digital security practices to keep federal authorities from getting into your phone. \n The post  How to Keep ICE Agents Out of Your Devices at Airports  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-25T12:14:35+00:00",
+      "fetchedAt": "2026-03-25T17:00:23.002489+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
+    {
+      "id": "bd2328b3",
+      "title": "How American Camouflage Conquered the World",
+      "url": "https://www.wired.com/camouflage-multicam-military-navy-seals-ice/",
+      "description": "The world-famous MultiCam pattern was designed for the military by two Brooklyn hipsters. Now everyone\u2014from babies to ICE agents\u2014is suited up for battle.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-25T10:00:00+00:00",
+      "fetchedAt": "2026-03-25T17:00:23.086320+00:00",
+      "tags": [
+        "ice",
+        "military"
+      ],
+      "keywordMatches": [
+        "ICE",
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "3ade5e5e",
       "title": "Electronic Frontier Foundation to swap leaders as AI, ICE fights escalate",
@@ -19,7 +72,7 @@
         "government",
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "ed962f4f",
@@ -36,7 +89,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "02fc7bee",
@@ -53,7 +106,7 @@
       "keywordMatches": [
         "Google"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "ed346a08",
