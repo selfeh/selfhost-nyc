@@ -1,8 +1,26 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-24T17:00:13.078683+00:00",
-  "totalStories": 89,
+  "lastUpdated": "2026-03-25T03:01:09.023615+00:00",
+  "totalStories": 90,
   "stories": [
+    {
+      "id": "3ade5e5e",
+      "title": "Electronic Frontier Foundation to swap leaders as AI, ICE fights escalate",
+      "url": "https://arstechnica.com/tech-policy/2026/03/trump-made-opposing-government-spying-cool-again-effs-departing-chief-says/",
+      "description": "Public interest in government tech abuses is peaking. EFF's new leader plans to build on that.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-24T21:00:49+00:00",
+      "fetchedAt": "2026-03-25T03:01:02.497160+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "government",
+        "ICE"
+      ],
+      "featured": true
+    },
     {
       "id": "ed962f4f",
       "title": "Kalshi and Polymarket ban insider trading as senators look to curb prediction markets",
@@ -54,7 +72,7 @@
         "surveillance",
         "privacy"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "aa21f70b",
