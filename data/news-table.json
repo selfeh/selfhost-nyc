@@ -1,8 +1,93 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-25T17:00:36.793665+00:00",
-  "totalStories": 93,
+  "lastUpdated": "2026-03-26T17:00:23.980022+00:00",
+  "totalStories": 98,
   "stories": [
+    {
+      "id": "09e61605",
+      "title": "Police Used Flock to Give a Man a Traffic Ticket",
+      "url": "https://www.404media.co/police-used-flock-to-give-a-man-a-traffic-ticket/",
+      "description": "\u201cCAPTURED ON FLOCK CAMERA 31 MM 1 HOLDING PHONE IN LEFT HAND.\u201d",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-03-26T15:04:32",
+      "fetchedAt": "2026-03-26T17:00:21.021706+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": true
+    },
+    {
+      "id": "4e975add",
+      "title": "Drones For People Not Just Police and Corporations",
+      "url": "https://www.aclu.org/news/privacy-technology/drones-for-people-not-just-police-and-corporations",
+      "description": "ACLU white paper warns the technology may serve everyone but ordinary people",
+      "source": "ACLU News",
+      "sourceRelevance": "high",
+      "published": "2026-03-26T14:17:35+00:00",
+      "fetchedAt": "2026-03-26T17:00:05.969304+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": true
+    },
+    {
+      "id": "7ce6b5d0",
+      "title": "Using a VPN May Subject You to NSA Spying",
+      "url": "https://www.wired.com/story/using-a-vpn-may-subject-you-to-nsa-spying/",
+      "description": "US lawmakers are pressing Tulsi Gabbard to reveal whether using a VPN can strip Americans of their constitutional protections against warrantless surveillance.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-26T13:32:52+00:00",
+      "fetchedAt": "2026-03-26T17:00:05.003167+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "bb96d5fd",
+      "title": "Why ICE Is Allowed to Impersonate Law Enforcement",
+      "url": "https://www.wired.com/story/why-ice-is-allowed-to-impersonate-law-enforcement/",
+      "description": "\u201cThere's no accountability,\u201d one expert tells WIRED of ICE\u2019s ability to lie to the public. \"The consequence of this is that it\u2019s going to be a systemic harm across all law enforcement.\u201d",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-26T10:00:00+00:00",
+      "fetchedAt": "2026-03-26T17:00:05.003342+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ba4466fd",
+      "title": "Pentagon Wants It to Be Illegal for Reporters to Ask \u201cUnauthorized\u201d Questions",
+      "url": "https://theintercept.com/2026/03/26/pentagon-reporters-first-amendment/",
+      "description": " The Trump admin wants to criminalize a key part of journalists doing their jobs \u2014 a broadside attack on a free press. \n The post  Pentagon Wants It to Be Illegal for Reporters to Ask \u201cUnauthorized\u201d Questions  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-26T09:00:00+00:00",
+      "fetchedAt": "2026-03-26T17:00:04.913731+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "Pentagon"
+      ],
+      "featured": false
+    },
     {
       "id": "892bdd91",
       "title": "Apple begins age checks in the UK with latest iOS update",
@@ -18,7 +103,7 @@
       "keywordMatches": [
         "government"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "a4793fbd",
@@ -35,7 +120,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "bd2328b3",
@@ -54,7 +139,7 @@
         "ICE",
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "3ade5e5e",
