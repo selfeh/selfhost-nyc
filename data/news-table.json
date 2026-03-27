@@ -1,8 +1,27 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-26T17:00:23.980022+00:00",
-  "totalStories": 98,
+  "lastUpdated": "2026-03-27T03:01:13.729550+00:00",
+  "totalStories": 99,
   "stories": [
+    {
+      "id": "81c373a7",
+      "title": "How One Playwright is Using Theatre to Expose the Surveillance State",
+      "url": "https://www.aclu.org/news/privacy-technology/how-one-playwright-is-using-theatre-to-expose-the-surveillance-state",
+      "description": "As the ACLU fights to protect people\u2019s privacy, playwright Matthew Libby discusses his play about the private companies fueling the government\u2019s surveillance of immigrants.",
+      "source": "ACLU News",
+      "sourceRelevance": "high",
+      "published": "2026-03-26T18:13:12+00:00",
+      "fetchedAt": "2026-03-27T03:01:07.707616+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "surveillance",
+        "privacy"
+      ],
+      "featured": true
+    },
     {
       "id": "09e61605",
       "title": "Police Used Flock to Give a Man a Traffic Ticket",
@@ -52,7 +71,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "bb96d5fd",
