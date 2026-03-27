@@ -1,8 +1,26 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-27T03:01:13.729550+00:00",
-  "totalStories": 99,
+  "lastUpdated": "2026-03-27T17:00:22.641779+00:00",
+  "totalStories": 100,
   "stories": [
+    {
+      "id": "0353a97b",
+      "title": "ICE Agents Frustrate Airport Workers as Shutdown Drags On",
+      "url": "https://www.wired.com/story/ice-agents-frustrate-airport-employees-as-shutdown-drags-on/",
+      "description": "\u201cICE are here and they\u2019re doing literally nothing to help,\u201d said an airline worker in New York.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-27T15:18:19+00:00",
+      "fetchedAt": "2026-03-27T17:00:04.706675+00:00",
+      "tags": [
+        "ice",
+        "nyc"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
     {
       "id": "81c373a7",
       "title": "How One Playwright is Using Theatre to Expose the Surveillance State",
@@ -54,7 +72,7 @@
       "keywordMatches": [
         "police"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "7ce6b5d0",
