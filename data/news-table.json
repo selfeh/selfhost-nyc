@@ -1,8 +1,42 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-27T17:00:22.641779+00:00",
+  "lastUpdated": "2026-03-28T17:00:29.276871+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "a1810715",
+      "title": "\u2018They feel true\u2019: political deepfakes are growing in influence \u2013 even if people know they aren\u2019t real",
+      "url": "https://www.theguardian.com/technology/2026/mar/28/military-deepfakes-ai-propaganda-money",
+      "description": " AI images of people \u2013 such as women in military contexts \u2013 are making money and serving as propaganda, researchers say  Online content creators are not just building fake images and videos of prominent public figures, they are also fabricating people and using them in military contexts, which can m",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-03-28T11:00:25",
+      "fetchedAt": "2026-03-28T17:00:25.677684+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2cdaa2f1",
+      "title": "Acer Promo Codes and Deals: Save 40% on Bundles",
+      "url": "https://www.wired.com/story/acer-promo-code/",
+      "description": "From 40% off accessory bundles to verified student and military discounts, here's how to save on Predator, Nitro, and Swift laptops and monitors at Acer.com.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-28T05:00:00+00:00",
+      "fetchedAt": "2026-03-28T17:00:09.486596+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "0353a97b",
       "title": "ICE Agents Frustrate Airport Workers as Shutdown Drags On",
@@ -38,7 +72,7 @@
         "surveillance",
         "privacy"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "09e61605",
@@ -55,7 +89,7 @@
       "keywordMatches": [
         "police"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "4e975add",
@@ -1709,42 +1743,6 @@
       "keywordMatches": [
         "Google",
         "Homeland Security"
-      ],
-      "featured": false
-    },
-    {
-      "id": "5d388fff",
-      "title": "No One, Including Our Furry Friends, Will Be Safer in Ring's Surveillance Nightmare",
-      "url": "https://www.eff.org/deeplinks/2026/02/no-one-including-our-furry-friends-will-be-safer-rings-surveillance-nightmare-0",
-      "description": "     Amazon Ring\u2019s Super Bowl ad offered a vision of our streets that should leave every person unsettled about the company\u2019s goals for disintegrating our privacy in public.  \n\n  In the ad, disguised as a heartfelt effort to reunite the lost dogs of the country with their innocent owners, the compan",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-02-10T21:11:04+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.267178+00:00",
-      "tags": [
-        "surveillance",
-        "privacy"
-      ],
-      "keywordMatches": [
-        "Amazon",
-        "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "954001a1",
-      "title": "Weekly Update 02/09",
-      "url": "https://stoplapdspying.org/weekly-update-02-09-2/",
-      "description": " On February 3rd, 2026, the Coalition went to the Board of Police Commissioners Meeting where we continued to expose LAPD for their constant collaboration and partnership with the IOF (Israeli occupation forces). We know that the LAPD and IOF exchange tactics of warfare and genocide from project lav",
-      "source": "Stop LAPD Spying",
-      "sourceRelevance": "high",
-      "published": "2026-02-09T19:49:30+00:00",
-      "fetchedAt": "2026-03-05T13:41:56.560009+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "police"
       ],
       "featured": false
     }
