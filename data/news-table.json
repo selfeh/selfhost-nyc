@@ -1,8 +1,26 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-28T17:00:29.276871+00:00",
+  "lastUpdated": "2026-03-30T17:00:22.535358+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "ab8b6a19",
+      "title": "EFF's Cindy Cohn on The Daily Show! Tonight Monday, March 30",
+      "url": "https://www.eff.org/deeplinks/2026/03/effs-cindy-cohn-daily-show-tonight-monday-march-30",
+      "description": "    EFF Executive Director Cindy Cohn will be on The Daily Show tonight, Monday March 30, at 11 pm ET and PT, speaking with host Jon Stewart. Cindy will discuss her long history of fighting for privacy online and her new book, \u00a0  Privacy\u2019s Defender: My Thirty-Year Fight Against Digital Surveillance ",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-03-30T15:12:42+00:00",
+      "fetchedAt": "2026-03-30T17:00:03.315633+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
     {
       "id": "a1810715",
       "title": "\u2018They feel true\u2019: political deepfakes are growing in influence \u2013 even if people know they aren\u2019t real",
@@ -53,7 +71,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "81c373a7",
@@ -1725,24 +1743,6 @@
       ],
       "keywordMatches": [
         "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "899f1746",
-      "title": "Open Letter to Tech Companies: Protect Your Users From Lawless DHS Subpoenas",
-      "url": "https://www.eff.org/deeplinks/2026/02/open-letter-tech-companies-protect-your-users-lawless-dhs-subpoenas",
-      "description": "     We are calling on technology companies like Meta and Google to stand up for their users by resisting the Department of Homeland Security's (DHS) lawless administrative subpoenas for user data.  \u00a0  \n  In the past year, DHS\u00a0has consistently targeted people engaged in First Amendment activity. Amo",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-02-10T22:52:04+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.267094+00:00",
-      "tags": [
-        "ice"
-      ],
-      "keywordMatches": [
-        "Google",
-        "Homeland Security"
       ],
       "featured": false
     }
