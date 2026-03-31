@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-31T03:01:14.182419+00:00",
+  "lastUpdated": "2026-03-31T17:00:11.660825+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "028adb84",
+      "title": "Opposing ICE Might Save the Country. It Could Also Ruin Your Life",
+      "url": "https://www.wired.com/story/opposing-ice-might-save-the-country-could-also-ruin-your-life/",
+      "description": "For months, lone vibe coder Rafael Concepcion has obsessively built tools to counter the federal immigration crackdown\u2014pivoting as he\u2019s been outmatched. He\u2019s also lost his job and become a target.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-03-31T10:00:00+00:00",
+      "fetchedAt": "2026-03-31T17:00:05.317921+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
     {
       "id": "5156a8e7",
       "title": "Two Thirds of People Arrested by ICE in Minnesota Surge Had No Criminal Records, New Data Reveals",
@@ -52,7 +69,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "bb5e96a5",
@@ -1720,25 +1737,6 @@
         "ice"
       ],
       "keywordMatches": [
-        "ICE"
-      ],
-      "featured": false
-    },
-    {
-      "id": "173a8e38",
-      "title": "San Jose Can Protect Immigrants by Ending Flock Surveillance System",
-      "url": "https://www.eff.org/deeplinks/2026/02/op-ed-san-jose-can-protect-immigrants-ending-flock-surveillance-system",
-      "description": "     (This appeared as  an op-ed published February 12, 2026 in the San Jose Spotlight , written by Huy Tran (SIREN), Jeffrey Wang (CAIR-SFBA), and Jennifer Pinsof.)  \n As ICE and other federal agencies continue their assault on civil liberties, local leaders are stepping up to protect their communi",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-02-17T18:55:34+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.266712+00:00",
-      "tags": [
-        "ice",
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance",
         "ICE"
       ],
       "featured": false
