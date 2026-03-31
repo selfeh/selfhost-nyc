@@ -1,8 +1,76 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-03-30T17:00:22.535358+00:00",
+  "lastUpdated": "2026-03-31T03:01:14.182419+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "5156a8e7",
+      "title": "Two Thirds of People Arrested by ICE in Minnesota Surge Had No Criminal Records, New Data Reveals",
+      "url": "https://theintercept.com/2026/03/30/ice-minnesota-criminal-records-data-arrests/",
+      "description": " The White House had said all the thousands of people arrested were \u201cdangerous criminal\u201d immigrants. \n The post  Two Thirds of People Arrested by ICE in Minnesota Surge Had No Criminal Records, New Data Reveals  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-30T22:24:18+00:00",
+      "fetchedAt": "2026-03-31T03:01:05.297973+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
+    {
+      "id": "74bf19d8",
+      "title": "What Would We All Say If Iran Razed MIT Because of Military-Related Research?",
+      "url": "https://theintercept.com/2026/03/30/iran-universities-mit-weapons-israel/",
+      "description": " The destruction of parts of two universities in Iran fits with Israel\u2019s M.O. of crippling countries\u2019 ability to rebuild. \n The post  What Would We All Say If Iran Razed MIT Because of Military-Related Research?  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-30T20:37:47+00:00",
+      "fetchedAt": "2026-03-31T03:01:05.298090+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "13bdcca8",
+      "title": "Trump\u2019s Secret Wars on the World Keep Expanding",
+      "url": "https://theintercept.com/2026/03/30/trump-secret-wars/",
+      "description": " An analysis by The Intercept reveals that the \u201cpeace\u201d president has embroiled the U.S. in more than 20 military interventions, armed conflicts, and wars. \n The post  Trump\u2019s Secret Wars on the World Keep Expanding  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-03-30T17:30:17+00:00",
+      "fetchedAt": "2026-03-31T03:01:05.298190+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "bb5e96a5",
+      "title": "After 16 years and $8 billion, the military's new GPS software still doesn't work",
+      "url": "https://arstechnica.com/space/2026/03/after-16-years-and-8-billion-the-militarys-new-gps-software-still-doesnt-work/",
+      "description": "\"It's a very stressing program. We are still considering how to ensure we move forward.\"",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-03-30T17:11:46+00:00",
+      "fetchedAt": "2026-03-31T03:01:05.343302+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
     {
       "id": "ab8b6a19",
       "title": "EFF's Cindy Cohn on The Daily Show! Tonight Monday, March 30",
@@ -19,7 +87,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "a1810715",
@@ -36,7 +104,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2cdaa2f1",
@@ -53,7 +121,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "0353a97b",
@@ -1672,77 +1740,6 @@
       "keywordMatches": [
         "surveillance",
         "ICE"
-      ],
-      "featured": false
-    },
-    {
-      "id": "52800e3f",
-      "title": "Weekly Update 02/16",
-      "url": "https://stoplapdspying.org/weekly-update-02-16/",
-      "description": " On Tuesday February 10th, we went to the Board of Police Commissioner&#8217;s meeting where they had nearly 4 million dollars worth of drone equipment for LAPD. We understand this to be mission creep: they claimed the drones are for &#8220;first responding,&#8221; but we know they are also for mass",
-      "source": "Stop LAPD Spying",
-      "sourceRelevance": "high",
-      "published": "2026-02-17T18:34:30+00:00",
-      "fetchedAt": "2026-03-05T13:41:56.559931+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "police"
-      ],
-      "featured": false
-    },
-    {
-      "id": "02e5ab79",
-      "title": "New Report Helps Journalists Dig Deeper Into Police Surveillance Technology",
-      "url": "https://www.eff.org/press/releases/new-report-helps-journalists-dig-deeper-police-surveillance-technology",
-      "description": "   Report from EFF, Center for Just Journalism, and IPVM Helps Cut Through Sales Hype        SAN FRANCISCO \u2014 A new report released today offers journalists tips on cutting through the sales hype about police surveillance technology and report accurately on costs, benefits, privacy, and accountabilit",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-02-17T17:56:51+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.266795+00:00",
-      "tags": [
-        "surveillance",
-        "privacy"
-      ],
-      "keywordMatches": [
-        "surveillance",
-        "police"
-      ],
-      "featured": false
-    },
-    {
-      "id": "6ce649fe",
-      "title": "\ud83d\udde3 Homeland Security Wants Names | EFFector 38.3",
-      "url": "https://www.eff.org/deeplinks/2026/02/homeland-security-wants-names-effector-383",
-      "description": "    Criticize the government online? The Department of Homeland Security (DHS) might ask Google to cough up your name. By abusing an investigative tool called \"administrative subpoenas,\" DHS has been demanding that tech companies hand over users' names, locations, and more. We're explaining  how com",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-02-11T18:29:03+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.266933+00:00",
-      "tags": [
-        "ice"
-      ],
-      "keywordMatches": [
-        "Google",
-        "Homeland Security"
-      ],
-      "featured": false
-    },
-    {
-      "id": "3f9fb0bf",
-      "title": "\u201cFree\u201d Surveillance Tech Still Comes at a High and Dangerous Cost",
-      "url": "https://www.eff.org/deeplinks/2026/02/free-surveillance-tech-still-comes-high-and-dangerous-cost",
-      "description": "     Surveillance    technology    vendors, federal agencies, and wealthy private donors have long helped provide local law enforcement \u201cfree\u201d access to surveillance equipment that bypasses local oversight. The result is predictable: serious accountability gaps and data pipelines to other entities, ",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-02-11T18:00:12+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.267014+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance"
       ],
       "featured": false
     }
