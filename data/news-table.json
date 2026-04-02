@@ -1,8 +1,60 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-02T03:01:09.300178+00:00",
+  "lastUpdated": "2026-04-02T17:00:12.801340+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "614e8027",
+      "title": "Google and Amazon: Acknowledged Risks, And Ignored Responsibilities",
+      "url": "https://www.eff.org/deeplinks/2026/04/google-and-amazon-acknowledged-risks-and-ignored-responsibilities",
+      "description": "    In late 2024, we urged  Google and Amazon  to honor their human rights commitments, to be more transparent with the public, and to take meaningful action to address the risks posed by Project Nimbus, their cloud computing contract that includes Israel\u2019s Ministry of Defense and the Israeli Securi",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-02T15:12:50+00:00",
+      "fetchedAt": "2026-04-02T17:00:06.950802+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "Google",
+        "Amazon"
+      ],
+      "featured": true
+    },
+    {
+      "id": "d1a5638e",
+      "title": "Artemis II Astronauts Have \u2018Two Microsoft Outlooks\u2019 and Neither Work",
+      "url": "https://www.404media.co/artemis-2-astronauts-microsoft-outlook-livestream/",
+      "description": "In space, no one can hear you scream at Microsoft\u2019s legacy software.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-04-02T14:50:08",
+      "fetchedAt": "2026-04-02T17:00:10.360838+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Microsoft"
+      ],
+      "featured": true
+    },
+    {
+      "id": "7f4c6cf8",
+      "title": "Unmasking the Paramilitary Agents Behind Trump\u2019s Violent Immigration Crackdown",
+      "url": "https://www.wired.com/story/border-patrol-bortac-borstar-use-of-force-midway-blitz/",
+      "description": "A WIRED analysis of DHS records identified dozens of specialized federal agents who used force against US civilians during the largest known deployment of its kind in US history.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-04-02T10:00:00+00:00",
+      "fetchedAt": "2026-04-02T17:00:07.109765+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
     {
       "id": "a34533f9",
       "title": "\u201cCasualty Cover-Up\u201d: The Pentagon Is Hiding U.S. Losses Under Trump in the Middle East",
@@ -18,7 +70,7 @@
       "keywordMatches": [
         "Pentagon"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "b9a7818c",
@@ -35,7 +87,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "d74d8f56",
@@ -52,7 +104,7 @@
       "keywordMatches": [
         "police"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "d8d5c086",
@@ -1684,59 +1736,6 @@
       ],
       "keywordMatches": [
         "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2e5242cf",
-      "title": "Amazon Data Centers on Fire After Iranian Missile Strikes on Dubai",
-      "url": "https://www.404media.co/amazon-data-centers-on-fire-after-iranian-missile-strikes-on-dubai/",
-      "description": "Some AWS services are down in the Middle East. Recovery is unclear as it requires 'careful assessment to ensure the safety of our operators,' according to Amazon.",
-      "source": "404 Media - Surveillance",
-      "sourceRelevance": "high",
-      "published": "2026-03-02T15:59:51",
-      "fetchedAt": "2026-03-08T04:01:07.617293+00:00",
-      "tags": [
-        "general"
-      ],
-      "keywordMatches": [
-        "Amazon"
-      ],
-      "featured": false
-    },
-    {
-      "id": "903eab81",
-      "title": "Trump\u2019s Iran Attack Was Illegal, Former U.S. Military Officials Allege",
-      "url": "https://theintercept.com/2026/03/01/trump-iran-attack-war-powers-resolution-united-nations-charter-legal/",
-      "description": " \u201cThis is an introduction of U.S. forces into hostilities. It absolutely triggers the 48-hour notice requirement.\u201d \n The post  Trump\u2019s Iran Attack Was Illegal, Former U.S. Military Officials Allege  appeared first on  The Intercept . ",
-      "source": "The Intercept",
-      "sourceRelevance": "high",
-      "published": "2026-03-01T18:58:14+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.244996+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "29ac6b1f",
-      "title": "ICE is Rapidly Expanding Dangerous 287(g) Agreements with Local Police",
-      "url": "https://www.aclu.org/news/immigrants-rights/ice-expanding-287g-agreements-police",
-      "description": "A new ACLU report, \u201cDeputized for Disaster,\u201d illustrates the dangers of the Trump administration\u2019s rapid expansion of the 287(g) program \u2014 and how communities are increasingly afraid of local law enforcement officers sworn to protect them.",
-      "source": "ACLU News",
-      "sourceRelevance": "high",
-      "published": "2026-02-26T15:52:19+00:00",
-      "fetchedAt": "2026-03-13T03:01:03.395190+00:00",
-      "tags": [
-        "ice",
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "ICE",
-        "police"
       ],
       "featured": false
     }
