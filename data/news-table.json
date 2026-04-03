@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-02T17:00:12.801340+00:00",
+  "lastUpdated": "2026-04-03T17:00:14.324045+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "f4914edf",
+      "title": "CBP Facility Codes Sure Seem to Have Leaked Via Online Flashcards",
+      "url": "https://www.wired.com/story/cbp-facility-codes-sure-seem-to-have-leaked-via-online-flashcards/",
+      "description": "The Quizlet flashcards, which WIRED found through basic Google searches, seem to include sensitive information about gate security at Customs and Border Protection locations.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-04-03T09:00:00+00:00",
+      "fetchedAt": "2026-04-03T17:00:09.539495+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "border"
+      ],
+      "featured": true
+    },
     {
       "id": "614e8027",
       "title": "Google and Amazon: Acknowledged Risks, And Ignored Responsibilities",
@@ -53,7 +70,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "a34533f9",
@@ -1718,24 +1735,6 @@
       ],
       "keywordMatches": [
         "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "49eefbf9",
-      "title": "National Book Tour for Cindy Cohn\u2019s Memoir, \u2018Privacy\u2019s Defender\u2019",
-      "url": "https://www.eff.org/press/releases/national-book-tour-cindy-cohns-memoir-privacys-defender",
-      "description": "   MIT Press Publishes EFF Executive Director\u2019s Book As She Prepares to Depart Organization After 25 Years         SAN FRANCISCO \u2013 Electronic Frontier Foundation Executive Director Cindy Cohn will launch her memoir,     Privacy\u2019s Defender: My Thirty-Year Fight Against Digital Surveillance     (MIT P",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-03-02T16:15:10+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.266418+00:00",
-      "tags": [
-        "surveillance",
-        "privacy"
-      ],
-      "keywordMatches": [
-        "surveillance"
       ],
       "featured": false
     }
