@@ -1,8 +1,77 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-03T17:00:14.324045+00:00",
+  "lastUpdated": "2026-04-04T03:01:12.250676+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "2122b147",
+      "title": "Ice Age dice show early Native Americans may have understood probability",
+      "url": "https://arstechnica.com/science/2026/04/ice-age-dice-show-early-native-americans-may-have-understood-probability/",
+      "description": "Ice Age hunter-gatherer \"were intentionally relying on random outcomes in repeatable, rule-based ways.\"",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-04-03T22:55:29+00:00",
+      "fetchedAt": "2026-04-04T03:01:07.796523+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
+    {
+      "id": "169760a3",
+      "title": "The FAA\u2019s \u201cTemporary\u201d Flight Restriction for Drones is a Blatant Attempt to Criminalize Filming ICE",
+      "url": "https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice",
+      "description": "     Legal intern Raj Gambhir was the principal author of this post.  \n The Trump administration has restricted the First Amendment right to record law enforcement by issuing an unprecedented  nationwide flight restriction  preventing private drone operators, including professional and citizen journ",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-03T22:25:21+00:00",
+      "fetchedAt": "2026-04-04T03:01:07.776743+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": true
+    },
+    {
+      "id": "d67ffef1",
+      "title": "Tech Nonprofits to Feds: Don\u2019t Weaponize Procurement to Undermine AI Trust and Safety",
+      "url": "https://www.eff.org/deeplinks/2026/04/tech-nonprofits-feds-dont-weaponize-procurement-undermine-ai-trust-and-safety",
+      "description": "    While the very public fight continues  between the Department of Defense and Anthropic  over whether the government can punish a company for refusing to allow its technology to be used for mass surveillance, another agency of the U.S. government is quietly working to ensure that this dispute wil",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-03T17:37:01+00:00",
+      "fetchedAt": "2026-04-04T03:01:07.776849+00:00",
+      "tags": [
+        "military",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "9105d1a9",
+      "title": "Iran Shoots Down F-15 Fighter Jet After Trump Bragged They Had No Capability",
+      "url": "https://theintercept.com/2026/04/03/iran-war-fighter-jet-shot-down-trump/",
+      "description": " \u201cWe are unstoppable as a military force,\" Trump boasted before Iran shot down one U.S. plane and another crashed near the Strait of Hormuz. \n The post  Iran Shoots Down F-15 Fighter Jet After Trump Bragged They Had No Capability  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-04-03T16:00:54+00:00",
+      "fetchedAt": "2026-04-04T03:01:07.750504+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
     {
       "id": "f4914edf",
       "title": "CBP Facility Codes Sure Seem to Have Leaked Via Online Flashcards",
@@ -18,7 +87,7 @@
       "keywordMatches": [
         "border"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "614e8027",
@@ -36,7 +105,7 @@
         "Google",
         "Amazon"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "d1a5638e",
@@ -53,7 +122,7 @@
       "keywordMatches": [
         "Microsoft"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "7f4c6cf8",
@@ -1662,74 +1731,6 @@
       "sourceRelevance": "high",
       "published": "2026-03-04T19:56:55+00:00",
       "fetchedAt": "2026-03-05T13:41:54.244561+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "876fa989",
-      "title": "Podcast: The Depravity Economy",
-      "url": "https://www.404media.co/podcast-the-depravity-economy/",
-      "description": "How Polymarket and Kalshi bet on Iran; AI translations are impacting Wikipedia; and an Amazon change impacting wishlists.",
-      "source": "404 Media - Surveillance",
-      "sourceRelevance": "high",
-      "published": "2026-03-04T16:22:49",
-      "fetchedAt": "2026-03-08T04:01:07.617153+00:00",
-      "tags": [
-        "general"
-      ],
-      "keywordMatches": [
-        "Amazon"
-      ],
-      "featured": false
-    },
-    {
-      "id": "14a046a8",
-      "title": "Your Questions Answered: Filming ICE Interactions Safely",
-      "url": "https://www.aclu.org/news/immigrants-rights/your-questions-answered-filming-ice-interactions-safely",
-      "description": "Despite government attacks against protesters and the press, documenting interactions with law enforcement and federal agents is protected by the First Amendment. ACLU experts break down what you need to know.",
-      "source": "ACLU News",
-      "sourceRelevance": "high",
-      "published": "2026-03-03T17:19:25+00:00",
-      "fetchedAt": "2026-03-13T03:01:03.395061+00:00",
-      "tags": [
-        "ice"
-      ],
-      "keywordMatches": [
-        "ICE"
-      ],
-      "featured": false
-    },
-    {
-      "id": "b006c077",
-      "title": "Letter to the BoPC on Flock Safety",
-      "url": "https://stoplapdspying.org/letter-to-the-bopc-on-flock-safety/",
-      "description": " Read our letter to the Board of Police Commissioners exposing LAPD's partnership with Flock Safety and its harms to our communities. Join our fight to shut down Flock!  \n The post  Letter to the BoPC on Flock Safety  appeared first on  Stop LAPD Spying Coalition . ",
-      "source": "Stop LAPD Spying",
-      "sourceRelevance": "high",
-      "published": "2026-03-03T01:17:38+00:00",
-      "fetchedAt": "2026-03-05T13:41:56.559731+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "police"
-      ],
-      "featured": false
-    },
-    {
-      "id": "c74062a8",
-      "title": "The Regime Change President Who Won\u2019t (or Can\u2019t) Actually Change Any Regimes",
-      "url": "https://theintercept.com/2026/03/02/trump-regime-change-iran-venezuela/",
-      "description": " The Iran war shows that Trump is loving his military interventions \u2014 but they are never what he claims them to be. \n The post  The Regime Change President Who Won\u2019t (or Can\u2019t) Actually Change Any Regimes  appeared first on  The Intercept . ",
-      "source": "The Intercept",
-      "sourceRelevance": "high",
-      "published": "2026-03-02T19:10:20+00:00",
-      "fetchedAt": "2026-03-05T13:41:54.244882+00:00",
       "tags": [
         "military"
       ],
