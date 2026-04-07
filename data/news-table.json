@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-07T03:01:09.398294+00:00",
+  "lastUpdated": "2026-04-07T17:00:14.002488+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "cb3fec82",
+      "title": "Row over \u2018virtual gated community\u2019 AI surveillance plan in Toronto neighbourhood",
+      "url": "https://www.theguardian.com/technology/2026/apr/07/toronto-rosedale-row-virtual-gated-community-ai-surveillance-flock",
+      "description": " Rosedale residents considering car licence plate-scanning Flock system in bid to tackle property crime  A row has broken out in one of Canada\u2019s wealthiest neighbourhoods over plans to use an AI-powered surveillance system to create the country\u2019s first \u201cvirtual gated community\u201d to combat surging pro",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-04-07T14:07:18",
+      "fetchedAt": "2026-04-07T17:00:11.070032+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
     {
       "id": "e09d9641",
       "title": "Border Patrol Agents Sold Challenge Coins With \u2018Charlotte\u2019s Web\u2019 Characters in Riot Gear",
@@ -53,7 +70,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "2122b147",
@@ -1720,23 +1737,6 @@
       ],
       "keywordMatches": [
         "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "7f348636",
-      "title": "Congress Is Considering Abolishing Your Right to Be Anonymous Online",
-      "url": "https://theintercept.com/2026/03/05/kosa-online-age-verification-free-speech-privacy/",
-      "description": " The bipartisan push to remove anonymity from the internet is ushering in an era of unprecedented mass surveillance and censorship. \n The post  Congress Is Considering Abolishing Your Right to Be Anonymous Online  appeared first on  The Intercept . ",
-      "source": "The Intercept",
-      "sourceRelevance": "high",
-      "published": "2026-03-05T17:20:29+00:00",
-      "fetchedAt": "2026-03-05T18:00:04.184426+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance"
       ],
       "featured": false
     }
