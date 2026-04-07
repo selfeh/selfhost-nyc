@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-06T17:00:12.864009+00:00",
+  "lastUpdated": "2026-04-07T03:01:09.398294+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "e09d9641",
+      "title": "Border Patrol Agents Sold Challenge Coins With \u2018Charlotte\u2019s Web\u2019 Characters in Riot Gear",
+      "url": "https://www.wired.com/story/us-border-patrol-challenge-coins-nonprofits/",
+      "description": "Nonprofits run out of US Border Patrol stations are also selling other \u201coperation\u201d-themed coins that include a phrase popularized by the Proud Boys, potentially in violation of government rules.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-04-06T18:16:27+00:00",
+      "fetchedAt": "2026-04-07T03:01:02.436491+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "border"
+      ],
+      "featured": true
+    },
     {
       "id": "35c4b402",
       "title": "Wildlife Conservation Police Are Searching Thousands of Flock Cameras for ICE",
@@ -53,7 +70,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "169760a3",
@@ -1720,23 +1737,6 @@
       ],
       "keywordMatches": [
         "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "a3dfc6a1",
-      "title": "Sam Altman admits OpenAI can\u2019t control Pentagon\u2019s use of AI",
-      "url": "https://www.theguardian.com/technology/2026/mar/04/sam-altman-openai-pentagon",
-      "description": " CEO\u2019s claims come amid increased scrutiny of US military\u2019s use of the technology and ethics concerns from AI workers     Sign up for the Breaking News US email to get newsletter alerts in your inbox     OpenAI\u2019s CEO, Sam Altman, told employees on Tuesday that his company does not control how the Pe",
-      "source": "The Guardian - Technology",
-      "sourceRelevance": "medium",
-      "published": "2026-03-04T22:55:06",
-      "fetchedAt": "2026-03-05T13:41:56.955548+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military"
       ],
       "featured": false
     }
