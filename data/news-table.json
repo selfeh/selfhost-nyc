@@ -1,8 +1,95 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-08T03:01:37.303663+00:00",
+  "lastUpdated": "2026-04-08T17:00:35.245427+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "7037bd4b",
+      "title": "\ud83d\udc41 Selling Mass Surveillance | EFFector 38.7",
+      "url": "https://www.eff.org/deeplinks/2026/04/selling-mass-surveillance-effector-387",
+      "description": "    Time and time again, we've seen police surveillance suffer from 'mission creep'\u2014technology sold as a way to prevent heinous crimes ends up enforcing traffic violations, tracking protestors, and more. In  our latest EFFector newsletter , we're diving into this troubling pattern and sharing all th",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-08T16:24:35+00:00",
+      "fetchedAt": "2026-04-08T17:00:19.541752+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance",
+        "police"
+      ],
+      "featured": true
+    },
+    {
+      "id": "75d3c4eb",
+      "title": "Podcast: Wildlife Cops Are Searching AI Cameras for ICE",
+      "url": "https://www.404media.co/podcast-wildlife-cops-are-searching-ai-cameras-for-ice/",
+      "description": "How Florida conservation police are tapping into Flock for ICE; Wikipedia's AI ban; and how the app TeleGuard uploads users' private keys.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-04-08T14:31:59",
+      "fetchedAt": "2026-04-08T17:00:23.245086+00:00",
+      "tags": [
+        "ice",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": true
+    },
+    {
+      "id": "00a49d00",
+      "title": "Microsoft Abruptly Terminates VeraCrypt Account, Halting Windows Updates",
+      "url": "https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/",
+      "description": "Updates to VeraCrypt, a popular and long-running piece of encryption, are now thrown into doubt because of a seemingly unexplained Microsoft decision.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-04-08T13:59:46",
+      "fetchedAt": "2026-04-08T17:00:23.245162+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Microsoft"
+      ],
+      "featured": true
+    },
+    {
+      "id": "85340373",
+      "title": "Thousands of consumer routers hacked by Russia's military",
+      "url": "https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/",
+      "description": "End-of-life routers in homes and small offices hacked in 120 countries.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-04-08T11:00:08+00:00",
+      "fetchedAt": "2026-04-08T17:00:19.566611+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
+    {
+      "id": "9a0ee606",
+      "title": "Digital Hopes, Real Power: How the Arab Spring Fueled a Global Surveillance Boom",
+      "url": "https://www.eff.org/deeplinks/2026/04/digital-hopes-real-power-how-arab-spring-fueled-global-surveillance-boom",
+      "description": "      This is the third installment of a blog series reflecting on the global digital legacy of the 2011 Arab uprisings. You can read the first post  here , and the second  here .   \n  When people recall\u00a0the 2011 uprisings across the Middle East and North Africa (MENA), they often picture crowded sq",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-08T08:22:26+00:00",
+      "fetchedAt": "2026-04-08T17:00:19.541941+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": false
+    },
     {
       "id": "3354c4cf",
       "title": "With Trump Threatening Genocide in Iran, Military Must Disobey His Orders, Former Pentagon Officials Say",
@@ -19,7 +106,7 @@
         "military",
         "Pentagon"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "cb3fec82",
@@ -36,7 +123,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "e09d9641",
@@ -53,7 +140,7 @@
       "keywordMatches": [
         "border"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "35c4b402",
@@ -1653,91 +1740,6 @@
       ],
       "keywordMatches": [
         "government"
-      ],
-      "featured": false
-    },
-    {
-      "id": "79eff7cb",
-      "title": "Workers report watching Ray-Ban Meta-shot footage of people using the bathroom",
-      "url": "https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/",
-      "description": "Meta accused of \"concealing the facts\" about smart glass users' privacy.",
-      "source": "Ars Technica",
-      "sourceRelevance": "medium",
-      "published": "2026-03-05T23:36:04+00:00",
-      "fetchedAt": "2026-03-06T04:00:31.254992+00:00",
-      "tags": [
-        "privacy"
-      ],
-      "keywordMatches": [
-        "privacy"
-      ],
-      "featured": false
-    },
-    {
-      "id": "ba48c58a",
-      "title": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
-      "url": "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft/",
-      "description": "Sources allege the Defense Department experimented with Microsoft\u2019s version of OpenAI technology before the ChatGPT-maker lifted its prohibition on military applications.",
-      "source": "Wired",
-      "sourceRelevance": "medium",
-      "published": "2026-03-05T22:00:00+00:00",
-      "fetchedAt": "2026-03-06T04:00:31.271049+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "50214f79",
-      "title": "FBI investigating hack on its wiretap and surveillance systems: Report",
-      "url": "https://techcrunch.com/2026/03/05/fbi-investigating-hack-on-its-wiretap-and-surveillance-systems-report/",
-      "description": "Hackers allegedly broke into the FBI\u2019s networks, according to a report by CNN.",
-      "source": "TechCrunch",
-      "sourceRelevance": "medium",
-      "published": "2026-03-05T21:33:24+00:00",
-      "fetchedAt": "2026-03-06T04:00:31.247995+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "73036afb",
-      "title": "OpenAI introduces GPT-5.4 with more knowledge-work capability",
-      "url": "https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/",
-      "description": "Updates come amid user blowback over the company's Pentagon deal.",
-      "source": "Ars Technica",
-      "sourceRelevance": "medium",
-      "published": "2026-03-05T20:55:25+00:00",
-      "fetchedAt": "2026-03-06T04:00:31.255091+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "Pentagon"
-      ],
-      "featured": false
-    },
-    {
-      "id": "3b2aceb0",
-      "title": "The Controversies Finally Caught Up to Kristi Noem",
-      "url": "https://www.wired.com/story/the-controversies-finally-caught-up-to-kristi-noem/",
-      "description": "Donald Trump said he would replace the secretary of the Department of Homeland Security. Noem\u2019s tenure was marked by aggressive anti-immigration tactics and ICE and CBP\u2019s killing of two US protesters.",
-      "source": "Wired",
-      "sourceRelevance": "medium",
-      "published": "2026-03-05T19:43:46+00:00",
-      "fetchedAt": "2026-03-06T04:00:31.271223+00:00",
-      "tags": [
-        "ice"
-      ],
-      "keywordMatches": [
-        "ICE"
       ],
       "featured": false
     }
