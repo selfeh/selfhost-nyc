@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-09T17:00:19.396524+00:00",
+  "lastUpdated": "2026-04-10T03:01:24.066766+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "1717b196",
+      "title": "Yikes, Encryption\u2019s Y2K Moment is Coming Years Early",
+      "url": "https://www.eff.org/deeplinks/2026/04/yikes-encryptions-y2k-moment-coming-years-early",
+      "description": "     Google    moved up its estimated deadline    for quantum preparedness in cryptography to 2029\u2014only 33 months from now. That\u2019s earlier than    previous     deadlines   , and they proposed the new post-quantum migration deadline because of two    new     papers    that comprise a big jump in the ",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-09T21:32:03+00:00",
+      "fetchedAt": "2026-04-10T03:01:05.901979+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": true
+    },
     {
       "id": "74eb930d",
       "title": "Meta Cafeteria Workers Did What Execs Won\u2019t: Took on ICE and Won",
@@ -52,7 +69,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "9de15f42",
@@ -1718,23 +1735,6 @@
       "keywordMatches": [
         "surveillance",
         "Pentagon"
-      ],
-      "featured": false
-    },
-    {
-      "id": "3edfcdae",
-      "title": "Columbia Flouted Its Own Policies and Let ICE Into University Buildings",
-      "url": "https://theintercept.com/2026/03/08/columbia-ice-raids-warrant-khalil/",
-      "description": " The policy has been in place for at least a year \u2014 but school security keeps letting ICE agents in. \n The post  Columbia Flouted Its Own Policies and Let ICE Into University Buildings  appeared first on  The Intercept . ",
-      "source": "The Intercept",
-      "sourceRelevance": "high",
-      "published": "2026-03-08T09:00:00+00:00",
-      "fetchedAt": "2026-03-08T17:00:02.218730+00:00",
-      "tags": [
-        "ice"
-      ],
-      "keywordMatches": [
-        "ICE"
       ],
       "featured": false
     }
