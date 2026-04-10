@@ -1,8 +1,78 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-10T03:01:24.066766+00:00",
+  "lastUpdated": "2026-04-10T17:00:29.674225+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "13136684",
+      "title": "Trump Administration Wants to Make It More Difficult to Evade a Military Draft",
+      "url": "https://theintercept.com/2026/04/10/military-draft-automatic-registration-selective-service/",
+      "description": " With automatic Selective Service registration, it would be harder for Americans to dodge a potential military draft. \n The post  Trump Administration Wants to Make It More Difficult to Evade a Military Draft  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-04-10T16:50:20+00:00",
+      "fetchedAt": "2026-04-10T17:00:13.770284+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "6b84402c",
+      "title": "We Need You: Our Privacy Cannot Afford a Clean Extension of Section 702",
+      "url": "https://www.eff.org/deeplinks/2026/04/we-need-you-our-privacy-cannot-afford-clean-extension-section-702",
+      "description": "     We go through this every couple of years: Section 702 of the Foreign Intelligence Surveillance Act (FISA), which\u00a0  of Americans\u2019 communications with foreign persons overseas  \u00a0is up for renewal. As always, Congress can reauthorize it with or without changes, or just let it expire. We know, we k",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-10T13:50:32+00:00",
+      "fetchedAt": "2026-04-10T17:00:13.796617+00:00",
+      "tags": [
+        "surveillance",
+        "privacy"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "b15794fe",
+      "title": "Meta\u2019s New AI Asked for My Raw Health Data\u2014and Gave Me Terrible Advice",
+      "url": "https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/",
+      "description": "Meta\u2019s Muse Spark model offers to analyze users\u2019 health data, including lab results. Beyond the obvious privacy risks, it\u2019s not a capable stand-in for a real doctor.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-04-10T09:30:00+00:00",
+      "fetchedAt": "2026-04-10T17:00:13.849662+00:00",
+      "tags": [
+        "privacy"
+      ],
+      "keywordMatches": [
+        "privacy"
+      ],
+      "featured": true
+    },
+    {
+      "id": "008e546d",
+      "title": "A Redditor Criticized ICE. Trump Is Trying to Unmask Them by Dragging the Company to a Secret Grand Jury.",
+      "url": "https://theintercept.com/2026/04/10/reddit-ice-protest-grand-jury/",
+      "description": " An ICE summons to get the user\u2019s identity failed. Advocates worry the move to a grand jury signals an escalation of the war on dissent. \n The post  A Redditor Criticized ICE. Trump Is Trying to Unmask Them by Dragging the Company to a Secret Grand Jury.  appeared first on  The Intercept . ",
+      "source": "The Intercept",
+      "sourceRelevance": "high",
+      "published": "2026-04-10T08:00:00+00:00",
+      "fetchedAt": "2026-04-10T17:00:13.770504+00:00",
+      "tags": [
+        "ice",
+        "military"
+      ],
+      "keywordMatches": [
+        "ICE"
+      ],
+      "featured": false
+    },
     {
       "id": "1717b196",
       "title": "Yikes, Encryption\u2019s Y2K Moment is Coming Years Early",
@@ -18,7 +88,7 @@
       "keywordMatches": [
         "Google"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "74eb930d",
@@ -35,7 +105,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "e7a1edd9",
@@ -52,7 +122,7 @@
       "keywordMatches": [
         "privacy"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "83bd9ef3",
@@ -1664,77 +1734,6 @@
       ],
       "keywordMatches": [
         "ICE"
-      ],
-      "featured": false
-    },
-    {
-      "id": "27424874",
-      "title": "The SAFE Act is an Imperfect Vehicle for Real Section 702 Reform",
-      "url": "https://www.eff.org/deeplinks/2026/03/safe-act-imperfect-vehicle-real-section-702-reform",
-      "description": "     The    SAFE act,    introduced by Senators Mike Lee (R-UT) and Dick Durbin (D-IL), is the first of many likely proposals we will see to reauthorize Section 702 of the Foreign Intelligence Surveillance Act (FISA) Amendments Act of 2008 \u2014 and while imperfect, it does propose a litany of real and ",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-03-09T20:27:36+00:00",
-      "fetchedAt": "2026-03-10T03:00:22.870861+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "4fa20e19",
-      "title": "EFFecting Change: Privacy's Defender",
-      "url": "https://www.eff.org/deeplinks/2026/03/effecting-change-privacys-defender",
-      "description": "     Join\u00a0 EFF Executive Director Cindy Cohn \u00a0in conversation with\u00a0 404 Media Cofounder Jason Koebler   \u00a0to discuss\u00a0 Privacy's Defender:\u00a0My Thirty-Year Fight Against Digital Surveillance,\u00a0 Cindy\u2019s personal story of standing up to the Justice Department, taking on the NSA, and tangling with the FBI t",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-03-09T17:39:53+00:00",
-      "fetchedAt": "2026-03-10T03:00:22.871062+00:00",
-      "tags": [
-        "surveillance",
-        "privacy"
-      ],
-      "keywordMatches": [
-        "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "8da27bca",
-      "title": "U.S. Military Refuses to Endorse Trump Claim That Iran Bombed Girls\u2019 School",
-      "url": "https://theintercept.com/2026/03/09/iran-trump-hegseth-bomb-girls-school/",
-      "description": " \u201cIt would be inappropriate to comment given the incident is under investigation,\u201d CENTCOM told The Intercept. \n The post  U.S. Military Refuses to Endorse Trump Claim That Iran Bombed Girls\u2019 School  appeared first on  The Intercept . ",
-      "source": "The Intercept",
-      "sourceRelevance": "high",
-      "published": "2026-03-09T16:53:06+00:00",
-      "fetchedAt": "2026-03-09T17:00:09.584537+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "294b05b8",
-      "title": "OpenAI on Surveillance and Autonomous Killings: You\u2019re Going to Have to Trust Us",
-      "url": "https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/",
-      "description": " OpenAI says Americans shouldn\u2019t worry about the ethics of its new Pentagon contract. You\u2019ll have to take their word for it (and Pete Hegseth\u2019s). \n The post  OpenAI on Surveillance and Autonomous Killings: You\u2019re Going to Have to Trust Us  appeared first on  The Intercept . ",
-      "source": "The Intercept",
-      "sourceRelevance": "high",
-      "published": "2026-03-08T11:10:00+00:00",
-      "fetchedAt": "2026-03-08T17:00:02.218580+00:00",
-      "tags": [
-        "military",
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance",
-        "Pentagon"
       ],
       "featured": false
     }
