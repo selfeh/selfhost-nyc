@@ -1,8 +1,61 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-14T03:01:01.728084+00:00",
+  "lastUpdated": "2026-04-14T17:00:23.363537+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "f5b9b347",
+      "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
+      "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
+      "description": "      In September 2024, Amandla Thomas-Johnson\u00a0was\u00a0a Ph.D.\u00a0candidate studying in the U.S.\u00a0on a student visa\u00a0when he briefly attended a pro-Palestinian protest.\u00a0In April 2025, Immigration and Customs Enforcement (ICE)\u00a0sent Google an administrative subpoena\u00a0requesting his data. The next month, Google",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-14T16:01:48+00:00",
+      "fetchedAt": "2026-04-14T17:00:12.364663+00:00",
+      "tags": [
+        "ice"
+      ],
+      "keywordMatches": [
+        "Google",
+        "ICE"
+      ],
+      "featured": true
+    },
+    {
+      "id": "592bce1b",
+      "title": "EFF to State AGs: Investigate Google's Broken Promise to Users Targeted by the Government",
+      "url": "https://www.eff.org/press/releases/eff-state-ags-investigate-googles-broken-promise-users-targeted-government",
+      "description": "   Google&#039;s Failure to Warn Users About Law Enforcement Demands for Data Is Deceptive        SAN FRANCISCO \u2013 The Electronic Frontier Foundation sent complaints today to the\u00a0attorneys\u00a0general of California and New York urging them to investigate Google for deceptive trade practices, related to t",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-14T16:00:26+00:00",
+      "fetchedAt": "2026-04-14T17:00:12.364816+00:00",
+      "tags": [
+        "nyc"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": true
+    },
+    {
+      "id": "b5651eee",
+      "title": "Google, Microsoft, Meta All Tracking You Even When You Opt Out, According to an Independent Audit",
+      "url": "https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/",
+      "description": "\u201cThis is the Strait of Hormuz in the data economy. If you want to make a change, this is where you cut it off. Anything short of that is theatrical political posture.\u201d",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-04-14T13:13:34",
+      "fetchedAt": "2026-04-14T17:00:19.712518+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "Google",
+        "Microsoft"
+      ],
+      "featured": true
+    },
     {
       "id": "a7a82ca4",
       "title": "Hot Off the Press: EFF's Updated Guide to Tech at the US-Mexico Border",
@@ -19,7 +72,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "1f0eabd6",
@@ -36,7 +89,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "04ee22f5",
@@ -53,7 +106,7 @@
       "keywordMatches": [
         "government"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "9b91ccd8",
@@ -1683,58 +1736,6 @@
       ],
       "keywordMatches": [
         "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "4b72d970",
-      "title": "Scientists Discover Vast Ancient Trade Network That Rewrites History with Parrot DNA",
-      "url": "https://www.404media.co/scientists-discover-vast-ancient-trade-network-that-rewrites-history-with-parrot-dna/",
-      "description": "\u201cI think we often underestimate their capabilities,\u201d said one of the researchers who uncovered  a pre-Inca trade route linking the Amazon rainforest to the Pacific coast.",
-      "source": "404 Media - Surveillance",
-      "sourceRelevance": "high",
-      "published": "2026-03-10T19:21:45",
-      "fetchedAt": "2026-03-11T03:00:20.671808+00:00",
-      "tags": [
-        "general"
-      ],
-      "keywordMatches": [
-        "Amazon"
-      ],
-      "featured": false
-    },
-    {
-      "id": "9dbe7348",
-      "title": "Anthropic sues US over blacklisting; White House calls firm \"radical left, woke\"",
-      "url": "https://arstechnica.com/tech-policy/2026/03/anthropic-sues-us-over-blacklisting-white-house-calls-firm-radical-left-woke/",
-      "description": "Anthropic says it was blacklisted for opposing autonomous weapons, mass surveillance.",
-      "source": "Ars Technica",
-      "sourceRelevance": "medium",
-      "published": "2026-03-10T18:26:54+00:00",
-      "fetchedAt": "2026-03-11T03:00:17.623278+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "381ba089",
-      "title": "DHS Ousts CBP Privacy Officers Who Questioned \u2018Illegal\u2019 Orders",
-      "url": "https://www.wired.com/story/cbp-privacy-threshold-analysis-foia/",
-      "description": "Department of Homeland Security leaders removed top privacy officers who objected to mislabeling government records to block their public release, WIRED has learned.",
-      "source": "Wired",
-      "sourceRelevance": "medium",
-      "published": "2026-03-10T18:23:28+00:00",
-      "fetchedAt": "2026-03-11T03:00:17.639791+00:00",
-      "tags": [
-        "ice",
-        "privacy"
-      ],
-      "keywordMatches": [
-        "privacy"
       ],
       "featured": false
     }
