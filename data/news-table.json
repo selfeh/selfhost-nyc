@@ -1,8 +1,42 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-14T17:00:23.363537+00:00",
+  "lastUpdated": "2026-04-15T03:00:47.116956+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "426e4fc0",
+      "title": "Ukraine\u2019s military robot surge aims to offset drone risks to humans",
+      "url": "https://arstechnica.com/ai/2026/04/ukraines-military-robot-surge-aims-to-offset-drone-risks-to-humans/",
+      "description": "Ukraine is replacing more soldiers with robots in the battlefield kill zone.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-04-14T22:42:22+00:00",
+      "fetchedAt": "2026-04-15T03:00:40.846215+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": true
+    },
+    {
+      "id": "5914c8d3",
+      "title": "More than a Dozen Wrongful Arrests Due to Police Reliance on Facial Recognition Technology",
+      "url": "https://www.aclu.org/news/privacy-technology/more-than-a-dozen-wrongful-arrests-due-to-police-reliance-on-facial-recognition-technology",
+      "description": "One ACLU client spent six months in jail, because police relied on facial recognition technology to incorrectly identify her as a suspect. She\u2019s the fourteenth person known to be wrongfully arrested due to the technology\u2019s failures.",
+      "source": "ACLU News",
+      "sourceRelevance": "high",
+      "published": "2026-04-14T20:18:10+00:00",
+      "fetchedAt": "2026-04-15T03:00:41.934264+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "police"
+      ],
+      "featured": true
+    },
     {
       "id": "f5b9b347",
       "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
@@ -36,7 +70,7 @@
       "keywordMatches": [
         "Google"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "b5651eee",
@@ -54,7 +88,7 @@
         "Google",
         "Microsoft"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "a7a82ca4",
@@ -1697,42 +1731,6 @@
       "tags": [
         "surveillance",
         "nyc"
-      ],
-      "keywordMatches": [
-        "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "4df07f0d",
-      "title": "Anduril snaps up space surveillance firm ExoAnalytic Solutions",
-      "url": "https://techcrunch.com/2026/03/11/anduril-snaps-up-space-surveillance-firm-exoanalytic-solutions/",
-      "description": "The deal could give Anduril a better shot at lucrative missile defense contracts through the \"Golden Dome\" system.",
-      "source": "TechCrunch",
-      "sourceRelevance": "medium",
-      "published": "2026-03-11T07:01:00+00:00",
-      "fetchedAt": "2026-03-11T17:00:05.680852+00:00",
-      "tags": [
-        "military",
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2f1dfa9c",
-      "title": "The Government Must Not Force Companies to Participate in AI-powered Surveillance",
-      "url": "https://www.eff.org/deeplinks/2026/03/government-must-not-force-companies-participate-ai-powered-surveillance",
-      "description": "    The rapidly escalating conflict between Anthropic and the Pentagon, which started when the company  refused  to let the government use its technology to spy on Americans, has now gone to court. The Department of Defense retaliated by designating the company a \u201csupply chain risk\u201d (SCR). Now, Anth",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-03-10T20:39:18+00:00",
-      "fetchedAt": "2026-03-11T03:00:17.602349+00:00",
-      "tags": [
-        "military",
-        "surveillance"
       ],
       "keywordMatches": [
         "surveillance"
