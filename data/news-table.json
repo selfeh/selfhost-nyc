@@ -1,8 +1,77 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-16T03:00:48.114685+00:00",
+  "lastUpdated": "2026-04-16T17:00:27.389567+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "258f1d3e",
+      "title": "How Push Notifications Can Betray Your Privacy (and What to Do About It)",
+      "url": "https://www.eff.org/deeplinks/2026/04/how-push-notifications-can-betray-your-privacy-and-what-do-about-it",
+      "description": "     A phone\u2019s push notifications can contain a significant amount of information about you, your communications, and what you do throughout the day. They\u2019re important enough to government investigations that    Apple and Google now both require a judge\u2019s order    to hand details about push notifica",
+      "source": "Electronic Frontier Foundation",
+      "sourceRelevance": "high",
+      "published": "2026-04-16T16:41:57+00:00",
+      "fetchedAt": "2026-04-16T17:00:06.591711+00:00",
+      "tags": [
+        "privacy"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": true
+    },
+    {
+      "id": "6e5466de",
+      "title": "App Stores Push Users Toward Nudify Apps, New Research Shows",
+      "url": "https://www.404media.co/app-stores-apple-google-nudify-undress-deepfakes/",
+      "description": "Findings from the Tech Transparency Project claim that Google and Apple\u2019s app stores not only host harmful apps that can undress images of women, but encourage users to find them.",
+      "source": "404 Media - Surveillance",
+      "sourceRelevance": "high",
+      "published": "2026-04-16T16:34:12",
+      "fetchedAt": "2026-04-16T17:00:25.128889+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "Google"
+      ],
+      "featured": true
+    },
+    {
+      "id": "cd3c359e",
+      "title": "Congress Turns Up Pressure on DHS Over Palantir\u2019s Role in Immigration Crackdown",
+      "url": "https://www.wired.com/story/congress-turns-up-pressure-on-dhs-over-palantirs-role-in-immigration-crackdown/",
+      "description": "Democrats are demanding answers about Palantir and other surveillance firms powering Trump\u2019s hard-line immigration enforcement agenda.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-04-16T13:00:00+00:00",
+      "fetchedAt": "2026-04-16T17:00:07.212193+00:00",
+      "tags": [
+        "ice",
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "13ed11ad",
+      "title": "Norway\u2019s state telecoms firm accused of helping Myanmar regime seize activists",
+      "url": "https://www.theguardian.com/global-development/2026/apr/16/norways-state-telecoms-firm-accused-of-helping-myanmar-regime-seize-activists",
+      "description": " Lawsuit in Norway alleges Telenor passed on data helping Myanmar military arrest 1,200 activists, some in safe houses  When even two weeks of torture could not force Aung Thu to betray his fellow anti-coup activists, his military interrogators in Myanmar tried something different: they asked a Norw",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-04-16T09:00:53",
+      "fetchedAt": "2026-04-16T17:00:25.110021+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "military"
+      ],
+      "featured": false
+    },
     {
       "id": "a2c6dee1",
       "title": "Vulcan woes will \"absolutely\" be a factor in Pentagon's next rocket competition",
@@ -18,7 +87,24 @@
       "keywordMatches": [
         "Pentagon"
       ],
-      "featured": true
+      "featured": false
+    },
+    {
+      "id": "8e0645a5",
+      "title": "Fisa surveillance vote sparks fierce debate as Congress splits on warrantless monitoring",
+      "url": "https://www.theguardian.com/technology/2026/apr/15/fisa-surveillance-renewal-debate",
+      "description": " Donald Trump says he is \u2018working very hard\u2019 with House Republicans to extend Section 702 without changes     US politics live \u2013 latest updates     A controversial law that grants the US government sweeping powers for warrantless surveillance is set to expire next week. Replacing it has inspired fie",
+      "source": "The Guardian - Technology",
+      "sourceRelevance": "medium",
+      "published": "2026-04-15T17:59:45",
+      "fetchedAt": "2026-04-16T17:00:25.110243+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": false
     },
     {
       "id": "b5c834ba",
@@ -35,7 +121,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "aac61741",
@@ -53,7 +139,7 @@
       "keywordMatches": [
         "ICE"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "426e4fc0",
@@ -1646,93 +1732,6 @@
       ],
       "keywordMatches": [
         "ICE"
-      ],
-      "featured": false
-    },
-    {
-      "id": "52935239",
-      "title": "Anthropic-Pentagon battle shows how big tech has reversed course on AI and war",
-      "url": "https://www.theguardian.com/technology/2026/mar/13/anthropic-pentagon-artificial-intelligence",
-      "description": " Less than a decade ago, Google employees scuttled any military use of its AI. Now Anthropic is fighting Trump officials not over if, but how  The standoff between Anthropic and the Pentagon has forced the tech industry to once again grapple with the question of how its products are used for war \u2013 a",
-      "source": "The Guardian - Technology",
-      "sourceRelevance": "medium",
-      "published": "2026-03-13T11:00:47",
-      "fetchedAt": "2026-03-13T17:00:16.122822+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "2cd44472",
-      "title": "Palantir Demos Show How the Military Could Use AI Chatbots to Generate War Plans",
-      "url": "https://www.wired.com/story/palantir-demos-show-how-the-military-can-use-ai-chatbots-to-generate-war-plans/",
-      "description": "Software demos and Pentagon records detail how chatbots like Anthropic\u2019s Claude could help the Pentagon analyze intelligence and suggest next steps.",
-      "source": "Wired",
-      "sourceRelevance": "medium",
-      "published": "2026-03-13T10:00:00+00:00",
-      "fetchedAt": "2026-03-13T17:00:02.304573+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "a2b43b12",
-      "title": "\u2018Invasive\u2019 AI-led mass surveillance in Africa violating freedoms, warn experts",
-      "url": "https://www.theguardian.com/global-development/2026/mar/12/invasive-ai-led-mass-surveillance-in-africa-violating-freedoms-warn-experts",
-      "description": " Countries across the continent have spent more than $2bn on Chinese tracking technology that is not \u2018necessary or proportionate\u2019, new report finds  The rapid expansion of AI-powered mass-surveillance systems across Africa is violating citizens\u2019 right to privacy and having a chilling effect on socie",
-      "source": "The Guardian - Technology",
-      "sourceRelevance": "medium",
-      "published": "2026-03-12T06:00:11",
-      "fetchedAt": "2026-03-12T17:00:13.064295+00:00",
-      "tags": [
-        "surveillance",
-        "privacy"
-      ],
-      "keywordMatches": [
-        "surveillance"
-      ],
-      "featured": false
-    },
-    {
-      "id": "5770fe38",
-      "title": "Binance sues WSJ, panicked by gov\u2019t probes into sanctioned crypto transfers",
-      "url": "https://arstechnica.com/tech-policy/2026/03/binance-sues-wsj-over-report-sparking-government-probes-into-exchange/",
-      "description": "Binance\u2019s lawsuit accusing WSJ of defamation unlikely to stall government probes.",
-      "source": "Ars Technica",
-      "sourceRelevance": "medium",
-      "published": "2026-03-11T18:04:13+00:00",
-      "fetchedAt": "2026-03-12T03:00:27.531364+00:00",
-      "tags": [
-        "general"
-      ],
-      "keywordMatches": [
-        "government"
-      ],
-      "featured": false
-    },
-    {
-      "id": "3cb3befb",
-      "title": "Pentagon Report: U.S. Military Fired Missile at Elementary School in Iran",
-      "url": "https://theintercept.com/2026/03/11/iran-school-missile-investigation/",
-      "description": " Despite attempts by Trump to claim otherwise, the U.S. military was responsible for killing at least 175 in a strike on a school in Iran. \n The post  Pentagon Report: U.S. Military Fired Missile at Elementary School in Iran  appeared first on  The Intercept . ",
-      "source": "The Intercept",
-      "sourceRelevance": "high",
-      "published": "2026-03-11T17:07:17+00:00",
-      "fetchedAt": "2026-03-12T03:00:27.485396+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military",
-        "Pentagon"
       ],
       "featured": false
     }
