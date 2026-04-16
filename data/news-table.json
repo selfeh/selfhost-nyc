@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-15T17:00:26.382076+00:00",
+  "lastUpdated": "2026-04-16T03:00:48.114685+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "a2c6dee1",
+      "title": "Vulcan woes will \"absolutely\" be a factor in Pentagon's next rocket competition",
+      "url": "https://arstechnica.com/space/2026/04/space-force-looks-at-moving-significant-number-of-launches-from-ula-to-spacex/",
+      "description": "\"If the spacecraft is ready to go, that's going to give it a priority.\"",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-04-15T18:33:53+00:00",
+      "fetchedAt": "2026-04-16T03:00:42.398108+00:00",
+      "tags": [
+        "military"
+      ],
+      "keywordMatches": [
+        "Pentagon"
+      ],
+      "featured": true
+    },
     {
       "id": "b5c834ba",
       "title": "The Caves That Could Help Us Find, or Become, Aliens",
@@ -53,7 +70,7 @@
       "keywordMatches": [
         "military"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "5914c8d3",
@@ -1716,23 +1733,6 @@
       "keywordMatches": [
         "military",
         "Pentagon"
-      ],
-      "featured": false
-    },
-    {
-      "id": "3625707a",
-      "title": "Government Spying \ud83e\udd1d Targeted Advertising | EFFector 38.5",
-      "url": "https://www.eff.org/deeplinks/2026/03/government-spying-targeted-advertising-effector-385",
-      "description": "    Have you ever seen a really creepy targeted ad online? One that revealed just how much these companies know about your life? It's unsettling enough to see how much companies know about you\u2014but now we have confirmation that the government is also tapping the advertising surveillance machine to ge",
-      "source": "Electronic Frontier Foundation",
-      "sourceRelevance": "high",
-      "published": "2026-03-11T14:50:26+00:00",
-      "fetchedAt": "2026-03-11T17:00:05.664466+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "surveillance"
       ],
       "featured": false
     }
