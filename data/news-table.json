@@ -1,8 +1,59 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-16T17:00:27.389567+00:00",
+  "lastUpdated": "2026-04-17T17:00:10.437901+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "e02e8117",
+      "title": "Republican Mutiny Sinks Trump's Push to Extend Warrantless Surveillance",
+      "url": "https://www.wired.com/story/republican-mutiny-sinks-trumps-push-to-extend-warrantless-surveillance/",
+      "description": "A post-midnight revolt in the House sank the White House's efforts to extend Section 702\u2014a spy program the FBI has used to look into members of Congress, protesters, and political donors.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-04-17T14:07:02+00:00",
+      "fetchedAt": "2026-04-17T17:00:02.988144+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "96e46a01",
+      "title": "With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance",
+      "url": "https://techcrunch.com/2026/04/17/with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-from-warrantless-surveillance/",
+      "description": "Some lawmakers are calling for widespread reforms following years of surveillance scandals and abuses across successive U.S. administrations. But even if the spy law known as Section 702 expires in April, the government's spy powers will not automatically lapse.",
+      "source": "TechCrunch",
+      "sourceRelevance": "medium",
+      "published": "2026-04-17T14:00:00+00:00",
+      "fetchedAt": "2026-04-17T17:00:02.945919+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2fbd30c0",
+      "title": "The Shocking Secrets of Madison Square Garden\u2019s Surveillance Machine",
+      "url": "https://www.wired.com/story/madison-square-garden-jim-dolan-surveillance-machine/",
+      "description": "Famously vengeful Knicks owner Jim Dolan has long spied on people at his iconic arenas. WIRED goes deep inside the operation that allegedly tracked a trans woman, lawyers, protesters, and more.",
+      "source": "Wired",
+      "sourceRelevance": "medium",
+      "published": "2026-04-17T10:00:00+00:00",
+      "fetchedAt": "2026-04-17T17:00:02.988355+00:00",
+      "tags": [
+        "surveillance"
+      ],
+      "keywordMatches": [
+        "surveillance"
+      ],
+      "featured": true
+    },
     {
       "id": "258f1d3e",
       "title": "How Push Notifications Can Betray Your Privacy (and What to Do About It)",
@@ -18,7 +69,7 @@
       "keywordMatches": [
         "Google"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "6e5466de",
@@ -35,7 +86,7 @@
       "keywordMatches": [
         "Google"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "cd3c359e",
@@ -53,7 +104,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "13ed11ad",
@@ -1679,59 +1730,6 @@
       ],
       "keywordMatches": [
         "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "efa153c4",
-      "title": "Weekly Update 03/14",
-      "url": "https://stoplapdspying.org/weekly-update-03-14/",
-      "description": " This past week, on Tuesday March 10th, we attended the Board of Police Commissioners meeting where we continued to fight back against Flock &#8220;Safety.&#8221; Notably, we exposed Flock&#8217;s &#8220;accountability&#8221; letter where they admit to information sharing with federal agencies. We a",
-      "source": "Stop LAPD Spying",
-      "sourceRelevance": "high",
-      "published": "2026-03-14T18:45:33+00:00",
-      "fetchedAt": "2026-03-15T03:01:04.891026+00:00",
-      "tags": [
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "police"
-      ],
-      "featured": false
-    },
-    {
-      "id": "d2ef2da4",
-      "title": "Fake rooms, props and a script to lure victims: inside an abandoned Cambodia scam centre",
-      "url": "https://www.theguardian.com/technology/2026/mar/14/inside-abandoned-scam-centre-cambodia-thai-border",
-      "description": " Sprawling compound, including mock-up banks and police offices, uncovered by Thai military during border clashes  It is as if you have walked into a branch of one of Vietnam\u2019s banks. A row of customer service desks, divided by plastic screens, with landline phones, promotional leaflets and staff bu",
-      "source": "The Guardian - Technology",
-      "sourceRelevance": "medium",
-      "published": "2026-03-14T02:25:17",
-      "fetchedAt": "2026-03-14T17:00:09.818460+00:00",
-      "tags": [
-        "ice",
-        "military",
-        "surveillance"
-      ],
-      "keywordMatches": [
-        "military"
-      ],
-      "featured": false
-    },
-    {
-      "id": "abe9a526",
-      "title": "Anti-ICE Protesters Convicted on Terrorism Charges for Wearing All Black",
-      "url": "https://theintercept.com/2026/03/13/ice-protesters-terrorism-prairieland-antifa/",
-      "description": " The government won on most of its charges, including convicting defendants for moving a box of radical zines. \n The post  Anti-ICE Protesters Convicted on Terrorism Charges for Wearing All Black  appeared first on  The Intercept . ",
-      "source": "The Intercept",
-      "sourceRelevance": "high",
-      "published": "2026-03-13T21:25:24+00:00",
-      "fetchedAt": "2026-03-14T03:01:18.661829+00:00",
-      "tags": [
-        "ice"
-      ],
-      "keywordMatches": [
-        "ICE"
       ],
       "featured": false
     }
