@@ -1,8 +1,25 @@
 {
   "schema": "news-table-v1",
-  "lastUpdated": "2026-04-17T17:00:10.437901+00:00",
+  "lastUpdated": "2026-04-18T03:00:44.685919+00:00",
   "totalStories": 100,
   "stories": [
+    {
+      "id": "d4c61226",
+      "title": "Man with @ihackedthegovernment Instagram account tells judge, \u201cI made a mistake\"",
+      "url": "https://arstechnica.com/tech-policy/2026/04/man-with-ihackedthegovernment-instagram-account-tells-judge-i-made-a-mistake/",
+      "description": "Probation for man who used stolen logins and posted private info on social media.",
+      "source": "Ars Technica",
+      "sourceRelevance": "medium",
+      "published": "2026-04-17T19:31:48+00:00",
+      "fetchedAt": "2026-04-18T03:00:39.716035+00:00",
+      "tags": [
+        "general"
+      ],
+      "keywordMatches": [
+        "government"
+      ],
+      "featured": true
+    },
     {
       "id": "e02e8117",
       "title": "Republican Mutiny Sinks Trump's Push to Extend Warrantless Surveillance",
@@ -52,7 +69,7 @@
       "keywordMatches": [
         "surveillance"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "258f1d3e",
@@ -1713,23 +1730,6 @@
       ],
       "keywordMatches": [
         "ICE"
-      ],
-      "featured": false
-    },
-    {
-      "id": "823c1849",
-      "title": "These aren\u2019t AI firms, they\u2019re defense contractors. We can\u2019t let them hide behind their models",
-      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/mar/15/ai-defense-warfare-companies",
-      "description": " From Gaza to Iran, the pattern is the same: precision weapons, chosen blindness, and dead children. The cost of failing to regulate AI warfare is already too high  There is an Israeli military strategy called the \u201cfog procedure\u201d. First used during the second intifada, it\u2019s an unofficial rule that r",
-      "source": "The Guardian - Technology",
-      "sourceRelevance": "medium",
-      "published": "2026-03-15T13:00:24",
-      "fetchedAt": "2026-03-15T17:00:21.158039+00:00",
-      "tags": [
-        "military"
-      ],
-      "keywordMatches": [
-        "military"
       ],
       "featured": false
     }
